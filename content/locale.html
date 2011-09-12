@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="refresh" content="2;url=http://www.rubyconf.com.br/en/">
+    <title>RubyConf Brasil 2011</title>
+  </head>
+  <body>
+    <noscript>
+    <p>Click <a href="/en">here</a> if the web browser doesn't automatically redirect you to the correct website.</p>
+    </noscript>
+    <script type="text/javascript">
+    function getLanguage() {
+      if ( navigator ) {
+          if ( navigator.language ) {
+              return navigator.language;
+          }
+          else if ( navigator.browserLanguage ) {
+              return navigator.browserLanguage;
+          }
+          else if ( navigator.systemLanguage ) {
+              return navigator.systemLanguage;
+          }
+          else if ( navigator.userLanguage ) {
+              return navigator.userLanguage;
+          }
+      }
+      return "en";
+    }
+    var languageComponents = getLanguage().split("-");
+    if ( languageComponents.length > 0 ) {
+      if ( languageComponents[0] == "pt" ) {
+        window.location = "/br";
+      } else {
+        window.location = "/en";
+      }
+    } else {
+      window.location = "/en";
+    }
+    </script>
+  </body>
+</html>
