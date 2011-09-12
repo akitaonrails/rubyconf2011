@@ -1,0 +1,70 @@
+*{margin:0;padding:0;}
+body{border-top:4px solid #333;}
+h1{font:24px Tahoma, Geneva, sans-serif;color:#333;border-bottom:3px solid #333;text-transform:uppercase;font-style:italic;}
+h1 img{position:relative;top:3px;}
+h2{font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#666;text-transform:uppercase;font-weight:bold;}
+h4{font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#000;}
+h5{font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#9F111B;font-weight:bold;text-transform:uppercase;}
+h6{font:23px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#9F111B;font-weight:bold;text-transform:uppercase;}
+p.notice{font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#000;padding:0;}
+p{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:10px 0 10px 0;}
+a img{border:none;}
+.clear{margin:0;padding:0;clear:both;}
+.highlight{font-weight:bold;}
+.space{width:10px;height:10px;}
+.finalPage{width:980px;height:50px;}
+.imageList{float:left;}
+.seloImg{position:relative;top:-60px;left:-10px;}
+.seloMap{position:relative;top:-327px;left:180px;}
+.mapValue{position:relative;float:left;top:-508px;left:720px;}
+#background{background:#F7F4EB;width:100%;}
+#container{width:980px;margin:0 auto;}
+#content{width:980px;margin:10px auto;padding-top:10px;text-align:justify;}
+#lenguage{width:60px;height:24px;background:#333;padding:3px 0 0 6px;float:right;}
+#lenguage ul{list-style:none;}
+#lenguage ul li{display:inline;font:16px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#fff;}
+#lenguage ul li a{text-decoration:none;font:16px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#ccc;}
+#lenguage ul li a.activeLenguage{color:#fff;}
+#contHeader{}
+#logo{margin-top:25px;}
+#speakers{}
+#menu{width:980px;height:40px;background:url(/style/img/bgMenu.png) no-repeat;padding:8px 0 0 5px;}
+#menu ul{list-style:none;}
+#menu ul li{display:inline;}
+#menu ul li a{text-decoration:none;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#fff;text-transform:uppercase;padding:13px 15px 12px 13px;}
+#menu ul li a:hover{background:url(/style/img/bgLink.png) no-repeat right top;}
+#menu ul li a.activeMenu{background:url(/style/img/bgLink.png) no-repeat right top;}
+#menu ul li a.linkTicket{margin-left:190px;}
+#menu ul li a.linkTicket:hover{background:none;text-decoration:underline;}
+#banner{width:655px;height:315px;background:#999;float:left;}
+#bannerRight{width:315px;height:315px;float:right;}
+#bannerRight img{margin-bottom:10px;}
+#whatsup{width:655px;float:left;}
+#whatsup ul{list-style:none;float:left;}
+#whatsup ul li{}
+#whatsup ul li #date{width:40px;}
+#whatsup ul li #notice{width:610px;}
+#whatsup #whatsLine{border-bottom:1px dotted #666;padding:10px 0;}
+#hashtag{width:315px;height:315px;float:right;}
+#sponsors{width:655px;float:left;}
+#sponsors a img{margin:10px 7px 0 0;}
+#sponsors a img.lastImage{margin-right:0;}
+#platSponsors{width:315px;float:right;}
+#indivSponsors{}
+#indivSponsors a img{margin-right:3px;}
+#sponsor ul{padding:5px 0 20px 50px;}
+#sponsor ul li{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:2px 0;}
+#about{}
+#speakersPage{}
+#speakersPage #boxLeft{width:470px;float:left;}
+#speakersPage #boxRight{width:470px;float:right;}
+#speak{width:450px;height:155px;margin-bottom:20px;}
+#speak #photo{float:left;}
+#speak #description{width:315px;float:right;}
+#speak #description #title{background:#F1ECDE;height:30px;border-bottom-color:#ccc;border-bottom-style:solid;border-bottom-width:1px;border-right-color:#ccc;border-right-style:solid;border-right-width:1px;}
+#speak #description #title h1{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:7px 0px 2px 10px;border:none;font-weight:bold;float:left;}
+#speak #description #title a img{float:right;position:relative;top:7px;right:7px;}
+#speak #description #text p{font-size:12px;padding:20px 40px 0 20px;}
+
+
+

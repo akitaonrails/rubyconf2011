@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Ruby Conf | Brasil 2011 <%= @item[:title] ? "- #{@item[:title]}" : "" %></title>
+  <link href='/images/ico.ico' rel='shortcut icon' type='image/x-ico'/>
+  <link href="/style/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="container"><!--INICIO CONTAINER-->
+  <div id="lenguage"><!--INICIO LENGUAGE-->
+     <ul>
+       <li><a href="#">PT</a></li>
+       <li>|</li>
+       <li><a href="#" class="activeLenguage">EN</a></li>
+     </ul>
+  </div><!--FINAL LENGUAGE-->
+  <!--CLEAR--><div class="clear"></div>
+  <div id="contHeader"><!--INICIO CONTAINER HEADER-->
+    <div id="logo"><!--INICIO LOGOTIPO-->
+      <img src="/images/LogoRubyConf.jpg" alt="" title="" />
+    </div><!--FINAL LOGOTIPO-->
+    <div id="speakers"><!--INICIO SPEAKER-->
+    </div><!--FINAL SPEAKER-->
+  </div><!--FINAL CONTAINER HEADER-->
+  <div id="menu"><!--INICIO MENU-->
+    <ul>
+      <li><a href="/"<%= menu("home") %>>home</a></li>
+      <li><a href="/venue"<%= menu("venue") %>>venue</a></li>
+      <li><a href="/speakers"<%= menu("speakers") %>>speakers</a></li>
+      <li><a href="/schedule"<%= menu("schedule") %>>schedule</a></li>
+      <li><a href="/about"<%= menu("about") %>>about</a></li>
+      <li><a href="/sponsor"<%= menu("sponsor") %>>sponsor</a></li>
+      <li><a href="/getticket" class="linkTicket">get yout ticket here!</a></li>
+      </ul>
+  </div><!--FINAL MENU-->
+</div><!--FINAL CONTAINER-->
+<div id="background"><!--INICIO BACKGROUND-->
+  <div id="container">
+    <%= yield %>
+    <!--CLEAR--><div class="clear"></div>
+    <div id="content">
+      <div id="content"><!--INICIO CONTENT 3-->
+        <div id="sponsors">
+          <h1><img src="/images/medal.jpg" alt="" title="" class=""/>ruby sponsors</h1>
+          <a href="#" title=""><img src="/spons/sponsor.jpg" title="" alt="" /></a>
+          <a href="#" title=""><img src="/spons/sponsor.jpg" title="" alt="" /></a>
+          <a href="#" title=""><img src="/spons/sponsor.jpg" title="" alt="" /></a>
+          <a href="#" title=""><img src="/spons/sponsor.jpg" title="" alt="" class="lastImage"/></a>
+        </div>
+        <div id="platSponsors">
+          <h1><img src="/images/medal.jpg" alt="" title="" class=""/>platinum sponsors</h1>
+          <div class="space"></div>
+          <a href="#" title=""><img src="/spons/platSpons.jpg" title="" alt="" /></a>
+          <a href="#" title=""><img src="/spons/platSpons.jpg" title="" alt="" /></a>
+          <a href="#" title=""><img src="/spons/platSpons.jpg" title="" alt="" /></a>
+          <a href="#" title=""><img src="/spons/platSpons.jpg" title="" alt="" class="lastImage"/></a>
+          <a href="#" title=""><img src="/spons/platSpons.jpg" title="" alt="" /></a>
+          <a href="#" title=""><img src="/spons/platSpons.jpg" title="" alt="" /></a>
+          <a href="#" title=""><img src="/spons/platSpons.jpg" title="" alt="" /></a>
+          <a href="#" title=""><img src="/spons/platSpons.jpg" title="" alt="" class="lastImage"/></a>
+        </div>
+      </div>
+    </div><!--FINAL CONTENT 3-->
+  </div><!--FINAL CONTAINER-->
+  <!--CLEAR--><div class="clear"></div>
+
+  <div class="finalPage"></div>
+</div><!--FINAL BACKGROUND-->
+
+</body>
+</html>
+
