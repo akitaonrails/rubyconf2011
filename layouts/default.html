@@ -39,35 +39,15 @@
   <div id="container">
     <%= yield %>
     <!--CLEAR--><div class="clear"></div>
-    <div id="content">
-      <div id="content"><!--INICIO CONTENT 3-->
-        <div id="sponsors">
-          <h1><img src="/images/medal.jpg" alt="" title="" class=""/><%= t("site.sponsors.ruby") %></h1>
-          <a href="#" title=""><img src="/spons/sponsor.jpg" title="" alt="" /></a>
-          <a href="#" title=""><img src="/spons/sponsor.jpg" title="" alt="" /></a>
-          <a href="#" title=""><img src="/spons/sponsor.jpg" title="" alt="" /></a>
-          <a href="#" title=""><img src="/spons/sponsor.jpg" title="" alt="" class="lastImage"/></a>
-        </div>
-        <div id="platSponsors">
-          <h1><img src="/images/medal.jpg" alt="" title="" class=""/><%= t("site.sponsors.platinum") %></h1>
-          <div class="space"></div>
-          <a href="#" title=""><img src="/spons/platSpons.jpg" title="" alt="" /></a>
-          <a href="#" title=""><img src="/spons/platSpons.jpg" title="" alt="" /></a>
-          <a href="#" title=""><img src="/spons/platSpons.jpg" title="" alt="" /></a>
-          <a href="#" title=""><img src="/spons/platSpons.jpg" title="" alt="" class="lastImage"/></a>
-          <a href="#" title=""><img src="/spons/platSpons.jpg" title="" alt="" /></a>
-          <a href="#" title=""><img src="/spons/platSpons.jpg" title="" alt="" /></a>
-          <a href="#" title=""><img src="/spons/platSpons.jpg" title="" alt="" /></a>
-          <a href="#" title=""><img src="/spons/platSpons.jpg" title="" alt="" class="lastImage"/></a>
-        </div>
-      </div>
-    </div><!--FINAL CONTENT 3-->
+    <%# render 'sponsors' %>
   </div><!--FINAL CONTAINER-->
   <!--CLEAR--><div class="clear"></div>
-
   <div class="finalPage"></div>
 </div><!--FINAL BACKGROUND-->
-
+<div id="footer">
+  <p>Copyright © 1997-2011 Locaweb Serviços de Internet S/A. Todo o conteúdo deste site é de uso exclusivo da Locaweb.
+    Proibida reprodução ou utilização a qualquer título, sob as penas da lei.</p>
+</div>
 </body>
 </html>
 
