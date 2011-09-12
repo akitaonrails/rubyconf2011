@@ -17,3 +17,13 @@ see the generated website opening a web browser pointing to http://localhost:300
 
 Now whenever you change a file in the /contents directory, Nanoc3 should recompile
 the static output.
+
+WHAT'S UP SECTION
+-----------------
+
+The main page of the website has a list of short news items. You can create them
+running `bundle exec rake create:article title='new article' lang='en'` and it will
+create the article file in the correct 'content/whatsup' directory.
+
+If you're posting more than 1 news article in the same day, you can use the 'order'
+parameter to add a manually incremental number, so the items are properly sorted.

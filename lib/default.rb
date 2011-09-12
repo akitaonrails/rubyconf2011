@@ -31,11 +31,11 @@ def menu(item)
   @item[:menu] == item ? " class=\"activeMenu\"" : ""
 end
 
-def parse_date(string, part)
+def parse_date(date, part)
   if part == :month
-    t("whatsup.months")[string.split("/").first.to_i - 1]
+    t("whatsup.months")[date.month - 1]
   else
-    string.split("/")[1]
+    date.day
   end
 end
 
