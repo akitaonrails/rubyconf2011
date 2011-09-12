@@ -13,10 +13,9 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
-compile '/*/locale*' do
-  filter :erb
-  # no layout
-end
+compile('/*/locale*') { filter :erb }
+compile('/*/sitemap*') { filter :erb }
+compile('/*/robots*') { filter :erb }
 
 compile '/stylesheet/' do
   # don’t filter or layout
@@ -45,6 +44,8 @@ route '*' do
   else
     page = item.identifier.gsub(/\/$/, '')
     page = "/index" if page =~ /locale/
+    page = "/sitemap" if page =~ /sitemap/
+    page = "/robots" if page =~ /robots/
     "#{page}.#{item[:extension]}"
   end
 end

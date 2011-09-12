@@ -3,6 +3,7 @@ GEM
   specs:
     adsf (1.0.1)
       rack (>= 1.0.0)
+    builder (3.0.0)
     cri (2.0.2)
     i18n (0.6.0)
     mime-types (1.16)
@@ -21,6 +22,7 @@ PLATFORMS
 
 DEPENDENCIES
   adsf
+  builder
   mime-types
   nanoc-filesystem-i18n
   nanoc3 (~> 3.2)
