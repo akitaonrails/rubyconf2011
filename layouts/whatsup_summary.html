@@ -1,0 +1,19 @@
+      <div id="whatsLine"><!--INICIO DIV LINHA DE NOTICIAS-->
+        <ul>
+          <li>
+            <div id="date"><!--INICIO DATA-->
+              <h5><%= parse_date item[:created_at], :month %></h5>
+              <h6><%= parse_date item[:created_at], :day %></h6>
+            </div><!--FINAL DATA-->
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <div id="notice"><!--INICIO CORPO DA NOTICIA-->
+              <h2><%= item[:title] %></h2>
+              <p class="notice"><%= item.compiled_content(:snapshot => :pre) %></p>
+            </div><!--FINAL CORPO DA NOTICIA-->
+          </li>
+        </ul>
+        <!--CLEAR--><div class="clear"></div>
+      </div><!--FINAL DA DIV LINHA DE NOTICIAS-->

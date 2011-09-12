@@ -17,25 +17,9 @@ menu: home
   <div id="content"><!--INICIO CONTENT 2-->
     <div id="whatsup"><!--INICIO WHATSUP-->
       <h1><%= t("home.whatsup") %></h1>
-      <div id="whatsLine"><!--INICIO DIV LINHA DE NOTICIAS-->
-        <ul>
-          <li>
-            <div id="date"><!--INICIO DATA-->
-              <h5>SET</h5>
-              <h6>21</h6>
-            </div><!--FINAL DATA-->
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <div id="notice"><!--INICIO CORPO DA NOTICIA-->
-              <h2>STAY AT ONE OF RUBYCONF's OFFICIAL HOTELS</h2>
-              <p class="notice">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-            </div><!--FINAL CORPO DA NOTICIA-->
-          </li>
-        </ul>
-        <!--CLEAR--><div class="clear"></div>
-      </div><!--FINAL DA DIV LINHA DE NOTICIAS-->
+      <% recent_posts.each do |post| %>
+        <%= render("whatsup_summary", :item => post) %>
+      <% end %>
     </div><!--FINAL WHATSUP-->
     <div id="hashtag"><!--INICIO TWITTER HASHTAG-->
       <h1><img src="/images/twitterList.jpg" alt="" title="" class=""/>#rubyconf</h1>

@@ -22,6 +22,10 @@ compile '/stylesheet/' do
   # don’t filter or layout
 end
 
+route '/*/whatsup/*' do
+  nil
+end
+
 compile '*' do
   if item.binary?
     # don’t filter binary items

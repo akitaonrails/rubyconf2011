@@ -14,3 +14,5 @@ menu:
   register: get your ticket here!
 home:
   whatsup: what's up
+whatsup:
+  months: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']
