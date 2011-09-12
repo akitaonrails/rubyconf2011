@@ -31,12 +31,10 @@ route '/stylesheet/' do
 end
 
 route '*' do
-  if item.binary?
-    # Write item with identifier /foo/ to /foo.ext
-    item.identifier.chop + '.' + item[:extension]
-  else
-    # Write item with identifier /foo/ to /foo/index.html
+  if item.children.size > 0 || item.identifier == '/' || item.identifier == "/#{item[:locale]}/"
     item.identifier + 'index.html'
+  else
+    item.identifier.gsub(/\/$/, '') + '.' + item[:extension]
   end
 end
 

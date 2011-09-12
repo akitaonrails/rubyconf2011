@@ -1,0 +1,16 @@
+---
+site:
+  title: RubyConf Brazil 2011
+  sponsors:
+    ruby: ruby sponsors
+    platinum: platinum sponsors
+menu:
+  home: home
+  venue: venue
+  speakers: speakers
+  schedule: schedule
+  about: about
+  sponsor: sponsor
+  register: get your ticket here!
+home:
+  whatsup: what's up

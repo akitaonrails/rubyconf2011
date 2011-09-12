@@ -1,0 +1,16 @@
+---
+site:
+  title: RubyConf Brasil 2011
+  sponsors:
+    ruby: patrocinadores ruby
+    platinum: patrocinadores platinum
+menu:
+  home: início
+  venue: local
+  speakers: palestrantes
+  schedule: programação
+  about: o evento
+  sponsor: patrocínio
+  register: pegue seu ingresso aqui!
+home:
+  whatsup: novidades

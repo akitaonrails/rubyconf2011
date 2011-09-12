@@ -2,11 +2,20 @@ GEM
   remote: http://rubygems.org/
   specs:
     cri (2.0.2)
+    i18n (0.6.0)
+    nanoc (3.2.2)
+      nanoc3 (>= 3.2.2)
+    nanoc-filesystem-i18n (0.1.0)
+      i18n
+      nanoc (>= 3.1.2)
     nanoc3 (3.2.2)
       cri (~> 2.0)
+    psych (1.2.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  nanoc-filesystem-i18n
   nanoc3 (~> 3.2)
+  psych
