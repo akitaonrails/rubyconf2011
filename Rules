@@ -21,8 +21,16 @@ compile '/stylesheet/' do
   # don’t filter or layout
 end
 
+compile '/js/*' do
+  # don't filter or layout
+end
+
 route '/*/whatsup/*' do
   nil
+end
+
+route '/stylesheet/' do
+  '/style/style.css'
 end
 
 compile '*' do
@@ -32,10 +40,6 @@ compile '*' do
     filter :erb
     layout 'default'
   end
-end
-
-route '/stylesheet/' do
-  '/style/style.css'
 end
 
 route '*' do

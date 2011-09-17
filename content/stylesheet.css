@@ -80,3 +80,18 @@ a img{border:none;}
 #schedule span.time{color:#9F111B;font-weight:bold;}
 #schedule .scheduleSelo{position:relative;float:left;top:-258px;left:10px;}
 
+#container .carousel,
+#container .carousel .carousel-wrap{margin:0;border:0;zoom:0;}
+#container .js .carousel-wrap{display:inline-block;vertical-align:middle;width:655px;margin:0;border:0;background:#1a1a1a;}
+.IE #container .js .carousel-wrap{display:inline;}
+#container .carousel ul{margin:0;padding:0;zoom:0;}
+#container .js ul li{overflow:hidden;display:inline;float:left;width:655px;height:315px;text-align:center;zoom:1;}
+#container .carousel .carousel-control{overflow:hidden;display:inline-block;vertical-align:middle;width:40px;height:40px;cursor:pointer;line-height:999px;zoom:1;border:0;text-indent:-9999px;}
+#container .carousel .carousel-next{display: none}
+#container .carousel .carousel-previous{display: none}
+#container .carousel .carousel-control:hover{-moz-opacity:.7;opacity:0.70;filter:alpha(opacity=70);}
+#container .carousel .disabled,#container .carousel .disabled:hover{-moz-opacity:.1;opacity:0.10;filter:alpha(opacity=10);cursor:default;}
+#container .carousel div{margin:0;padding:0;border:0;}
+#container .carousel ul{padding:0;list-style:none;}
+#container .carousel ul li{position:relative;width:655px;margin:0;}
+

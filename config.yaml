@@ -52,7 +52,7 @@ data_sources:
             default: true
         # objects should be not localized
         exclude:
-          item: ['/style*', '/spons*', '/images*']
+          item: ['/style*', '/spons*', '/images*', '/js*']
           layout: ['*']
 
 # Configuration for the “watch” command, which watches a site for changes and

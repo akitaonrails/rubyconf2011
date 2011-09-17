@@ -1,0 +1,16 @@
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="/js/jcarousel-min.js"></script>
+<script type="text/javascript">
+$(function(){
+  var carouselContainer = $("div.rubyconf-carousel");
+  if(carouselContainer) {
+    carouselContainer.carousel({
+      loop: true,
+      dispItems: 1,
+      autoSlide: true,
+      autoSlideInterval: 2000,
+      animSpeed: "slow"
+    });
+  }
+});
+</script>
