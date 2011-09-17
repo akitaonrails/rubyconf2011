@@ -1,0 +1,18 @@
+---
+:id: 141
+:main_speaker_slug: nando-vieira-141
+:main_speaker_name: Nando Vieira
+:co_speaker_slug: '-141'
+:co_speaker_name: ''
+:title: ! 'Rails Views: codificando sua interface como um profissional'
+:description: ! 'Um grande problema com Rails apps é que a interface nem sempre é
+  tratada com a devida atenção. Views com códigos "macarrônicos", lógica embutida,
+  e tudo o que você sabe que não deve fazer, mas faz mesmo assim.
+
+
+  Neste talk você verá como melhorar suas views, conhecerá o conceito de presenters
+  e de quebra ainda verá porque usar Haml, Coffeescript e SCSS nem sempre é uma boa
+  ideia.'
+:country: BR
+:confirmed: true
+:selected: true

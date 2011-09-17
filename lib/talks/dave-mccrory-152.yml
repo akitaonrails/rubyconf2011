@@ -1,0 +1,14 @@
+---
+:id: 152
+:main_speaker_slug: dave-mccrory-152
+:main_speaker_name: Dave McCrory
+:co_speaker_slug: '-152'
+:co_speaker_name: ''
+:title: Creating, Deploying, and Scripting Apps to Cloud Foundry Clouds
+:description: Learn how to use Cloud Foundry by VMware Inc.  This talk includes creating
+  a distributed Ruby app and deploying it on CloudFoundry.com and a Micro Cloud Foundry
+  instance.  Also covered will be tips and tricks on automating/scripting deployments
+  of Ruby apps onto Cloud Foundry Clouds.
+:country: US
+:confirmed: true
+:selected: true

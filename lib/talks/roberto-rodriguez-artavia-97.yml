@@ -1,0 +1,26 @@
+---
+:id: 97
+:main_speaker_slug: roberto-rodriguez-artavia-97
+:main_speaker_name: Roberto Rodriguez Artavia
+:co_speaker_slug: '-97'
+:co_speaker_name: ''
+:title: Ruby on Rails Applications without Page Reloading
+:description: ! "Facebook, Twitter, Google+ and most Mobile Apps have a Javascript
+  FrontEnd that provide for great user experiences and make Traditional Web Apps that
+  require page reload after page reload look slow and boring.\n\nUsing Rails 3.1 newest
+  additions like Haml, Coffeescript, Saas and the Asset Pipeline it is really fun
+  to build beautiful , structured Client Side Application using Javascript Object
+  Oriented Programming and Model-View-Controller Frameworks. \n\nIn this session I
+  will use Spine.js (an improvement of Backbone.js ) to create a Ruby on Rails 3.1
+  App connected to MongoDB with a \"One Page Front-End\" starting at Step One and
+  going all the way to deployment in Heroku.\n\nWith these technologies it is posible
+  to create Javascript Application backed by Rails that use very similar Syntax to
+  Ruby along with Controllers, Models and Views with a modular file structure that
+  become concatenated into one production ready javascript file automatically.\n\nSpine
+  Add-Ons like Ajax , LocalStorage, View/List Managers, Routes (!#) allow developers
+  to implement Hash Tag Routes, Client-Server Syncronization and Offline Access easily.\n
+  \nThe presentation will include my own solutions in order to simplify client-side
+  testing and development inside containers like a Salesforce.com Page.\n"
+:country: X
+:confirmed: true
+:selected: true

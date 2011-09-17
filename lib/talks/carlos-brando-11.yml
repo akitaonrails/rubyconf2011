@@ -1,0 +1,15 @@
+---
+:id: 11
+:main_speaker_slug: carlos-brando-11
+:main_speaker_name: Carlos Brando
+:co_speaker_slug: luis-gustavo-11
+:co_speaker_name: Luis Gustavo
+:title: Ruby em todos os lugares e dispositivos
+:description: Já imaginou se fosse possível executar código Ruby em qualquer dispositivo
+  como celulares, televisores e até em caixas eletrônicos? Essa palestra altamente
+  tecnica descreve os passos para a criação de uma máquina virtual capaz de executar
+  código Ruby em qualquer dispositivo. Venha preparado para ver muito código em Ruby,
+  C e Assembly.
+:country: BR
+:confirmed: true
+:selected: true

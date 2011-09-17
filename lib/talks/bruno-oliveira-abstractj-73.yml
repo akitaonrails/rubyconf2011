@@ -1,0 +1,14 @@
+---
+:id: 73
+:main_speaker_slug: bruno-oliveira-abstractj-73
+:main_speaker_name: Bruno Oliveira (abstractj)
+:co_speaker_slug: '-73'
+:co_speaker_name: ''
+:title: TorqueBox - Ultrapassando a fronteira entre Java e Ruby
+:description: ! 'Aplicações Ruby estão cada vez mais populares, graças a facilidade
+  de escrever código, porém nem tudo precisa ser reinventado pra escalar. Nesta apresentação
+  mostraremos como aproveitar a maturidade da plataforma Java dentro de temas: clustering,
+  mensageria e processamento de jobs em aplicações rails/sinatra/rack.'
+:country: BR
+:confirmed: true
+:selected: true

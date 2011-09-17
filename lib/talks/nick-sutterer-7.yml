@@ -1,0 +1,22 @@
+---
+:id: 7
+:main_speaker_slug: nick-sutterer-7
+:main_speaker_name: Nick Sutterer
+:co_speaker_slug: '-7'
+:co_speaker_name: ''
+:title: Hypermedia - The Missing Ingredient in REST
+:description: ! 'REST is an architectural style for distributed systems. However,
+  many implementations forget about the <em>distributed</em> part of REST and simply
+  map CRUD operations to HTTP verbs in a monolithic application.
+
+
+  Why not split this up into a truely distributed system, where applications use REST
+  for communication? Real REST. Where clients travel on hypermedia routes using the
+  REST APIs from the services.
+
+
+  While discussing the concepts of hypermedia-driven APIs, we''ll explore the Roar
+  gem that makes both REST representations and hypermedia fun.'
+:country: EU
+:confirmed: true
+:selected: true

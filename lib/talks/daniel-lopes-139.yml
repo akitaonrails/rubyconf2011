@@ -1,0 +1,24 @@
+---
+:id: 139
+:main_speaker_slug: daniel-lopes-139
+:main_speaker_name: Daniel Lopes
+:co_speaker_slug: '-139'
+:co_speaker_name: ''
+:title: Better code through UI Design
+:description: ! 'Each software has his own particularities but they all have one thing
+  in common: their complexity will grow.
+
+
+  Developers tend to think in models, tables and data structures. They build the software
+  from that point of view. Designers tend to think in screens and navigation but normally
+  their work only happens at the beginning or at the end of the project.
+
+
+  In this presentation we''ll discuss, with real samples, how to simplify the code
+  through UI design and navigation.  How to avoid diseases like "crudfication" or
+  "resourcefication". How not caring about the flow and screens can negatively affect
+  your models, controllers, views, javascript and the overall experience of your developers
+  and users.'
+:country: BR
+:confirmed: true
+:selected: true
