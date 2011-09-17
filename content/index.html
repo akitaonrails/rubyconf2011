@@ -25,7 +25,7 @@ menu: home
     <div id="whatsup"><!--INICIO WHATSUP-->
       <h1><%= t("home.whatsup") %></h1>
       <% recent_posts.each do |post| %>
-        <%= render("whatsup_summary", :item => post) %>
+        <%= render("_whatsup_summary", :item => post) %>
       <% end %>
     </div><!--FINAL WHATSUP-->
     <div id="hashtag"><!--INICIO TWITTER HASHTAG-->
