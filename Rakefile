@@ -46,3 +46,10 @@ TEMPLATE
   end
 end
 
+
+namespace :utils do
+  desc "sync avatars from the call for papers server"
+  task :sync_avatars do
+    `rsync -avz -e ssh root@akitaonrails.com:/var/webapps/rubyconf2011/public/system/ ./content/images/`
+  end
+end
