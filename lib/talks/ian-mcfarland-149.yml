@@ -4,8 +4,24 @@
 :main_speaker_name: Ian McFarland
 :co_speaker_slug: '-149'
 :co_speaker_name: ''
-:title: Agile Development, Lean UX
-:description: ! 'Agile Development: It works. It creates reliable software quickly,
+:title_br: Agile Development, Lean UX
+:title_en: Agile Development, Lean UX
+:description_br: ! 'Agile Development: It works. It creates reliable software quickly,
+  efficiently and predictably, fosters a sustainable pace, and keeps the cost of change
+  constant. But it''s silent on design. Lean UX brings lightweight methods to design,
+  helping to mesh design and development into one lightweight process, responsive
+  to change, and tuned to deliver products customers will actually use and pay for.
+  No matter how great the code is, it''s not great software unless someone cares to
+  use it.
+
+
+  This talk explains how agile development is done at scale, and draws on Ian''s experience
+  at Pivotal Labs, and now at Digital Garage. It also emphasizes the criticality of
+  good design, and how to integrate the two, and why both agile development and Lean
+  UX aren''t just ''nice to have'', but instead are economic necessities.
+
+'
+:description_en: ! 'Agile Development: It works. It creates reliable software quickly,
   efficiently and predictably, fosters a sustainable pace, and keeps the cost of change
   constant. But it''s silent on design. Lean UX brings lightweight methods to design,
   helping to mesh design and development into one lightweight process, responsive

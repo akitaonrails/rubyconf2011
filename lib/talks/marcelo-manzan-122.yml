@@ -4,13 +4,25 @@
 :main_speaker_name: MARCELO MANZAN
 :co_speaker_slug: eric-fer-122
 :co_speaker_name: Eric Fer
-:title: Automatizando documentação e versionamento semântico de projetos GIT com StepUp
-:description: ! 'Manter documentação de alterações do projeto pode ser caótico, o
-  commit log é detalhado demais, listar somente as histórias é muito abrangente, sem
-  falar que muitas vezes se deixa para a última hora e o changelog nunca sai com todas
-  as alterações feitas. O StepUp ajuda a solucionar esse problema ao utilizar uma
-  funcionalidade pouco conhecida no GIT, que são as notas. Explore a criação de changelogs
-  e o versionamento semântico dos seus projetos.
+:title_br: Automatizando documentação e versionamento semântico de projetos GIT com
+  StepUp
+:title_en: Automatizando documentação e versionamento semântico de projetos GIT com
+  StepUp
+:description_br: ! 'Manter documentação de alterações do projeto pode ser caótico,
+  o commit log é detalhado demais, listar somente as histórias é muito abrangente,
+  sem falar que muitas vezes se deixa para a última hora e o changelog nunca sai com
+  todas as alterações feitas. O StepUp ajuda a solucionar esse problema ao utilizar
+  uma funcionalidade pouco conhecida no GIT, que são as notas. Explore a criação de
+  changelogs e o versionamento semântico dos seus projetos.
+
+
+  http://rubygems.org/gems/step-up'
+:description_en: ! 'Manter documentação de alterações do projeto pode ser caótico,
+  o commit log é detalhado demais, listar somente as histórias é muito abrangente,
+  sem falar que muitas vezes se deixa para a última hora e o changelog nunca sai com
+  todas as alterações feitas. O StepUp ajuda a solucionar esse problema ao utilizar
+  uma funcionalidade pouco conhecida no GIT, que são as notas. Explore a criação de
+  changelogs e o versionamento semântico dos seus projetos.
 
 
   http://rubygems.org/gems/step-up'

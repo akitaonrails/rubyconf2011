@@ -4,15 +4,24 @@
 :main_speaker_name: Robson Júnior
 :co_speaker_slug: roberto-pepato-137
 :co_speaker_name: Roberto Pepato
-:title: Adding "where" to your Ruby Apps
-:description: Aplicar geografia em uma aplicação qualquer é meramente questão de criatividade.
-  Mas se a criatividade flui o que falta são ferramentas. Atualmente temos cases de
-  sucesso da popularização e democratização dos sistemas de informação geográfica
-  (GIS) como Google Maps e Foursquare. Mas GIS não é simplesmente geocodificar um
-  endereço ou traçar uma rota. Você já parou para pensar como adicionar o fator “geografia”
-  em sua aplicação? Quais as possibilidades? Quais ferramentas suportam isso de fato?
-  Apresentaremos ferramentas e técnicas para você adicionar desde uma simples geocodificação
-  até controlar a energia de um país inteiro.
+:title_br: Adding "where" to your Ruby Apps
+:title_en: Adding "where" to your Ruby Apps
+:description_br: Aplicar geografia em uma aplicação qualquer é meramente questão de
+  criatividade. Mas se a criatividade flui o que falta são ferramentas. Atualmente
+  temos cases de sucesso da popularização e democratização dos sistemas de informação
+  geográfica (GIS) como Google Maps e Foursquare. Mas GIS não é simplesmente geocodificar
+  um endereço ou traçar uma rota. Você já parou para pensar como adicionar o fator
+  “geografia” em sua aplicação? Quais as possibilidades? Quais ferramentas suportam
+  isso de fato? Apresentaremos ferramentas e técnicas para você adicionar desde uma
+  simples geocodificação até controlar a energia de um país inteiro.
+:description_en: Aplicar geografia em uma aplicação qualquer é meramente questão de
+  criatividade. Mas se a criatividade flui o que falta são ferramentas. Atualmente
+  temos cases de sucesso da popularização e democratização dos sistemas de informação
+  geográfica (GIS) como Google Maps e Foursquare. Mas GIS não é simplesmente geocodificar
+  um endereço ou traçar uma rota. Você já parou para pensar como adicionar o fator
+  “geografia” em sua aplicação? Quais as possibilidades? Quais ferramentas suportam
+  isso de fato? Apresentaremos ferramentas e técnicas para você adicionar desde uma
+  simples geocodificação até controlar a energia de um país inteiro.
 :country: BR
 :confirmed: true
 :selected: true

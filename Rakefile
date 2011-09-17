@@ -82,21 +82,32 @@ namespace :utils do
       row.delete_if { |key,value| row_index_rand.include?(key) }
       slug = "#{row["full_name"].to_slug}-#{row["id"]}"
       cospeaker_slug = "#{row["cospeaker_name"].to_slug}-#{row["id"]}"
+      avatar_url = unless row["avatar_file_name"].blank?
+        "/images/avatars/#{row["id"]}/__format__/#{row["avatar_file_name"]}"
+      else
+        "/images/speakers.jpg"
+      end
       speaker = {
         :id => row["id"],
         :slug => slug,
         :full_name => row["full_name"],
         :email => row["email"],
-        :twitter => row["twitter"],
-        :blog_url => row["blog_url"],
+        :twitter => row["twitter"].gsub(/\@/,''),
+        :blog_url => row["blog_url"].gsub(/http\:\/\//,''),
         :company => row["company"],
         :bio_br => row["bio"].gsub(/\r/, ""),
         :bio_en => row["bio"].gsub(/\r/, ""),
         :country => row["country"],
-        :avatar_thumb_url => "/images/avatars/#{row["id"]}/thumb/#{row["avatar_file_name"]}",
-        :avatar_medium_url => "/images/avatars/#{row["id"]}/medium/#{row["avatar_file_name"]}",
-        :avatar_url => "/images/avatars/#{row["id"]}/original/#{row["avatar_file_name"]}",
+        :avatar_thumb_url => avatar_url.gsub(/__format__/,'thumb'),
+        :avatar_medium_url => avatar_url.gsub(/__format__/,'medium'),
+        :avatar_url => avatar_url.gsub(/__format__/, 'original'),
       }
+
+      avatar_url = unless row["avatar_cospeaker_file_name"].blank?
+        "/images/avatar_cospeakers/#{row["id"]}/__format__/#{row["avatar_cospeaker_file_name"]}"
+      else
+        "/images/speakers.jpg"
+      end
       co_speaker = row["cospeaker_name"].blank? ? nil : {
         :id => row["id"],
         :main_speaker_name => row["full_name"],
@@ -104,15 +115,15 @@ namespace :utils do
         :slug => cospeaker_slug,
         :full_name => row["cospeaker_name"],
         :email => row["cospeaker_email"],
-        :twitter => row["cospeaker_twitter"],
-        :blog_url => row["cospeaker_blog_url"],
+        :twitter => row["cospeaker_twitter"].gsub(/\@/,''),
+        :blog_url => row["cospeaker_blog_url"].gsub(/http\:\/\//,''),
         :company => row["company"],
         :bio_br => row["cospeaker_bio"].gsub(/\r/, ""),
         :bio_en => row["cospeaker_bio"].gsub(/\r/, ""),
         :country => row["country"],
-        :avatar_thumb_url => "/images/avatar_cospeakers/#{row["id"]}/thumb/#{row["avatar_cospeaker_file_name"]}",
-        :avatar_medium_url => "/images/avatar_cospeakers/#{row["id"]}/medium/#{row["avatar_cospeaker_file_name"]}",
-        :avatar_url => "/images/avatar_cospeakers/#{row["id"]}/original/#{row["avatar_cospeaker_file_name"]}",
+        :avatar_thumb_url => avatar_url.gsub(/__format__/,'thumb'),
+        :avatar_medium_url => avatar_url.gsub(/__format__/,'medium'),
+        :avatar_url => avatar_url.gsub(/__format__/, 'original'),
       }
       talk = {
         :id => row["id"],

@@ -4,8 +4,15 @@
 :main_speaker_name: Saulo Arruda
 :co_speaker_slug: '-35'
 :co_speaker_name: ''
-:title: Rails nas Nuvens
-:description: ! "Vamos demonstrar o processo de configuração e teste de um ambiente
+:title_br: Rails nas Nuvens
+:title_en: Rails nas Nuvens
+:description_br: ! "Vamos demonstrar o processo de configuração e teste de um ambiente
+  para colocar sua aplicação Rails em produção nas nuvens. \n\nA apresentação será
+  um relato de experiência de configuração e publicação de uma aplicação Rails no
+  estilo SaaS que teve 10.000 usuário no primeiro cliente. O projeto usa estrutura
+  de servidores <a href=\"http://aws.amazon.com\">EC2 da Amazon</a> e <a href=\"http://www.locaweb.com.br/produtos/cloud-hosting.html\">Cloud
+  Server Pro da Locaweb</a> como CDN."
+:description_en: ! "Vamos demonstrar o processo de configuração e teste de um ambiente
   para colocar sua aplicação Rails em produção nas nuvens. \n\nA apresentação será
   um relato de experiência de configuração e publicação de uma aplicação Rails no
   estilo SaaS que teve 10.000 usuário no primeiro cliente. O projeto usa estrutura

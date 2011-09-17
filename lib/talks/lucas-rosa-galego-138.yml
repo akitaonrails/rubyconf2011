@@ -4,8 +4,18 @@
 :main_speaker_name: Lucas Rosa Galego
 :co_speaker_slug: '-138'
 :co_speaker_name: ''
-:title: Realtime Analytics with Ruby
-:description: ! 'Na <a href="http://www.globo.com">globo.com</a>, utilizamos Ruby
+:title_br: Realtime Analytics with Ruby
+:title_en: Realtime Analytics with Ruby
+:description_br: ! 'Na <a href="http://www.globo.com">globo.com</a>, utilizamos Ruby
+  para processar cada acesso, cada click, gerando informações em tempo real para nossos
+  editores.
+
+  Mas se ruby é uma linguagem criticada por ser lenta, como conseguimos utilizá-la
+  para tal fim?
+
+  Nessa palestra, queremos mostrar como que decisões arquiteturais são o que realmente
+  fazem um projeto ter performance e escala.'
+:description_en: ! 'Na <a href="http://www.globo.com">globo.com</a>, utilizamos Ruby
   para processar cada acesso, cada click, gerando informações em tempo real para nossos
   editores.
 

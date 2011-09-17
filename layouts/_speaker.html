@@ -1,0 +1,21 @@
+        <div id="speak">
+          <div id="photo">
+            <img src="<%= speaker[:avatar_medium_url]%>" alt="<%= speaker[:full_name] %>" width="135"/>
+          </div>
+          <div id="description">
+            <div id="title">
+              <h1><%= speaker[:full_name] %></h1>
+              <% unless speaker[:country] == "X" %>
+              <a href="<%= speaker[:blog_url].empty? ? "" : "http://" + speaker[:blog_url] %>"><img src="/images/flags/<%= speaker[:country] %>.png"/></a>
+              <% end %>
+              <% unless speaker[:twitter].empty? %>
+              <a href="http://twitter.com/#/<%= speaker[:twitter] %>" title="<%= speaker[:full_name]%>"><img src="/images/tweet-button.jpeg" alt="Twitter" title="<%= speaker[:full_name]%>" /></a>
+              <% end %>
+            </div>
+            <div id="text">
+              <p><%= speaker[:bio_en] %></p>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+        </div>
+        <div style="clear: both"></div>

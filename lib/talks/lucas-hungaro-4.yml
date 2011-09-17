@@ -4,9 +4,18 @@
 :main_speaker_name: Lucas Húngaro
 :co_speaker_slug: '-4'
 :co_speaker_name: ''
-:title: SOLID through BDD - a practical guide for Rubyists
-:description: ! "We already know many of the benefits of using BDD to design our code.
-  But there's one thing we should do more: listen to the voice of our test suites.\n\nIn
+:title_br: SOLID through BDD - a practical guide for Rubyists
+:title_en: SOLID through BDD - a practical guide for Rubyists
+:description_br: ! "We already know many of the benefits of using BDD to design our
+  code. But there's one thing we should do more: listen to the voice of our test suites.\n\nIn
+  this talk I'll show how you can do that as we learn to identify and fix the following
+  issues through BDD:\n\n - Identifying lack of OOP and applying SOLID\n - Anemic
+  and bloated domains\n - High coupling\n - Low cohesion\n - Overmocking\n\nWe'll
+  see how all these problems are intertwined and how to solve them and reap benefits
+  like faster test suites, flexible code and reduced maintenance time.\n\nThis is
+  a very practical talk and a good knowledge of Ruby is required."
+:description_en: ! "We already know many of the benefits of using BDD to design our
+  code. But there's one thing we should do more: listen to the voice of our test suites.\n\nIn
   this talk I'll show how you can do that as we learn to identify and fix the following
   issues through BDD:\n\n - Identifying lack of OOP and applying SOLID\n - Anemic
   and bloated domains\n - High coupling\n - Low cohesion\n - Overmocking\n\nWe'll

@@ -4,8 +4,11 @@
 :main_speaker_name: Evan Henshaw
 :co_speaker_slug: '-150'
 :co_speaker_name: ''
-:title: Lean Startups for the Ruby Hacker
-:description: Talk about what's going on in startups and the business side so that
+:title_br: Lean Startups for the Ruby Hacker
+:title_en: Lean Startups for the Ruby Hacker
+:description_br: Talk about what's going on in startups and the business side so that
+  programmers can understand their clients. Also perhaps build their own products.
+:description_en: Talk about what's going on in startups and the business side so that
   programmers can understand their clients. Also perhaps build their own products.
 :country: US
 :confirmed: true

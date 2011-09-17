@@ -42,3 +42,15 @@ end
 def recent_posts
   @site.sorted_articles[0, 10].uniq { |article| article[:filename] }.select { |article| article[:language].to_sym == @item[:locale] }
 end
+
+def speakers(direction = :none)
+  @speakers ||= Dir["lib/speakers/*.yml"].map { |file| YAML.load_file(file) }
+  case direction
+  when :left
+    @speakers[0..@speakers.size/2-1]
+  when :right
+    @speakers[@speakers.size/2..@speakers.size-1]
+  else
+    @speakers
+  end
+end

@@ -4,9 +4,15 @@
 :full_name: Marcos Toledo
 :email: mtoledo@gmail.com
 :twitter: mtoledo
-:blog_url: http://marcostoledo.com
+:blog_url: marcostoledo.com
 :company: Trade2Win
-:bio: Marcos is a rubyist currently working on <a href="https://www.forexdesk.com/">ForexDesk</a>,
+:bio_br: Marcos is a rubyist currently working on <a href="https://www.forexdesk.com/">ForexDesk</a>,
+  a ruby based foreign exchange social trading platform. He has previously worked
+  on software that ranges from cell phone towers, to national scale hospitals web
+  services infrastructure, to real time poker servers, all of which has given him
+  a good share of experience solving issues with transactions, racing conditions,
+  or both at the same time.
+:bio_en: Marcos is a rubyist currently working on <a href="https://www.forexdesk.com/">ForexDesk</a>,
   a ruby based foreign exchange social trading platform. He has previously worked
   on software that ranges from cell phone towers, to national scale hospitals web
   services infrastructure, to real time poker servers, all of which has given him

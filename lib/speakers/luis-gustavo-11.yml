@@ -5,10 +5,19 @@
 :slug: luis-gustavo-11
 :full_name: Luis Gustavo
 :email: luis@planobe.com.br
-:twitter: ! '@luisbebop'
+:twitter: luisbebop
 :blog_url: https://www.facebook.com/luisbebop
 :company: Plano Bê
-:bio: ! 'Graduated in Electronic and Telecomunications from CEETEPS, he is a self
+:bio_br: ! 'Graduated in Electronic and Telecomunications from CEETEPS, he is a self
+  taught programmer who loves programming and working with new technologies and programming
+  languages.
+
+
+  He had his first contact with computer in 1997. After this magical experience he
+  started his journey in computing world learning about Unix, Linux, Windows, Assembly,
+  C, C++, HTML, Javascript, XML, Ruby, Python, C#, VB, Delphi, Parsers, Virtual Machines,
+  compilers, a little bit of hardware too and a lot of other things.'
+:bio_en: ! 'Graduated in Electronic and Telecomunications from CEETEPS, he is a self
   taught programmer who loves programming and working with new technologies and programming
   languages.
 

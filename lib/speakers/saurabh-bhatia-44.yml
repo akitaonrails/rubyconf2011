@@ -4,11 +4,17 @@
 :full_name: Saurabh Bhatia
 :email: saurabh@safewlabs.com
 :twitter: safew
-:blog_url: http://thewub.tumblr.com/
+:blog_url: thewub.tumblr.com/
 :company: Safew Labs
-:bio: Saurabh Bhatia is a founder of Safew Labs a Ruby and Rails Consulting firm based
-  in Mumbai, India. He has been an active user, proponent of Ruby and Rails since
-  2006. He is one of the founders and Moderators of Bangalore Ruby User Group,Organizer
+:bio_br: Saurabh Bhatia is a founder of Safew Labs a Ruby and Rails Consulting firm
+  based in Mumbai, India. He has been an active user, proponent of Ruby and Rails
+  since 2006. He is one of the founders and Moderators of Bangalore Ruby User Group,Organizer
+  of Mumbai Ruby Meetup and active part of many communities like RailsBridge . In
+  his free time he contributes to opensource. Shoes, activemerchant , signalwiki are
+  some of the projects he likes working with.
+:bio_en: Saurabh Bhatia is a founder of Safew Labs a Ruby and Rails Consulting firm
+  based in Mumbai, India. He has been an active user, proponent of Ruby and Rails
+  since 2006. He is one of the founders and Moderators of Bangalore Ruby User Group,Organizer
   of Mumbai Ruby Meetup and active part of many communities like RailsBridge . In
   his free time he contributes to opensource. Shoes, activemerchant , signalwiki are
   some of the projects he likes working with.

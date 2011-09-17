@@ -4,8 +4,23 @@
 :main_speaker_name: Diogo Biazus
 :co_speaker_slug: '-27'
 :co_speaker_name: ''
-:title: YesSQL, how PostgreSQL advanced features can help the Rails developer
-:description: ! 'Rails developers traditionally avoid using specific RDBMS features,
+:title_br: YesSQL, how PostgreSQL advanced features can help the Rails developer
+:title_en: YesSQL, how PostgreSQL advanced features can help the Rails developer
+:description_br: ! 'Rails developers traditionally avoid using specific RDBMS features,
+  preferring to build most of the business logic into the application''s models. Nevertheless
+  there are some cases in which PostgreSQL offers advantages over more popular solutions.
+
+  I''ll talk about three interesting cases where the in database approach can lead
+  to a better performance and more elegant code.
+
+  * Hstore vs NoSQL / Serialized data
+
+  * Earthdistance vs Geokit
+
+  * With recursive vs Nested sets
+
+'
+:description_en: ! 'Rails developers traditionally avoid using specific RDBMS features,
   preferring to build most of the business logic into the application''s models. Nevertheless
   there are some cases in which PostgreSQL offers advantages over more popular solutions.
 

@@ -8,7 +8,15 @@
 :twitter: prodis
 :blog_url: prodis.blog.br
 :company: ''
-:bio: ! "Desenvolvedor Ruby e Rails, é lider técnico da equipe de desenvolvimento
+:bio_br: ! "Desenvolvedor Ruby e Rails, é lider técnico da equipe de desenvolvimento
+  da WebStore, loja virtual da Locaweb. \n\nPós-graduado em Tecnologias Web pela FIAP,
+  trabalha desde 2000 com Desenvolvimento Web, onde já utilizou várias plataformas
+  e linguagens, como .NET, Java, JavaScript, PHP e ASP. Em 2010 palestrou no FISL
+  sobre o uso de software livre em projetos comerciais.\n\nEditor do blog Ruby Fundamental
+  do portal IT Web, também mantém o Prodis' Blog, onde escreve sobre desenvolvimento
+  de software e esportes. \n\nSempre que pode joga basquete, esporte que lhe trouxe
+  bastante amigos e alegria."
+:bio_en: ! "Desenvolvedor Ruby e Rails, é lider técnico da equipe de desenvolvimento
   da WebStore, loja virtual da Locaweb. \n\nPós-graduado em Tecnologias Web pela FIAP,
   trabalha desde 2000 com Desenvolvimento Web, onde já utilizou várias plataformas
   e linguagens, como .NET, Java, JavaScript, PHP e ASP. Em 2010 palestrou no FISL

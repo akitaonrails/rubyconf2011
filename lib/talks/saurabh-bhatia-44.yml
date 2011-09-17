@@ -4,9 +4,16 @@
 :main_speaker_name: Saurabh Bhatia
 :co_speaker_slug: '-44'
 :co_speaker_name: ''
-:title: ! 'Developing Chat Application in Rails with HTML5 Websockets '
-:description: ! 'xmpp , jabber are some of the protocols currently available for development
-  of chat based applications. HTML5 websocket
+:title_br: ! 'Developing Chat Application in Rails with HTML5 Websockets '
+:title_en: ! 'Developing Chat Application in Rails with HTML5 Websockets '
+:description_br: ! 'xmpp , jabber are some of the protocols currently available for
+  development of chat based applications. HTML5 websocket
+
+  provides a lightweight means of real-time interaction between app users. The talk
+  demonstrates how to create a Rails application that uses HTML5 websockets for create
+  a chat application,hands on.'
+:description_en: ! 'xmpp , jabber are some of the protocols currently available for
+  development of chat based applications. HTML5 websocket
 
   provides a lightweight means of real-time interaction between app users. The talk
   demonstrates how to create a Rails application that uses HTML5 websockets for create

@@ -4,9 +4,22 @@
 :main_speaker_name: Ricardo Bernardelli
 :co_speaker_slug: fernando-hamasaki-125
 :co_speaker_name: Fernando Hamasaki
-:title: ! 'Multitenancy em Rails: Cortando custos e aumentando capacidade'
-:description: ! 'Algumas decisões que parecem boas no começo de um projeto, com o
-  tempo mostram que possuem vantagens mas também deficiências. A loja virtual WebStore,
+:title_br: ! 'Multitenancy em Rails: Cortando custos e aumentando capacidade'
+:title_en: ! 'Multitenancy em Rails: Cortando custos e aumentando capacidade'
+:description_br: ! 'Algumas decisões que parecem boas no começo de um projeto, com
+  o tempo mostram que possuem vantagens mas também deficiências. A loja virtual WebStore,
+  desenvolvida pela Locaweb, é um exemplo de produto que nasceu com uma arquitetura
+  suficiente para o momento inicial, como dívida técnica conhecida, que após um ano
+  de projeto tornou-se inviável.
+
+
+  A palestra apresenta o desafio da equipe de desenvolvimento de SaaS de mudar a arquitetura
+  do produto. Falando em números, antes a WebStore possuía 1.000 clientes, distribuídos
+  em 12 servidores. Após estudar as poucas alternativas de multitenancy em Rails e
+  escolher uma opção não tão usual, foi possível acomodar mais de 4.000 clientes em
+  apenas um servidor, pagando a dívida técnica a tempo de aumentar o número de clientes. '
+:description_en: ! 'Algumas decisões que parecem boas no começo de um projeto, com
+  o tempo mostram que possuem vantagens mas também deficiências. A loja virtual WebStore,
   desenvolvida pela Locaweb, é um exemplo de produto que nasceu com uma arquitetura
   suficiente para o momento inicial, como dívida técnica conhecida, que após um ano
   de projeto tornou-se inviável.

@@ -6,7 +6,13 @@
 :twitter: josevalim
 :blog_url: blog.plataformatec.com.br
 :company: Plataforma Tec
-:bio: José Valim (@josevalim) é co-fundador e líder técnico da Plataforma Tecnologia
+:bio_br: José Valim (@josevalim) é co-fundador e líder técnico da Plataforma Tecnologia
+  (@plataformatec) e membro do Rails Core Team. Já trabalhou com PHP, .NET e desde
+  2007 dedica-se ao desenvolvimento com Ruby e Rails. Devido à sua participação em
+  diversos projetos open source, Valim foi premiado com o Ruby Hero Awards 2010 e
+  é primeiro brasileiro a ter um livro publicado (Crafting Rails Applications) pela
+  editora The Pragmatic Programmers. Vale a pena acompanhar o seu trabalho no blog.plataformatec.com.br.
+:bio_en: José Valim (@josevalim) é co-fundador e líder técnico da Plataforma Tecnologia
   (@plataformatec) e membro do Rails Core Team. Já trabalhou com PHP, .NET e desde
   2007 dedica-se ao desenvolvimento com Ruby e Rails. Devido à sua participação em
   diversos projetos open source, Valim foi premiado com o Ruby Hero Awards 2010 e

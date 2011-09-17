@@ -4,14 +4,23 @@
 :main_speaker_name: David A. Black
 :co_speaker_slug: '-146'
 :co_speaker_name: ''
-:title: Is Ruby Easy?
-:description: ! 'Ruby has a somewhat mixed reputation when it comes to ease of use
-  and accessibility to programmers -- and, oddly enough, to non-programmers. Its "magic"
-  and meta-powers are often seen as barriers to entry and progress. At the same time,
-  the belief that Ruby is based on a universal POLS (Policy of Least Surprise) persists,
-  and it isn''t unusual to hear annoyance expressed when learning Ruby proves to be
-  harder than falling off a log. This talk will explore and troubleshoot notions of
-  ease of use, intuitiveness, and programmer friendliness, all in relation to Ruby
+:title_br: Is Ruby Easy?
+:title_en: Is Ruby Easy?
+:description_br: ! 'Ruby has a somewhat mixed reputation when it comes to ease of
+  use and accessibility to programmers -- and, oddly enough, to non-programmers. Its
+  "magic" and meta-powers are often seen as barriers to entry and progress. At the
+  same time, the belief that Ruby is based on a universal POLS (Policy of Least Surprise)
+  persists, and it isn''t unusual to hear annoyance expressed when learning Ruby proves
+  to be harder than falling off a log. This talk will explore and troubleshoot notions
+  of ease of use, intuitiveness, and programmer friendliness, all in relation to Ruby
+  the language and Ruby the programming-cultural entity. '
+:description_en: ! 'Ruby has a somewhat mixed reputation when it comes to ease of
+  use and accessibility to programmers -- and, oddly enough, to non-programmers. Its
+  "magic" and meta-powers are often seen as barriers to entry and progress. At the
+  same time, the belief that Ruby is based on a universal POLS (Policy of Least Surprise)
+  persists, and it isn''t unusual to hear annoyance expressed when learning Ruby proves
+  to be harder than falling off a log. This talk will explore and troubleshoot notions
+  of ease of use, intuitiveness, and programmer friendliness, all in relation to Ruby
   the language and Ruby the programming-cultural entity. '
 :country: US
 :confirmed: true

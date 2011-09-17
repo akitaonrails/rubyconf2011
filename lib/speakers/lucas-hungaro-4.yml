@@ -4,9 +4,19 @@
 :full_name: Lucas Húngaro
 :email: lucashungaro@gmail.com
 :twitter: lucashungaro
-:blog_url: http://blog.lucashungaro.com
+:blog_url: blog.lucashungaro.com
 :company: GoNow
-:bio: ! 'I''m a software developer with 10 years of experience and I''ve been writing
+:bio_br: ! 'I''m a software developer with 10 years of experience and I''ve been writing
+  Ruby code since early 2007.
+
+
+  My focus is minimalism applied to code, focusing on how OOP principles can help
+  us create beautiful and flexible architectures.
+
+
+  I gave talks about Ruby and BDD at Dev in Sampa 2011, TDC São Paulo 2011, TDC Florianópolis
+  2011, RubyConf Brazil 2010, Dev in Sampa 2010 and FISL 2009.'
+:bio_en: ! 'I''m a software developer with 10 years of experience and I''ve been writing
   Ruby code since early 2007.
 
 
