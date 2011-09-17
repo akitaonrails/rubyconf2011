@@ -52,4 +52,9 @@ namespace :utils do
   task :sync_avatars do
     `rsync -avz -e ssh root@akitaonrails.com:/var/webapps/rubyconf2011/public/system/ ./content/images/`
   end
+
+  desc "sync the sqlite3 call for papers database"
+  task :sync_papers do
+    `scp root@akitaonrails.com:/var/webapps/rubyconf2011/db/production.sqlite3 ./tmp/`
+  end
 end
