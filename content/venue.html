@@ -1,10 +1,33 @@
 ---
 title: Venue
 menu: venue
+locale:
+  br:
+    title: Local
 ---
   <div id="content">
-    <h1>lorem ipsum</h1>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore </p>
-    <iframe width="980" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=cincinato+bra&amp;aq=&amp;sll=-14.239424,-53.186502&amp;sspn=44.807848,86.572266&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Cincinato+Braga+-+Bela+Vista,+S%C3%A3o+Paulo&amp;t=m&amp;z=14&amp;ll=-23.568135,-46.646146&amp;output=embed"></iframe>
-    <div class="mapValue"><img src="/images/seloMap.png" /></div>
+    <h1><%= item[:title] %></h1>
+    <% if @item[:locale] == :en %>
+      <p>The conference will take place at <a href="http://www.convencoesfreicaneca.com.br/">Frei Caneca Convention Center</a> located at the top floors of the Frei Caneca Shopping Center. It is located at the <a href="http://en.wikipedia.org/wiki/Cerqueira_C%C3%A9sar">Cerqueira César</a> neighborhood, around 5 blocks away from the famous <a href="http://en.wikipedia.org/wiki/Paulista_Avenue">Paulista Ave.</a></p>
+
+      <%= render '_venue_map' %>
+
+      <p>You will find excellent hotels, restaurants, bars and several other entertainment places around this area. WikiTravel has a good <a href="http://wikitravel.org/en/S%C3%A3o_Paulo">São Paulo Guide</a> that can help you out. <a href="http://www.cidadedesaopaulo.com/sp/">SPTuris</a> is another good resource. It is a good idea make a tour plan before coming, do not forget that <a href="http://en.wikipedia.org/wiki/S%C3%A3o_Paulo">São Paulo</a> is a 588 square miles city with no less than 39 million people.</p>
+      <p>There are many hotels in this area, so try to choose some that's at walking distance from the convention center. The Booking.com website has a <a href="http://www.booking.com/district/br/sao-paulo/cerqueira-cesar.en-us.html?selected_currency=USD">good list of hotels</a>. One recommendation is the <a href="http://www.booking.com/hotel/br/pergamon.en-us.html">Pergamon Hotel</a>.</p>
+      <p>If you're arriving from outside of Brazil, you're probably arriving at the <a href="http://g.co/maps/wsepm">Guarulhos International Airport</a>, which is around 17 miles away from the convention center. You should ask for a taxi cab, but be careful to only ride on legally permitted taxis. There should be a taxi line with guides just outside of the airport gates.</p>
+      <p>Schedule your trip so you arrive at least one day before, on November 2nd. It's going to be a holiday so there should be no heavy traffic. Then try to leave at most by the end of November 5th so you can enjoy the city a bit. We recommend you stay until the weekend.</p>
+
+    <% else %>
+
+      <p>A conferência acontecerá no <a href="http://www.convencoesfreicaneca.com.br/">Centro de Convenções Frei Caneca</a> localizado nos andares superiores do Shopping Center Frei Caneca. Ela fica localizada no bairro <a href="http://pt.wikipedia.org/wiki/Cerqueira_C%C3%A9sar">Cerqueira César</a>, cerca de 5 quarteirões de distância da famosa <a href="http://pt.wikipedia.org/wiki/Avenida_Paulista">Avenida Paulista</a>.</p>
+
+      <%= render '_venue_map' %>
+
+      <p>Você encontrará diversos hotéis, restaurantes, bares e diversas opções de entretenimento pela região. A <a href="http://www.cidadedesaopaulo.com/sp/">SPTuris</a> é um dos diversos guias turísticos que podem ajudar.</p>
+      <p>Existem muitos hotéis nesta região, então tente escolher algum que fique perto do centro de convenções. O site Booking.com tem uma <a href="http://www.booking.com/district/br/sao-paulo/cerqueira-cesar.html?lang=pt-br">boa lista de hotéis</a>. Uma recomendação é o <a href="http://www.booking.com/hotel/br/pergamon.html?lang=pt-br">Hotel Pergamon</a>.</p>
+      <p>Se estiver chegando de fora de São Paulo, vai chegar ou pelo <a href="http://g.co/maps/wsepm">Aeroporto Internacional de Guarulhos</a>, que fica cerca de 28km de distância do centro de convenções, ou no <a href="http://g.co/maps/h4hhg">Aeroporto de Congonhas</a>, que fica a cerca de 10km de distância. Utilize apenas os táxis oficiais permitidos pelo aeroporto.</p>
+      <p>Tente programar sua viagem para chegar no feriado, dia 2 de Novembro. Deve ter pouco trânsito, e dará para descansar bem. E tente ir embora somente no dia 5 de Novembro para não ficar muito corrido. Se nunca veio à cidade, tente se programar para passar o fim de semana por aqui.</p>
+    <% end %>
+    <p><%= render '_share_buttons', :size => 980 %></p>
+    <%= render '_disqus' %>
   </div>
