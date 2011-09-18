@@ -71,9 +71,9 @@ namespace :utils do
 
     exit unless File.exists?("./tmp/production.sqlite3")
     FileUtils.rm_rf "./lib/speakers"
-    FileUtils.rm_rf "./lib/talks"
+    FileUtils.rm_rf "./content/talks"
     FileUtils.mkdir_p "./lib/speakers"
-    FileUtils.mkdir_p "./lib/talks"
+    FileUtils.mkdir_p "./content/talks"
 
     db = SQLite3::Database.new "./tmp/production.sqlite3"
     db.results_as_hash = true
@@ -81,7 +81,7 @@ namespace :utils do
     db.execute "select * from talks where selected = 't' and confirmed = 't'" do |row|
       row.delete_if { |key,value| row_index_rand.include?(key) }
       slug = "#{row["full_name"].to_slug}-#{row["id"]}"
-      cospeaker_slug = "#{row["cospeaker_name"].to_slug}-#{row["id"]}"
+
       avatar_url = unless row["avatar_file_name"].blank?
         "/images/avatars/#{row["id"]}/__format__/#{row["avatar_file_name"]}"
       else
@@ -108,28 +108,34 @@ namespace :utils do
       else
         "/images/speakers.jpg"
       end
-      co_speaker = row["cospeaker_name"].blank? ? nil : {
-        :id => row["id"],
-        :main_speaker_name => row["full_name"],
-        :main_speaker_slug => slug,
-        :slug => cospeaker_slug,
-        :full_name => row["cospeaker_name"],
-        :email => row["cospeaker_email"],
-        :twitter => row["cospeaker_twitter"].gsub(/\@/,''),
-        :blog_url => row["cospeaker_blog_url"].gsub(/http\:\/\//,''),
-        :company => row["company"],
-        :bio_br => row["cospeaker_bio"].gsub(/\r/, ""),
-        :bio_en => row["cospeaker_bio"].gsub(/\r/, ""),
-        :country => row["country"],
-        :avatar_thumb_url => avatar_url.gsub(/__format__/,'thumb'),
-        :avatar_medium_url => avatar_url.gsub(/__format__/,'medium'),
-        :avatar_url => avatar_url.gsub(/__format__/, 'original'),
-      }
+
+      co_speaker_slug = ""
+      co_speaker = unless row["cospeaker_name"].blank?
+        co_speaker_slug = "#{row["cospeaker_name"].to_slug}-#{row["id"]}"
+        {
+          :id => row["id"],
+          :main_speaker_name => row["full_name"],
+          :main_speaker_slug => slug,
+          :slug => co_speaker_slug,
+          :full_name => row["cospeaker_name"],
+          :email => row["cospeaker_email"],
+          :twitter => row["cospeaker_twitter"].gsub(/\@/,''),
+          :blog_url => row["cospeaker_blog_url"].gsub(/http\:\/\//,''),
+          :company => row["company"],
+          :bio_br => row["cospeaker_bio"].gsub(/\r/, ""),
+          :bio_en => row["cospeaker_bio"].gsub(/\r/, ""),
+          :country => row["country"],
+          :avatar_thumb_url => avatar_url.gsub(/__format__/,'thumb'),
+          :avatar_medium_url => avatar_url.gsub(/__format__/,'medium'),
+          :avatar_url => avatar_url.gsub(/__format__/, 'original'),
+        }
+      end
+
       talk = {
         :id => row["id"],
         :main_speaker_slug => slug,
         :main_speaker_name => row["full_name"],
-        :co_speaker_slug => cospeaker_slug,
+        :co_speaker_slug => co_speaker_slug,
         :co_speaker_name => row["cospeaker_name"],
         :title_br => row["title"],
         :title_en => row["title"],
@@ -139,14 +145,17 @@ namespace :utils do
         :confirmed => row["confirmed"] == 't',
         :selected => row["selected"] == 't'
       }
+
+
       File.open("./lib/speakers/#{slug}.yml", "w+") do |file|
         file.write(speaker.to_yaml)
       end
-      File.open("./lib/speakers/#{cospeaker_slug}.yml", "w+") do |file|
+      File.open("./lib/speakers/#{co_speaker_slug}.yml", "w+") do |file|
         file.write(co_speaker.to_yaml)
       end if co_speaker
-      File.open("./lib/talks/#{slug}.yml", "w+") do |file|
+      File.open("./content/talks/#{slug}.html", "w+") do |file|
         file.write(talk.to_yaml)
+        file.write("---\n")
       end
     end
   end

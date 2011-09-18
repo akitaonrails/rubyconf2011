@@ -25,12 +25,10 @@ compile '/js/*' do
   # don't filter or layout
 end
 
-route '/*/whatsup/*' do
-  nil
-end
-
-route '/stylesheet/' do
-  '/style/style.css'
+compile "/*/talks/*" do
+  filter :erb
+  layout '_talk'
+  layout 'default'
 end
 
 compile '*' do
@@ -40,6 +38,19 @@ compile '*' do
     filter :erb
     layout 'default'
   end
+end
+
+route '/*/whatsup/*' do
+  nil
+end
+
+route '/stylesheet/' do
+  '/style/style.css'
+end
+
+route "/*/talks/*" do
+  page = item.identifier.gsub(/\/$/, '')
+  "#{page}.#{item[:extension]}"
 end
 
 route '*' do
