@@ -18,6 +18,18 @@ see the generated website opening a web browser pointing to http://localhost:300
 Now whenever you change a file in the /contents directory, Nanoc3 should recompile
 the static output.
 
+SPEAKER
+-------
+
+If you're a speaker, fork this project and change your information. You can change
+your profile information at lib/speakers folder (find your file and edit it) and
+your talk details at content/talks folder.
+
+For best results, add a squared 137x137 image at the images/avatars/[talk_id]/medium
+folder and a thumbnail 49x49 image at the images/avatars/[talk_id]/thumb folder. If
+you are going to present with a co-speaker, put his image at images/avatar_cospeakers
+folder.
+
 WHAT'S UP SECTION
 -----------------
 
