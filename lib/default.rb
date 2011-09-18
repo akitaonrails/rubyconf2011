@@ -54,3 +54,32 @@ def speakers(direction = :none)
     @speakers
   end
 end
+
+def load_speakers(item)
+  return [nil, nil] unless item[:main_speaker_slug]
+  speaker = YAML.load_file("lib/speakers/#{item[:main_speaker_slug]}.yml")
+  cospeaker = item[:co_speaker_slug].empty? ? nil : YAML.load_file("lib/speakers/#{item[:co_speaker_slug]}.yml")
+  [speaker, cospeaker]
+end
+
+def load_talks
+  @talks = YAML.load_file("lib/talk_grid.yml")
+  @talks.each do |day, grid|
+    grid.each do |row|
+      [:both, :room_a, :room_b].each do |room|
+        next unless row.has_key?(room)
+        if row[room] == 'unconfirmed'
+          row[room] = { :slug => '#', :title_en => "unconfirmed", :title_br => "não confirmado" }
+        else
+          filename = "/talks/#{row[room]}.html"
+          row[room] = YAML.load_file("content" + filename)
+          row[room][:slug] = filename
+        end
+      end
+      if row[:both_en]
+        row[:both] = { :slug => '#', :title_en => row[:both_en], :title_br => row[:both_br] }
+      end
+    end
+  end
+  @talks
+end

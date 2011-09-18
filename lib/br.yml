@@ -16,3 +16,9 @@ home:
   whatsup: novidades
 whatsup:
   months: ['JAN', 'FEV', 'MAR', 'ABR', 'MAI', 'JUN', 'JUL', 'AGO', 'SET', 'OUT', 'NOV', 'DEZ']
+talk:
+  speaker_title: Palestrante
+  cospeaker_title: Co-palestrante
+  time: HORÁRIO
+  room_a: SALA A
+  room_b: SALA B

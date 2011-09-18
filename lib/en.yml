@@ -16,3 +16,9 @@ home:
   whatsup: what's up
 whatsup:
   months: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']
+talk:
+  speaker_title: Speaker
+  cospeaker_title: Co-Speaker
+  time: TIME
+  room_a: ROOM A
+  room_b: ROOM B

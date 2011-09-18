@@ -1,0 +1,28 @@
+      <tr>
+        <% if @first %>
+        <td rowspan="<%= @total %>" class="last">&nbsp;</td>
+        <% end %>
+        <td><span class="time"><%= @row[:time] %></span></td>
+        <% if @row[:both] %>
+        <td colspan="3">
+          <p><a href="<%= "/#{@item[:locale]}#{@row[:both][:slug]}" %>"><%= @row[:both][:"title_#{item[:locale]}"] %></a></p>
+          <% if @row[:both][:main_speaker_name] %>
+          <p>(<%= @row[:both][:main_speaker_name] %>)</p>
+          <% end %>
+        </td>
+        <% else %>
+        <td>
+          <p><a href="<%= "/#{@item[:locale]}#{@row[:room_a][:slug]}" %>"><%= @row[:room_a][:"title_#{item[:locale]}"] %></a></p>
+          <% if @row[:room_a][:main_speaker_name] %>
+          <p>(<%= @row[:room_a][:main_speaker_name] %>)</p>
+          <% end %>
+        </td>
+        <td></td>
+        <td>
+          <p><a href="<%= "/#{@item[:locale]}#{@row[:room_b][:slug]}" %>"><%= @row[:room_b][:"title_#{item[:locale]}"] %></a></p>
+          <% if @row[:room_b][:main_speaker_name] %>
+          <p>(<%= @row[:room_b][:main_speaker_name] %>)</p>
+          <% end %>
+        </td>
+        <% end %>
+      </tr>

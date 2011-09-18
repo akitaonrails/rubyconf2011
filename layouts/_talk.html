@@ -1,0 +1,16 @@
+  <% @speaker, @cospeaker = load_speakers(@item) %>
+  <div class="talk">
+    <div class="subject">
+      <div class="title"><h1><%= @item[:title_en] %></h1></div>
+      <div class="text">
+        <p><%= @item[:description_en] %></p>
+      </div>
+    </div>
+    <% if @speaker %>
+    <%= render '_talk_speaker', :speaker => @speaker, :description => t("talk.speaker_title") %>
+    <% end %>
+    <% if @cospeaker %>
+    <%= render '_talk_speaker', :speaker => @cospeaker, :description => t("talk.cospeaker_title") %>
+    <% end %>
+  </div>
+

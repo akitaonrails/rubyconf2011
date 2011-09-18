@@ -1,0 +1,82 @@
+---
+:first_day:
+- :time: '8:00'
+  :both_en: Registration and Breakfast
+  :both_br: Inscrições e Café da Manhã
+- :time: '8:45'
+  :both_en: Opening
+  :both_br: Abertura
+- :time: '9:00'
+  :both: david-a-black-146
+- :time: '10:00'
+  :room_a: unconfirmed
+  :room_b: marcos-toledo-34
+- :time: '11:00'
+  :room_a: saurabh-bhatia-44
+  :room_b: saulo-arruda-35
+- :time: '12:00'
+  :both_en: Lunch
+  :both_br: Almoço
+- :time: '13:30'
+  :room_a: marcelo-de-moraes-serpa-57
+  :room_b: unconfirmed
+- :time: '14:30'
+  :room_a: nick-sutterer-7
+  :room_b: lucas-hungaro-4
+- :time: '15:30'
+  :room_a: unconfirmed
+  :room_b: daniel-lopes-139
+- :time: '16:30'
+  :both_en: Coffee Break
+  :both_br: Intervalo para Café
+- :time: '17:00'
+  :room_a: diogo-biazus-27
+  :room_b: unconfirmed
+- :time: '18:00'
+  :room_a: unconfirmed
+  :room_b: nando-vieira-141
+- :time: '19:00'
+  :both: unconfirmed
+- :time: '20:00'
+  :both: lightning-talks
+:second_day:
+- :time: '8:00'
+  :both_en: Registration and Breakfast
+  :both_br: Inscrições e Café da Manhã
+- :time: '8:45'
+  :both_en: Opening
+  :both_br: Abertura
+- :time: '9:00'
+  :both: unconfirmed
+- :time: '10:00'
+  :room_a: jose-valim-151
+  :room_b: evan-henshaw-150
+- :time: '11:00'
+  :room_a: carlos-brando-11
+  :room_b: lucas-rosa-galego-138
+- :time: '12:00'
+  :both_en: Lunch
+  :both_br: Almoço
+- :time: '13:30'
+  :room_a: unconfirmed
+  :room_b: marcelo-manzan-122
+- :time: '14:30'
+  :room_a: bruno-oliveira-abstractj-73
+  :room_b: rafael-felix-54
+- :time: '15:30'
+  :room_a: unconfirmed
+  :room_b: unconfirmed
+- :time: '16:30'
+  :both_en: Coffee Break
+  :both_br: Intervalo para Café
+- :time: '17:00'
+  :room_a: roberto-rodriguez-artavia-97
+  :room_b: unconfirmed
+- :time: '18:00'
+  :room_a: ricardo-bernardelli-125
+  :room_b: robson-junior-137
+- :time: '19:00'
+  :both: ian-mcfarland-149
+- :time: '20:00'
+  :both_en: Ending
+  :both_br: Fechamento

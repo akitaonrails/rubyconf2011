@@ -1,118 +1,32 @@
 ---
 title: Schedule
 menu: schedule
+locale:
+  br:
+    title: Programação
 ---
 <div id="content">
   <div id="schedule">
-    <h1>rubyconf 2011 presentation</h1>
+    <h1>rubyconf 2011 - <%= item[:title] %></h1>
     <img src="/images/donwloadical.jpg" alt="" title="" class="ical"/>
+    <% @talks = load_talks %>
+    <% @talks.each do |day, grid| %>
     <table width="980" cellpadding="0" cellspacing="0">
       <tr class="top">
         <td width="109" class="top">&nbsp;</td>
-        <td width="109" class="top">Time</td>
-        <td width="380" class="top">ROOM 1</td>
-        <td width="380" class="top-end">ROOM 2</td>
+        <td width="109" class="top"><%= t('talk.time') %></td>
+        <td width="370" class="top"><%= t('talk.room_a') %></td>
+        <td width="20">&nbsp;</td>
+        <td width="370" class="top-end"><%= t('talk.room_b') %></td>
       </tr>
-      <tr>
-        <td rowspan="4" class="last">&nbsp;</td>
-        <td><span class="time">09:00</span></td>
-        <td>
-          <p><a href="#">Welcome</a></p>
-          <p>(Ruby Central)</p>
-        </td>
-        <td>
-          <p><a href="#">Persisting Relations Across Time and Space</a></p>
-          <p>(Jim Weirich)</p>
-        </td>
-      </tr>
-      <tr>
-        <td><span class="time">09:15</span></td>
-        <td>
-          <p><a href="#">Welcome</a></p>
-          <p>(Ruby Central)</p>
-        </td>
-        <td>
-          <p><a href="#">Persisting Relations Across Time and Space</a></p>
-          <p>(Jim Weirich)</p>
-        </td>
-      </tr>
-      <tr>
-        <td><span class="time">10:00</span></td>
-        <td>
-          <p><a href="#">Welcome</a></p>
-          <p>(Ruby Central)</p>
-        </td>
-        <td>
-          <p><a href="#">Persisting Relations Across Time and Space</a></p>
-          <p>(Jim Weirich)</p>
-        </td>
-      </tr>
-      <tr>
-        <td class="last"><span class="time">11:00</span></td>
-        <td class="last">
-          <p><a href="#">Welcome</a></p>
-          <p>(Ruby Central)</p>
-        </td>
-        <td class="last">
-          <p><a href="#">Persisting Relations Across Time and Space</a></p>
-          <p>(Jim Weirich)</p>
-        </td>
-      </tr>
+      <% grid.each_index do |index| %>
+        <%= render '_talk_row',
+            :row => grid[index],
+            :total => grid.size,
+            :first => (index == 0) %>
+      <% end %>
     </table>
-    <div class="scheduleSelo"><img src="/images/stamp_nov_3.png" /></div>
-    <table width="980" cellpadding="0" cellspacing="0">
-      <tr class="top">
-        <td width="109" class="top">&nbsp;</td>
-        <td width="109" class="top">Time</td>
-        <td width="380" class="top">ROOM 1</td>
-        <td width="380" class="top-end">ROOM 2</td>
-      </tr>
-      <tr>
-        <td rowspan="4" class="last">&nbsp;</td>
-        <td><span class="time">09:00</span></td>
-        <td>
-          <p><a href="#">Welcome</a></p>
-          <p>(Ruby Central)</p>
-        </td>
-        <td>
-          <p><a href="#">Persisting Relations Across Time and Space</a></p>
-          <p>(Jim Weirich)</p>
-        </td>
-      </tr>
-      <tr>
-        <td><span class="time">09:15</span></td>
-        <td>
-          <p><a href="#">Welcome</a></p>
-          <p>(Ruby Central)</p>
-        </td>
-        <td>
-          <p><a href="#">Persisting Relations Across Time and Space</a></p>
-          <p>(Jim Weirich)</p>
-        </td>
-      </tr>
-      <tr>
-        <td><span class="time">10:00</span></td>
-        <td>
-          <p><a href="#">Welcome</a></p>
-          <p>(Ruby Central)</p>
-        </td>
-        <td>
-          <p><a href="#">Persisting Relations Across Time and Space</a></p>
-          <p>(Jim Weirich)</p>
-        </td>
-      </tr>
-      <tr>
-        <td class="last"><span class="time">11:00</span></td>
-        <td class="last">
-          <p><a href="#">Welcome</a></p>
-          <p>(Ruby Central)</p>
-        </td>
-        <td class="last">
-          <p><a href="#">Persisting Relations Across Time and Space</a></p>
-          <p>(Jim Weirich)</p>
-        </td>
-      </tr>
-    </table>
-    <div class="scheduleSelo"><img src="/images/stamp_nov_4.png" /></div>
+    <div class="scheduleSelo"><img src="/images/<%= day %>.png" /></div>
+    <% end %>
   </div>
 </div>
