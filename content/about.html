@@ -1,13 +1,47 @@
 ---
 title: About
 menu: about
+locale:
+  br:
+    title: Sobre
 ---
   <div id="content">
     <div id="about">
-      <h1>about rubyconf e ruby central</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in pulvinar sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec imperdiet dapibus vestibulum. Nullam quis mi in nulla aliquam sodales. Maecenas pharetra pellentesque vestibulum. Suspendisse sed lectus et orci ullamcorper accumsan sit amet vitae erat. Suspendisse ut neque eu augue varius volutpat ut ac nibh. Suspendisse pharetra erat nec felis adipiscing vestibulum. </p>
-      <img src="/images/rubyconf.jpg" alt="" title="" />
-      <p>Etiam vehicula dictum pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel diam lorem, pulvinar pellentesque dolor. Nulla vulputate convallis dolor non fringilla. Mauris posuere tellus et purus porta luctus. Nullam aliquet tempor dapibus. Maecenas rhoncus, lacus et mattis vulputate, eros tellus auctor orci, vitae consectetur eros metus at nisl. Phasellus vulputate, est quis elementum ultrices, nisi lectus bibendum neque, ac gravida leo lorem non diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas eget nulla arcu. </p>
-      <p>Etiam vehicula dictum pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel diam lorem, pulvinar pellentesque dolor. Nulla vulputate convallis dolor non fringilla. Mauris posuere tellus et purus porta luctus. Nullam aliquet tempor dapibus. Maecenas rhoncus, lacus et mattis vulputate, eros tellus auctor orci, vitae consectetur eros metus at nisl. Phasellus vulputate, est quis elementum ultrices, nisi lectus bibendum neque, ac gravida leo lorem non diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas eget nulla arcu. </p>
+      <h1><%= t('about.title') %></h1>
+
+      <% if @item[:locale] == :en %>
+      <p>RubyConf Brazil is the largest Ruby focused conference in South America and it's comparable in size to the top large tech conferences in the continent.</p>
+      <div class="images">
+        <img src="/images/about/rubyconf2010-audience.jpg" alt="RubyConf Brazil 2010"/>
+        <img src="/images/about/rubyconf2010.jpg" alt="RubyConf Brazil 2010" class="rightSide"/>
+      </div>
+      <p>It began when <a href="http://www.akitaonrails.com">Fabio Akita (a.k.a. @AkitaOnRails)</a> joined <a href="http://www.locaweb.com">Locaweb</a> in 2008 and together they delivered the <b>Rails Summit Latin America</b> conference. That first event was able to gather more than 550 attendees and bring more than 20 speakers for 2 full days with 2 parallel tracks and real-time translation for the audience to enjoy all the talks they could consume.</p>
+      <div class="images">
+        <img src="/images/about/railssummit2009.jpg" alt="Rails Summit Latin America 2009"/>
+        <img src="/images/about/railssummit2008.jpg" alt="Rails Summit Latin America 2008" class="rightSide"/>
+      </div>
+      <p>They repeated the success in 2009 with another Rails Summit and in 2010, the Latin America market seemed prepared for a first change, therefore Rails Summit was changed to <b>RubyConf Brazil</b> where more than 700 attendees were able to enjoy an even broader range of talk subjects.</p>
+      <p>Several reknowned names in the international Ruby community came to Brazil already such as Chad Fowler, Rich Kilmer, David Chelimsky, Aaron Patterson, Evan Phoenix, Charles Nutter, Yehuda Katz, Jim Weirich, Matt Aimonetti, Obie Fernandez, Glenn Vanderburg, Chris Wanstrath, Ninh Bui, Hongli Lai, Dr. Nic, and others.</p>
+
+      <% else %>
+
+      <p>A RubyConf Brasil é a maior conferência com foco em Ruby da América do Sul e é comparável em tamanho às maiores conferências de tecnologia no continente.</p>
+      <div class="images">
+        <img src="/images/about/rubyconf2010-audience.jpg" alt="RubyConf Brazil 2010"/>
+        <img src="/images/about/rubyconf2010.jpg" alt="RubyConf Brazil 2010" class="rightSide"/>
+      </div>
+      <p>Ela iniciou quando <a href="http://www.akitaonrails.com">Fabio Akita (@AkitaOnRails)</a> se juntou à <a href="http://www.locaweb.com">Locaweb</a> em 2008 e juntos entregaram a conferência <b>Rails Summit Latin America</b>. Este primeiro evento conseguiu juntar mais de 550 participantes e trouxe mais de 20 palestrantes durante 2 dias inteiros com 2 trilhas paralelas e tradução simultânea para que a platéia pudesse aproveitar o quanto conseguisse consumir.</p>
+      <div class="images">
+        <img src="/images/about/railssummit2009.jpg" alt="Rails Summit Latin America 2009"/>
+        <img src="/images/about/railssummit2008.jpg" alt="Rails Summit Latin America 2008" class="rightSide"/>
+      </div>
+      <p>Eles repetiram o sucesso em 2009 com outra Rails Summit e, em 2010, o mercado latino americano já parecia preparado para uma primeira mudança, por isso a Rails Summit mudou para <b>RubyConf Brazil</b> onde mais de 700 participantes puderam aproveitar um leque ainda maior de assuntos de palestras.</p>
+      <p>Muitos nomes reconhecidos da comunidade internacional de Ruby já vieram ao Brasil, como Chad Fowler, Rich Kilmer, David Chelimsky, Aaron Patterson, Evan Phoenix, Charles Nutter, Yehuda Katz, Jim Weirich, Matt Aimonetti, Obie Fernandez, Glenn Vanderburg, Chris Wanstrath, Ninh Bui, Hongli Lai, Dr. Nic, e outros.</p>
+
+      <% end %>
+
+      <p><img src="/images/about/rubyconf.jpg" /></p>
+      <p><%= render '_share_buttons', :size => 980 %></p>
+      <%= render '_disqus' %>
     </div>
   </div>

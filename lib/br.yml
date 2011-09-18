@@ -22,3 +22,5 @@ talk:
   time: HORÁRIO
   room_a: SALA A
   room_b: SALA B
+about:
+  title: Sobre o RubyConf Brasil

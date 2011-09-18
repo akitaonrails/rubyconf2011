@@ -58,7 +58,11 @@ a img{border:none;}
 #indivSponsors a img{margin-right:3px;}
 #sponsor ul{padding:5px 0 20px 50px;}
 #sponsor ul li{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:2px 0;}
-#about{}
+
+#about { clear: both; }
+#about .images { float: left; margin: 0; padding: 0; border: 0; width: 980px; margin: 10px 0 10px 0; }
+#about .images .rightSide { float: right; }
+
 #speakersPage{}
 #speakersPage #boxLeft{width:470px;float:left;}
 #speakersPage #boxRight{width:470px;float:right;}

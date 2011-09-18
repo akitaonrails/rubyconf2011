@@ -22,3 +22,5 @@ talk:
   time: TIME
   room_a: ROOM A
   room_b: ROOM B
+about:
+  title: About RubyConf Brazil
