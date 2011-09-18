@@ -25,7 +25,10 @@ a img{border:none;}
 #lenguage ul li{display:inline;font:16px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#fff;}
 #lenguage ul li a{text-decoration:none;font:16px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#ccc;}
 #lenguage ul li a.activeLenguage{color:#fff;}
-#contHeader{}
+#contHeader .logo { width: 465px; height: 155px; float: left; }
+#contHeader .speakers { width: 420px; height: 155px; float: left; }
+#contHeader .speakers a { border: 0; padding: 0; margin: 0 0 2px 2px; float: left; }
+#contHeader .speakers a img { border: 0; margin: 0; padding: 0; width: 49px; height: 49px }
 #logo{margin-top:25px;}
 #speakers{}
 #menu{width:980px;height:40px;background:url(img/bgMenu.png) no-repeat;padding:8px 0 0 5px;}
@@ -34,8 +37,9 @@ a img{border:none;}
 #menu ul li a{text-decoration:none;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#fff;text-transform:uppercase;padding:13px 15px 12px 13px;}
 #menu ul li a:hover{background:url(img/bgLink.png) no-repeat right top;}
 #menu ul li a.activeMenu{background:url(img/bgLink.png) no-repeat right top;}
-#menu ul li a.linkTicket{margin-left:190px;}
+#menu ul li a.linkTicket{margin-left:120px;}
 #menu ul li a.linkTicket:hover{background:none;text-decoration:underline;}
+
 #banner{width:655px;height:315px;background:#999;float:left;}
 #bannerRight{width:315px;height:315px;float:right;}
 #bannerRight img{margin-bottom:10px;}

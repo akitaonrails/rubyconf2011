@@ -17,11 +17,15 @@
   </div><!--FINAL LENGUAGE-->
   <!--CLEAR--><div class="clear"></div>
   <div id="contHeader"><!--INICIO CONTAINER HEADER-->
-    <div id="logo"><!--INICIO LOGOTIPO-->
+    <div class="logo"><!--INICIO LOGOTIPO-->
       <img src="/images/LogoRubyConf.jpg" alt="" title="" />
     </div><!--FINAL LOGOTIPO-->
-    <div id="speakers"><!--INICIO SPEAKER-->
+    <div class="speakers"><!--INICIO SPEAKER-->
+      <% random_speakers_list.each do |speaker| %>
+        <a href="<%= "/#{@item[:locale]}#{speaker[:talk_slug]}" %>"><img src="<%= speaker[:avatar_thumb_url] %>" width="49" height="49" border="0"/></a>
+      <% end %>
     </div><!--FINAL SPEAKER-->
+    <!--CLEAR--><div class="clear"></div>
   </div><!--FINAL CONTAINER HEADER-->
   <div id="menu"><!--INICIO MENU-->
     <ul>

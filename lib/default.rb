@@ -53,6 +53,18 @@ def speakers(direction = :none)
   else
     @speakers
   end
+  @speakers.each do |speaker|
+    if speaker[:main_speaker_slug]
+      speaker[:talk_slug] = "/talks/#{speaker[:main_speaker_slug]}.html"
+    else
+      speaker[:talk_slug] = "/talks/#{speaker[:slug]}.html"
+    end
+  end
+  @speakers
+end
+
+def random_speakers_list(total = 24)
+  speakers.select { |speaker| speaker[:avatar_url] !~ /speakers\.jpg/ }.shuffle[0..23]
 end
 
 def load_speakers(item)
@@ -69,7 +81,7 @@ def load_talks
       [:both, :room_a, :room_b].each do |room|
         next unless row.has_key?(room)
         if row[room] == 'unconfirmed'
-          row[room] = { :slug => '#', :title_en => "unconfirmed", :title_br => "não confirmado" }
+          row[room] = { :slug => '#', :title_en => "unconfirmed", :title_br => "a confirmar" }
         else
           filename = "/talks/#{row[room]}.html"
           row[room] = YAML.load_file("content" + filename)
