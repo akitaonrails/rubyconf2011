@@ -44,7 +44,17 @@ def recent_posts
 end
 
 def speakers(direction = :none)
-  @speakers ||= Dir["lib/speakers/*.yml"].map { |file| YAML.load_file(file) }
+  unless @speakers
+    @speakers = Dir["lib/speakers/*.yml"].map { |file| YAML.load_file(file) }
+    @speakers.each do |speaker|
+      if speaker[:main_speaker_slug]
+        speaker[:talk_slug] = "/talks/#{speaker[:main_speaker_slug]}.html"
+      else
+        speaker[:talk_slug] = "/talks/#{speaker[:slug]}.html"
+      end
+    end
+  end
+
   case direction
   when :left
     @speakers[0..@speakers.size/2-1]
@@ -53,14 +63,6 @@ def speakers(direction = :none)
   else
     @speakers
   end
-  @speakers.each do |speaker|
-    if speaker[:main_speaker_slug]
-      speaker[:talk_slug] = "/talks/#{speaker[:main_speaker_slug]}.html"
-    else
-      speaker[:talk_slug] = "/talks/#{speaker[:slug]}.html"
-    end
-  end
-  @speakers
 end
 
 def random_speakers_list(total = 24)

@@ -11,12 +11,12 @@ menu: home
           <li><img src="/images/carousel/PA260030.JPG" /></li>
         </ul>
       </div>
-    <div class="seloImg"><img src="/images/selo.png" /></div>
+      <div class="seloImg"><img src="/images/selo_<%= item[:locale] %>.png" /></div>
     </div>
     <!--FINAL BANNER-->
     <div id="bannerRight"><!--INICIO MAPA + BOOKMARKS-->
       <img src="/images/map.jpg" alt="" title="" />
-      <iframe id="websites_iframe" style="background-color: transparent; height: 25px ! important; border: 0px solid gray ! important; overflow: hidden ! important; width: 350px;" allowtransparency="true" src="http://www.linksalpha.com/social?fblshow=1&fblname=like&fbllang=en_US&fstylpbsbutton=0&fbsctr=1&twbutton=1&twlang=en&twctr=1&lnkdshow=noshow&lnkdctr=1&g1button=1&g1lang=en-US&g1ctr=1&buzzbutton=0&buzzlang=en&buzzctr=1&diggbutton=0&diggctr=0&stblbutton=0&stblctr=0&link=http%3A//dev30.linksalpha.com/%3Fp%3D8" frameborder="0" height="25px" scrolling="no" width="450px"></iframe>
+      <%= render '_share_buttons', :size => 350 %>
       <div class="seloMap"><img src="/images/seloMap.png" /></div>
     </div> <!--FINAL MAPA + BOOKMARKS-->
   </div><!--FINAL CONTENT-->
@@ -30,5 +30,41 @@ menu: home
     </div><!--FINAL WHATSUP-->
     <div id="hashtag"><!--INICIO TWITTER HASHTAG-->
       <h1><img src="/images/twitterList.jpg" alt="" title="" class=""/>#rubyconf</h1>
+      <p>
+        <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+        <script>
+        new TWTR.Widget({
+          version: 2,
+          type: 'search',
+          search: 'rubyconfbr',
+          interval: 30000,
+          title: 'RubyConf Brasil',
+          subject: '2011',
+          width: 'auto',
+          height: 220,
+          theme: {
+            shell: {
+              background: '#f7f4eb',
+              color: '#000000'
+            },
+            tweets: {
+              background: '#ffffff',
+              color: '#444444',
+              links: '#1985b5'
+            }
+          },
+          features: {
+            scrollbar: false,
+            loop: true,
+            live: true,
+            hashtags: true,
+            timestamp: true,
+            avatars: true,
+            toptweets: true,
+            behavior: 'default'
+          }
+        }).render().start();
+        </script>
+      </p>
     </div> <!--FINAL TWITTER HASHTAG-->
   </div><!--FINAL CONTENT 2-->
