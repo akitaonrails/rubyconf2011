@@ -9,7 +9,7 @@
 - :time: '9:00'
   :both: david-a-black-146
 - :time: '10:00'
-  :room_a: unconfirmed
+  :room_a: martyn-loughran-153
   :room_b: marcos-toledo-34
 - :time: '11:00'
   :room_a: saurabh-bhatia-44
@@ -31,12 +31,12 @@
   :both_br: Intervalo para Café
 - :time: '17:00'
   :room_a: diogo-biazus-27
-  :room_b: unconfirmed
+  :room_b: ivan-acosta-rubio-52
 - :time: '18:00'
   :room_a: unconfirmed
   :room_b: nando-vieira-141
 - :time: '19:00'
-  :both: unconfirmed
+  :both: aaron-patterson-147
 - :time: '20:00'
   :both: lightning-talks
 :second_day:
@@ -47,7 +47,7 @@
   :both_en: Opening
   :both_br: Abertura
 - :time: '9:00'
-  :both: unconfirmed
+  :both: ivan-moscoso-148
 - :time: '10:00'
   :room_a: jose-valim-151
   :room_b: evan-henshaw-150
@@ -58,20 +58,20 @@
   :both_en: Lunch
   :both_br: Almoço
 - :time: '13:30'
-  :room_a: unconfirmed
+  :room_a: konstantin-haase-48
   :room_b: marcelo-manzan-122
 - :time: '14:30'
   :room_a: bruno-oliveira-abstractj-73
   :room_b: rafael-felix-54
 - :time: '15:30'
-  :room_a: unconfirmed
-  :room_b: unconfirmed
+  :room_a: brian-guthrie-75
+  :room_b: diogo-terror-58
 - :time: '16:30'
   :both_en: Coffee Break
   :both_br: Intervalo para Café
 - :time: '17:00'
   :room_a: roberto-rodriguez-artavia-97
-  :room_b: unconfirmed
+  :room_b: rodrigo-franco-caffo-145
 - :time: '18:00'
   :room_a: ricardo-bernardelli-125
   :room_b: robson-junior-137

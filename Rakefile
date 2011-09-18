@@ -70,15 +70,13 @@ namespace :utils do
     require 'active_support/all'
 
     exit unless File.exists?("./tmp/production.sqlite3")
-    FileUtils.rm_rf "./lib/speakers"
-    FileUtils.rm_rf "./content/talks"
     FileUtils.mkdir_p "./lib/speakers"
     FileUtils.mkdir_p "./content/talks"
 
     db = SQLite3::Database.new "./tmp/production.sqlite3"
     db.results_as_hash = true
     row_index_rand = (0..27)
-    db.execute "select * from talks where selected = 't' and confirmed = 't'" do |row|
+    db.execute "select * from talks where selected = 't'" do |row|
       row.delete_if { |key,value| row_index_rand.include?(key) }
       slug = "#{row["full_name"].to_slug}-#{row["id"]}"
 
@@ -87,6 +85,7 @@ namespace :utils do
       else
         "/images/speakers.jpg"
       end
+      %w{twitter blog_url bio}.each { |key| row[key] = '' unless row[key] }
       speaker = {
         :id => row["id"],
         :slug => slug,
@@ -111,6 +110,7 @@ namespace :utils do
 
       co_speaker_slug = ""
       co_speaker = unless row["cospeaker_name"].blank?
+        %w{cospeaker_twitter cospeaker_blog_url cospeaker_bio}.each { |key| row[key] = '' unless row[key] }
         co_speaker_slug = "#{row["cospeaker_name"].to_slug}-#{row["id"]}"
         {
           :id => row["id"],
@@ -131,6 +131,7 @@ namespace :utils do
         }
       end
 
+      row["description"] = '' unless row["description"]
       talk = {
         :id => row["id"],
         :main_speaker_slug => slug,
@@ -146,16 +147,21 @@ namespace :utils do
         :selected => row["selected"] == 't'
       }
 
-
-      File.open("./lib/speakers/#{slug}.yml", "w+") do |file|
-        file.write(speaker.to_yaml)
+      unless File.exists?("./lib/speakers/#{slug}.yml")
+        File.open("./lib/speakers/#{slug}.yml", "w+") do |file|
+          file.write(speaker.to_yaml)
+        end
       end
-      File.open("./lib/speakers/#{co_speaker_slug}.yml", "w+") do |file|
-        file.write(co_speaker.to_yaml)
-      end if co_speaker
-      File.open("./content/talks/#{slug}.html", "w+") do |file|
-        file.write(talk.to_yaml)
-        file.write("---\n")
+      unless File.exists?("./lib/speakers/#{co_speaker_slug}.yml")
+        File.open("./lib/speakers/#{co_speaker_slug}.yml", "w+") do |file|
+          file.write(co_speaker.to_yaml)
+        end if co_speaker
+      end
+      unless File.exists?("./content/talks/#{slug}.html")
+        File.open("./content/talks/#{slug}.html", "w+") do |file|
+          file.write(talk.to_yaml)
+          file.write("---\n")
+        end
       end
     end
   end
