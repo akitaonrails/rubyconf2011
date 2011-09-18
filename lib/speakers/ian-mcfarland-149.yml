@@ -4,20 +4,20 @@
 :full_name: Ian McFarland
 :email: ian@garage.co.jp
 :twitter: imf
-:blog_url: ''
+:blog_url: pivotallabs.com/users/ian/blog
 :company: Digital Garage
-:bio_br: ! 'Ian was working on worldwide distributed hypertext systems with Ted Nelson
-  a couple years before Tim Berners-Lee proposed the World Wide Web, HTTP, and HTML.
-  He was on the launch team at HotWired, the first company to bring a revenue model
-  to the Internet. (Banner ads. Yes, we still use them. 468x60 for evar!) He was employee
-  #4 at Friendster, the company that kicked off this whole Social Media thing. And
-  for the seven years Ian was at Pivotal Labs, he''s been sharing insights into agile
-  development with companies large and small, and as VP of Technology helped to grow
-  Pivotal Labs from a small company to a world renowned team of over 100 developers.
-  Since Joining Digital Garage at its CTO in August, he''s taken these ideas back
-  to Japan, the country where both Lean and Ruby come from. He is more likely to be
-  found in San Francisco than any other city, though your odds are probably about
-  50/50.'
+:bio_br: ! 'Ian trabalhava com sistemas distribuídos de hipertexto mundial na Ted Nelson
+  alguns anos antes de Tim Berners-Lee propor a World Wide Web, HTTP e HTML. Ele estava
+  na equipe que lançou a HotWired, a primeira empresa a trazer um modelo de receita à
+  Internet (Ads de Banner. Sim, nós ainda os usamos. 468x60 para sempre!) Ele também foi
+  funcionário número 4 no Friendster, a empresa que iniciou tudo isso de Social Media. E
+  durante os sete anos que Ian esteve na Pivotal labs, ele compartilhou insights sobre
+  desenvolvimento ágil com grandes e pequenas empresas, e como VP de Tecnologia ajudou a
+  crescer a Pivotal Labs de uma pequena empresa para uma equipe mundialmente reconhecida
+  com mais de 100 funcionários. Desde que se juntou à Digital Garage como CTO em Agosto,
+  ele levou essas idéias de volta ao Japão, o país de onde ambos Lean e Ruby vieram. Ele
+  costuma ser encontrado mais em São Francisco do que qualquer outra cidade, embora suas
+  chances sejam de 50%'
 :bio_en: ! 'Ian was working on worldwide distributed hypertext systems with Ted Nelson
   a couple years before Tim Berners-Lee proposed the World Wide Web, HTTP, and HTML.
   He was on the launch team at HotWired, the first company to bring a revenue model
@@ -30,7 +30,7 @@
   to Japan, the country where both Lean and Ruby come from. He is more likely to be
   found in San Francisco than any other city, though your odds are probably about
   50/50.'
-:country: X
+:country: US
 :avatar_thumb_url: /images/avatars/149/thumb/Ian Square.jpg
 :avatar_medium_url: /images/avatars/149/medium/Ian Square.jpg
 :avatar_url: /images/avatars/149/original/Ian Square.jpg

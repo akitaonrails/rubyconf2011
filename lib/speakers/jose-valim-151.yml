@@ -6,18 +6,18 @@
 :twitter: josevalim
 :blog_url: blog.plataformatec.com.br
 :company: Plataforma Tec
-:bio_br: José Valim (@josevalim) é co-fundador e líder técnico da Plataforma Tecnologia
+:bio_br: José Valim é co-fundador e líder técnico da Plataforma Tecnologia
   (@plataformatec) e membro do Rails Core Team. Já trabalhou com PHP, .NET e desde
   2007 dedica-se ao desenvolvimento com Ruby e Rails. Devido à sua participação em
   diversos projetos open source, Valim foi premiado com o Ruby Hero Awards 2010 e
-  é primeiro brasileiro a ter um livro publicado (Crafting Rails Applications) pela
+  é primeiro brasileiro a ter um livro publicado (<a href="http://pragprog.com/book/jvrails/crafting-rails-applications">Crafting Rails Applications</a>) pela
   editora The Pragmatic Programmers. Vale a pena acompanhar o seu trabalho no blog.plataformatec.com.br.
-:bio_en: José Valim (@josevalim) é co-fundador e líder técnico da Plataforma Tecnologia
-  (@plataformatec) e membro do Rails Core Team. Já trabalhou com PHP, .NET e desde
-  2007 dedica-se ao desenvolvimento com Ruby e Rails. Devido à sua participação em
-  diversos projetos open source, Valim foi premiado com o Ruby Hero Awards 2010 e
-  é primeiro brasileiro a ter um livro publicado (Crafting Rails Applications) pela
-  editora The Pragmatic Programmers. Vale a pena acompanhar o seu trabalho no blog.plataformatec.com.br.
+:bio_en: José Valim is the co-founder and tech-leader for Plataforma Tecnologia (@plataformatec)
+  and also member of the Rails Core Team. He did work with PHP, .NET and since
+  2007 he is devoted to Ruby and Rails development. Because of his collaboration on
+  several open source projects, Valim received the Ruby Hero Awards in 2010 and
+  he is also the first Brazilian to have a published book  (<a href="http://pragprog.com/book/jvrails/crafting-rails-applications">Crafting Rails Applications</a>)
+  by The Pragmatic Programmers. It's worthy checking out his work at blog.plataformatec.com.br.
 :country: BR
 :avatar_thumb_url: /images/avatars/151/thumb/Euruko.jpg
 :avatar_medium_url: /images/avatars/151/medium/Euruko.jpg

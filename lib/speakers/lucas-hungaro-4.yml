@@ -6,26 +6,22 @@
 :twitter: lucashungaro
 :blog_url: blog.lucashungaro.com
 :company: GoNow
-:bio_br: ! 'I''m a software developer with 10 years of experience and I''ve been writing
-  Ruby code since early 2007.
+:bio_br: ! 'Ele é um desenvolvedor de software com 10 anos de experiência e tem escrito
+  código Ruby desde o começo de 2007.</p>
 
+  <p>Seu foco é em minimalismo aplicado a código, focando em como princípios de orientação a
+  objetos podem nos ajudar a criar arquiteturas bonitas e flexíveis.</p>
 
-  My focus is minimalism applied to code, focusing on how OOP principles can help
-  us create beautiful and flexible architectures.
+  <p>Ele palestrou sobre Ruby e B.D.D. na Dev in Sampa 2011, TDC São Paulo 2011, TDC Florianópolis
+  2011, RubyConf Brazil 2010, Dev in Sampa 2010 e FISL 2009.'
+:bio_en: ! 'He is a software developer with 10 years of experience and he has been writing
+  Ruby code since early 2007.</p>
 
+  <p>His focus is minimalism applied to code, focusing on how OOP principles can help
+  us create beautiful and flexible architectures.</p>
 
-  I gave talks about Ruby and BDD at Dev in Sampa 2011, TDC São Paulo 2011, TDC Florianópolis
-  2011, RubyConf Brazil 2010, Dev in Sampa 2010 and FISL 2009.'
-:bio_en: ! 'I''m a software developer with 10 years of experience and I''ve been writing
-  Ruby code since early 2007.
-
-
-  My focus is minimalism applied to code, focusing on how OOP principles can help
-  us create beautiful and flexible architectures.
-
-
-  I gave talks about Ruby and BDD at Dev in Sampa 2011, TDC São Paulo 2011, TDC Florianópolis
-  2011, RubyConf Brazil 2010, Dev in Sampa 2010 and FISL 2009.'
+  <p>He gave talks about Ruby and BDD at Dev in Sampa 2011, TDC São Paulo 2011, TDC Florianópolis
+  2011, RubyConf Brazil 2010, Dev in Sampa 2010, and FISL 2009.'
 :country: BR
 :avatar_thumb_url: /images/avatars/4/thumb/lucashungaro.png
 :avatar_medium_url: /images/avatars/4/medium/lucashungaro.png

@@ -6,44 +6,22 @@
 :twitter: konstantinhaase
 :blog_url: rkh.im
 :company: ''
-:bio_br: ! 'As current maintainer of Sinatra, Konstantin is an Open Source developer
-  by
-
-  heart. Ruby has become his language of choice since 2005. He actively
-
-  participates in the Ruby community and regularly contributes to different
-
-  widespread projects, like Rubinius, Rack and Redcar. In 2010, he successfully
-
-  took part in the Ruby Summer Of Code, working on Rails internals. When he''s not
-
-  studying IT Systems Engineering at the Hasso Plattner Institute in Potsdam,
-
-  Germany, he''s either in Berlin working for finnlabs as a Rails developer or
-
-  in Portland, Oregon, working on Rubinius for Engine Yard.
-
-
-'
+:bio_br: ! 'Como mantenedor atual do Sinatra, Konstantin é um desenvolvedor open source
+  de coração. Ruby se tornou sua linguagem preferida desde 2005. Ele ativamente
+  participa da comunidade Ruby e regularmente contribui para diferentes projetos como
+  Rubinius, Rack e Redcar. Em 2010 ele foi bem sucedido na participação do Ruby Summer
+  of Code, trabalhando no interior do Rails. Quando não está estudando Engenharia de
+  Sistemas no Instituto Hasso Platner em Potsdam, Alemanha, ele está trabalhando em
+  Berlin pela finnlabs como desenvolvedor Rails ou em Portland, Oregon trabalhando no
+  Rubinius pela Engine Yard.'
 :bio_en: ! 'As current maintainer of Sinatra, Konstantin is an Open Source developer
-  by
-
-  heart. Ruby has become his language of choice since 2005. He actively
-
+  by heart. Ruby has become his language of choice since 2005. He actively
   participates in the Ruby community and regularly contributes to different
-
   widespread projects, like Rubinius, Rack and Redcar. In 2010, he successfully
-
   took part in the Ruby Summer Of Code, working on Rails internals. When he''s not
-
   studying IT Systems Engineering at the Hasso Plattner Institute in Potsdam,
-
   Germany, he''s either in Berlin working for finnlabs as a Rails developer or
-
-  in Portland, Oregon, working on Rubinius for Engine Yard.
-
-
-'
+  in Portland, Oregon, working on Rubinius for Engine Yard.'
 :country: EU
 :avatar_thumb_url: /images/avatars/48/thumb/headshot 200x200.png
 :avatar_medium_url: /images/avatars/48/medium/headshot 200x200.png

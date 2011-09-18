@@ -6,28 +6,18 @@
 :twitter: mccrory
 :blog_url: blog.mccrory.me
 :company: VMWare
-:bio_br: ! 'Senior Architect for Cloud Foundry, VMware
-
-  Rubyist
-
-  Founder & CTO of @Surgient and @Hyper9
-
-  Author of Advanced Server Virtualization
-
-  Inventor
-
-  Interested in Cloud Computing, Distributed Systems, and Big Data'
-:bio_en: ! 'Senior Architect for Cloud Foundry, VMware
-
-  Rubyist
-
-  Founder & CTO of @Surgient and @Hyper9
-
-  Author of Advanced Server Virtualization
-
-  Inventor
-
-  Interested in Cloud Computing, Distributed Systems, and Big Data'
+:bio_br: ! 'Arquiteto Sênior para a Cloud Foundry, VMware.</p>
+  <p>Rubista</p>
+  <p>Fundador & CTO da @Surgient e @Hyper9.</p>
+  <p>Autor do <a href="http://www.amazon.com/Advanced-Server-Virtualization-Microsoft-Platforms/dp/0849339316">Advanced Server Virtualization</a>.</p>
+  <p>Inventor</p>
+  <p>Interessado em Cloud Computing, Sistemas Distribídos e Big Data.'
+:bio_en: ! 'Senior Architect for Cloud Foundry, VMware.</p>
+  <p>Rubyist</p>
+  <p>Founder & CTO of @Surgient and @Hyper9</p>
+  <p>Author of <a href="http://www.amazon.com/Advanced-Server-Virtualization-Microsoft-Platforms/dp/0849339316">Advanced Server Virtualization</a></p>
+  <p>Inventor</p>
+  <p>Interested in Cloud Computing, Distributed Systems, and Big Data'
 :country: US
 :avatar_thumb_url: /images/avatars/152/thumb/McCroryAvatarSmallPortrait.png
 :avatar_medium_url: /images/avatars/152/medium/McCroryAvatarSmallPortrait.png

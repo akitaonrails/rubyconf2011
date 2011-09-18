@@ -1,6 +1,6 @@
 ---
 :id: 122
-:main_speaker_name: MARCELO MANZAN
+:main_speaker_name: Marcelo Manzan
 :main_speaker_slug: marcelo-manzan-122
 :slug: eric-fer-122
 :full_name: Eric Fer
@@ -11,9 +11,9 @@
 :bio_br: Eric Fer é Consultor de Projetos na Editoria Abril, mentor nos cursos Core
   Ruby do RubyLearning.org, autor e co-autor de projetos open-source em Ruby. Mais
   recentemente atuou no desenvolvimento do sistema distribuído core da Editoria Abril.
-:bio_en: Eric Fer é Consultor de Projetos na Editoria Abril, mentor nos cursos Core
-  Ruby do RubyLearning.org, autor e co-autor de projetos open-source em Ruby. Mais
-  recentemente atuou no desenvolvimento do sistema distribuído core da Editoria Abril.
+:bio_en: Eric Fer is a Project Consultant at Abril Publishing, mentor in the Core Ruby
+  course at RubyLearning.org, author and co-author of Ruby open source projects.
+  Recently colaborated in the development of the core distributed system of Abril Publishing.
 :country: BR
 :avatar_thumb_url: /images/speakers.jpg
 :avatar_medium_url: /images/speakers.jpg

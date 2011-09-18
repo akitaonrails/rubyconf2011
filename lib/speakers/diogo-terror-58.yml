@@ -7,17 +7,14 @@
 :blog_url: https://www.facebook.com/diogodonascimento
 :company: boo-box
 :bio_br: ! 'Desenvolvedor há 4 anos, tendo usado ferramentas diversas em Python, Ruby
-  e Java.
+  e Java.</p>
 
-
-  Atualmente trabalhando na boo-box lidando com desafios em escalabilidade de arquitetura
+  <p>Atualmente trabalhando na boo-box lidando com desafios em escalabilidade de arquitetura
   e escalabilidade de código.'
-:bio_en: ! 'Desenvolvedor há 4 anos, tendo usado ferramentas diversas em Python, Ruby
-  e Java.
+:bio_en: ! 'Software developer for 4 years, he has been using several tools in Python,
+  Ruby and Java.</p>
 
-
-  Atualmente trabalhando na boo-box lidando com desafios em escalabilidade de arquitetura
-  e escalabilidade de código.'
+  <p>Currently works for Boo-box, dealing with architecture and code scalability challenges.'
 :country: BR
 :avatar_thumb_url: /images/avatars/58/thumb/square_me.jpg
 :avatar_medium_url: /images/avatars/58/medium/square_me.jpg

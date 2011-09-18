@@ -1,7 +1,7 @@
 ---
 :id: 122
 :slug: marcelo-manzan-122
-:full_name: MARCELO MANZAN
+:full_name: Marcelo Manzan
 :email: manzan@gmail.com
 :twitter: kawamanza
 :blog_url: www.facebook.com/kawamanza
@@ -9,9 +9,10 @@
 :bio_br: Marcelo Manzan é Consultor Técnico pela Editora Abril, atua em diversos projetos
   da Abril Mídias, com mentoria e apoio aos times de desenvolvimento. Mantém alguns
   projetos open-source, muitos deles voltados para aplicações Ruby on Rails.
-:bio_en: Marcelo Manzan é Consultor Técnico pela Editora Abril, atua em diversos projetos
-  da Abril Mídias, com mentoria e apoio aos times de desenvolvimento. Mantém alguns
-  projetos open-source, muitos deles voltados para aplicações Ruby on Rails.
+:bio_en: Marcelo Manzan is a technical consultant for Abril Publishing, he deals with
+  many projects from Abril Mídias, mentoring and supporting the development teams. He
+  also maitains some open source projects, most of them geared towards Ruby on Rails
+  applications.
 :country: BR
 :avatar_thumb_url: /images/speakers.jpg
 :avatar_medium_url: /images/speakers.jpg

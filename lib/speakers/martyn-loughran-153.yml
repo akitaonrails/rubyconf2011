@@ -3,12 +3,22 @@
 :slug: martyn-loughran-153
 :full_name: Martyn Loughran
 :email: martyn@pusher.com
-:twitter: ''
-:blog_url: ''
+:twitter: mloughran
+:blog_url: mloughran.com
 :company: Pusher
-:bio_br: ''
-:bio_en: ''
-:country: 
+:bio_br: ! 'Martyn Loughran lidera a parte técnica da Pusher. Ele teve um papel fundamental
+  no desenho do sistema escalável que tem hoje em dia.</p>
+
+  Sua experiência vem por ter sido líder técnico em grandes sistemas web assíncronos e
+  escaláveis. Martyn é apaixonado por programação baseada em eventos e palestra e bloga sobre
+  esse tópico quando tem tempo livre.'
+:bio_en: ! 'Martyn Loughran heads up the technical side of Pusher. He has had an instrumental
+  role in designing the scalable system that Pusher has today.</p>
+
+  <p>Previous experience comes from being a technical lead in large asynchronous and scalable
+  web systems. Martyn is passionate about evented programming and speaks and blogs about this
+  topic when he has a spare moment.'
+:country: EU
 :avatar_thumb_url: /images/speakers.jpg
 :avatar_medium_url: /images/speakers.jpg
 :avatar_url: /images/speakers.jpg
