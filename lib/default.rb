@@ -32,11 +32,7 @@ def menu(item)
 end
 
 def parse_date(date, part)
-  if part == :month
-    t("whatsup.months")[date.month - 1]
-  else
-    date.day
-  end
+  part == :month ? t("whatsup.months")[date.month - 1] : date.day
 end
 
 def recent_posts
@@ -47,11 +43,7 @@ def speakers(direction = :none)
   unless @speakers
     @speakers = Dir["lib/speakers/*.yml"].map { |file| YAML.load_file(file) }
     @speakers.each do |speaker|
-      if speaker[:main_speaker_slug]
-        speaker[:talk_slug] = "/talks/#{speaker[:main_speaker_slug]}.html"
-      else
-        speaker[:talk_slug] = "/talks/#{speaker[:slug]}.html"
-      end
+      speaker[:talk_slug] = "/talks/#{speaker[:main_speaker_slug] || speaker[:slug]}.html"
     end
   end
 
@@ -66,7 +58,7 @@ def speakers(direction = :none)
 end
 
 def random_speakers_list(total = 24)
-  speakers.select { |speaker| speaker[:avatar_url] !~ /speakers\.jpg/ }.shuffle[0..23]
+  speakers.select { |speaker| speaker[:avatar_url] !~ /speakers\.jpg/ }.shuffle[0..(total - 1)]
 end
 
 def load_speakers(item)
@@ -90,9 +82,7 @@ def load_talks
           row[room][:slug] = filename
         end
       end
-      if row[:both_en]
-        row[:both] = { :slug => '#', :title_en => row[:both_en], :title_br => row[:both_br] }
-      end
+      row[:both] = { :slug => '#', :title_en => row[:both_en], :title_br => row[:both_br] } if row[:both_en]
     end
   end
   @talks
