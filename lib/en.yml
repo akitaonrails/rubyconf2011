@@ -2,8 +2,8 @@
 site:
   title: RubyConf Brazil 2011
   sponsors:
-    ruby: ruby sponsors
-    platinum: platinum sponsors
+    ruby: sponsors
+    platinum: support
 menu:
   home: home
   venue: venue
