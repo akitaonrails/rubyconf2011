@@ -8,11 +8,13 @@ menu: speakers
         <% speakers(:left).each do |speaker| %>
           <%= render '_speaker', :speaker => speaker %>
         <% end %>
-     </div>
+      </div>
       <div id="boxRight">
         <% speakers(:right).each do |speaker| %>
           <%= render '_speaker', :speaker => speaker %>
         <% end %>
       </div>
+      <div class="clear"></div>
+      <p><%= render '_share_buttons', :size => 980 %></p>
     </div>
   </div>

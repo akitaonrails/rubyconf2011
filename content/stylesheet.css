@@ -7,7 +7,8 @@ h4{font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#000;}
 h5{font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#9F111B;font-weight:bold;text-transform:uppercase;}
 h6{font:23px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#9F111B;font-weight:bold;text-transform:uppercase;}
 p.notice{font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#000;padding:0;}
-p{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:10px 0 10px 0;}
+p, #disqus_thread {font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:10px 0 10px 0;}
+#disqus_thread { padding: 0; }
 a img{border:none;}
 .clear{margin:0;padding:0;clear:both;}
 .highlight{font-weight:bold;}
@@ -16,7 +17,7 @@ a img{border:none;}
 .imageList{float:left;}
 .seloImg{position:relative;top:-60px;left:-10px;}
 .seloMap{position:relative;top:-327px;left:180px;}
-.mapValue{position:relative;float:left;top:-508px;left:720px;}
+.mapValue{position:relative;float:left;top:-508px;left:700px;}
 #background{background:#F7F4EB;width:100%;}
 #container{width:980px;margin:0 auto;}
 #content{width:980px;margin:10px auto;padding-top:10px;text-align:justify;}

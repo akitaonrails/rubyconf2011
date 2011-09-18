@@ -8,6 +8,7 @@ locale:
 <div id="content">
   <div id="schedule">
     <h1>rubyconf 2011 - <%= item[:title] %></h1>
+    <p>&nbsp;</p>
     <!-- img src="/images/donwloadical.jpg" alt="" title="" class="ical"/ -->
     <% @talks = load_talks %>
     <% @talks.each do |day, grid| %>
@@ -28,5 +29,6 @@ locale:
     </table>
     <div class="scheduleSelo"><img src="/images/<%= day %>.png" /></div>
     <% end %>
+    <p><%= render '_share_buttons', :size => 980 %></p>
   </div>
 </div>
