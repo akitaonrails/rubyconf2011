@@ -13,7 +13,7 @@
         <% end %>
       </div>
       <div id="text">
-        <p><%= @speaker[:bio_en] %></p>
+        <p><%= @speaker[:"bio_#{@item[:locale]}"] %></p>
         <p>&nbsp;</p>
       </div>
     </div>

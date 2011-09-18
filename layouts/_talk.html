@@ -1,9 +1,9 @@
   <% @speaker, @cospeaker = load_speakers(@item) %>
   <div class="talk">
     <div class="subject">
-      <div class="title"><h1><%= @item[:title_en] %></h1></div>
+      <div class="title"><h1><%= @item[:"title_#{@item[:locale]}"] %></h1></div>
       <div class="text">
-        <p><%= @item[:description_en] %></p>
+        <p><%= @item[:"description_#{@item[:locale]}"] %></p>
         <p><%= render '_share_buttons', :size => 450 %></p>
         <%= render '_disqus' %>
       </div>
