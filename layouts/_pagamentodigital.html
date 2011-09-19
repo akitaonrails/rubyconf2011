@@ -1,0 +1,14 @@
+<div class="pagamentodigital">
+<!-- INÍCIO DO CÓDIGO PAGAMENTO DIGITAL cod. produto 311 -->
+<form id="formPagamento" action='https://www.pagamentodigital.com.br/checkout/car/' method='post'>
+<input type='hidden' value='add' name='acao' />
+<input type='hidden' value='webstore.pagamentodigital@locaweb.com.br' name='email_loja' />
+<input type='hidden' value='311' name='cod_prod' />
+<input type='hidden' value='Inscrição Promocional RubyConf Brasil 2011' name='nome_prod' />
+<input type='hidden' value='200.00' name='valor_prod' />
+<input type='hidden' value='0' name='peso_prod' />
+<input type='hidden' value='1' name='quant_prod' />
+<input type='hidden' value='60' name='redirect_time' />
+<input type='hidden' value='http://www.rubyconf.com.br/<%= @item[:locale] %>/registrated.html' name='url_retorno' />
+<!-- FIM DO CÓDIGO PAGAMENTO DIGITAL cod. produto 311 -->
+</div>

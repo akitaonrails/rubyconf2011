@@ -661,3 +661,7 @@ a img {
   overflow: hidden !important;
   width: 400px;
 }
+
+.pagamento {
+  display: none;
+}

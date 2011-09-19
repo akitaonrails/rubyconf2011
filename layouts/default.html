@@ -54,7 +54,11 @@
         <li><a href="/<%= @item[:locale] %>/speakers.html"<%= menu("speakers") %>><%= t("menu.speakers") %></a></li>
         <li><a href="/<%= @item[:locale] %>/schedule.html"<%= menu("schedule") %>><%= t("menu.schedule") %></a></li>
         <li><a href="/<%= @item[:locale] %>/about.html"<%= menu("about") %>><%= t("menu.about") %></a></li>
-        <li class="linkTicket"><a href="https://www.facebook.com/EventosLocaweb?sk=app_203351739677351" rel="external"><%= t("menu.register")%></a></li>
+        <% if @item[:locale] == :br %>
+        <li><a href="javascript:jQuery('#formPagamento').submit()" class="linkTicket" rel="external"><%= t("menu.register") %></a></li>
+        <% else %>
+        <li><a href="https://www.facebook.com/EventosLocaweb?sk=app_203351739677351#" class="linkTicket" rel="external"><%= t("menu.register") %></a></li>
+        <% end %>
       </ul>
     </div>
     <!-- end menu-->
@@ -72,10 +76,15 @@
     </div>
     <!-- end final background -->
     <div id="footer">
+      <% if @item[:locale] == :br %>
       <p>Copyright © 1997-2011 Locaweb Serviços de Internet S/A. Todo o conteúdo deste site é de uso exclusivo da Locaweb.
         Proibida reprodução ou utilização a qualquer título, sob as penas da lei.</p>
-      </div>
-      <%= render '_javascript' %>
+      <% else %>
+      <p>Copyright © 1997-2011 Locaweb Serviços de Internet S/A. The entire content of this website is exclusive property of Locaweb. Reproduction or reuse under any circumstance is prohibited by law.</p>
+      <% end %>
+    </div>
+    <%= render '_pagamentodigital' %>
+    <%= render '_javascript' %>
     </body>
     </html>
 
