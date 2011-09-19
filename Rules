@@ -49,20 +49,11 @@ route '/stylesheet/' do
 end
 
 route "/*/talks/*" do
-  page = item.identifier.gsub(/\/$/, '')
-  "#{page}.#{item[:extension]}"
+  normalize_identifier(item)
 end
 
 route '*' do
-  if item.children.size > 0 || item.identifier == '/' || item.identifier == "/#{item[:locale]}/"
-    item.identifier + 'index.html'
-  else
-    page = item.identifier.gsub(/\/$/, '')
-    page = "/index" if page =~ /locale/
-    page = "/sitemap" if page =~ /sitemap/
-    page = "/robots" if page =~ /robots/
-    "#{page}.#{item[:extension]}"
-  end
+  normalize_identifier(item)
 end
 
 layout '*', :erb
