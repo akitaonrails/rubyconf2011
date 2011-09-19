@@ -39,6 +39,9 @@
   :both: aaron-patterson-147
 - :time: '20:00'
   :both: lightning-talks
+- :time: '21:00'
+  :both_en: '#horaextra'
+  :both_br: '#horaextra'
 :second_day:
 - :time: '8:00'
   :both_en: Registration and Breakfast
@@ -80,3 +83,6 @@
 - :time: '20:00'
   :both_en: Ending
   :both_br: Fechamento
+- :time: '21:00'
+  :both_en: '#horaextra'
+  :both_br: '#horaextra'
