@@ -82,10 +82,8 @@ a img {
 }
 
 .clear {
-  margin: 0;
-  padding: 0;
-  width: 980px;
   clear: both;
+  display: block;
 }
 
 .highlight {

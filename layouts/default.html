@@ -17,11 +17,13 @@
     </div>
     <!-- end language? -->
 
-    <div class="clear"></div>
+    <br class="clear" />
 
     <div id="contHeader">
       <div class="logo">
-        <img src="/images/LogoRubyConf.jpg" width="335" height="107" alt="RubyConf logo" title="RubyConf Brasil, 2011." />
+        <a href="/<%= @item[:locale] %>/index.html" title="RubyConf Brasil, 2011">
+          <img src="/images/LogoRubyConf.jpg" width="335" height="107" alt="RubyConf Brasil, 2011" title="RubyConf Brasil, 2011" />
+        </a>
       </div>
       <!-- end logo -->
 			<div class="speakers">
@@ -30,7 +32,7 @@
 				<% end %>
 			</div>
 			<!-- end speaker -->
-			<div class="clear"></div>
+      <br class="clear" />
     </div>
     <!-- end final container header -->
 
@@ -51,11 +53,11 @@
     <div id="background">
       <div id="container">
         <%= yield %>
-        <div class="clear"></div>
+        <br class="clear" />
         <%= render '_sponsors' %>
       </div>
       <!-- end final container -->
-      <div class="clear"></div>
+      <br class="clear" />
       <div class="finalPage"></div>
     </div>
     <!-- end final background -->
