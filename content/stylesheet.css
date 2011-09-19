@@ -32,46 +32,40 @@ p, #disqus_thread { font-size: 14px; color:#333; padding:10px 0; }
 .imageList { float:left; }
 
 
-#background { background:#F7F4EB; width:100%; }
-#container {width:980px;margin:0 auto;}
-#content {width:980px;margin:10px auto;padding-top:10px;text-align:justify;}
+#background { background:#F7F4EB; width: 100%; }
+#container { width:980px; margin: 0 auto;}
+#content { width:980px; margin: 10px auto; padding-top: 10px; text-align:justify; }
 
+/** Adjustments **/
 #banner { float: left; width: 655px; height: 340px }
-
-#bannerRight { float: right; width: 315px; height: 340px}
-
-/*#banner{width:655px;height:315px;background:#999;float:left;}*/
-
-/*#bannerRight{width:315px;height:315px;float:right;}*/
-/*#bannerRight img{margin-bottom:10px;}*/
-
-
+#bannerRight { float: right; width: 315px; height: 340px }
 
 .seloImg { margin-left: -11px; }
-.seloImg .img { position: absolute; margin-top: -70px; }
-.seloImg { margin-left: 180px; }
-.seloMap .map { position: absolute; margin-top: -7px; }
-.mapValue{ position:relative; float:left; top:-508px;left:700px;}
+.seloMap { margin-left: 180px; }
 
-#lenguage {width:60px; height:24px; background:#333; padding:3px 0 0 6px; float:right;}
-#lenguage ul{list-style:none;}
+.seloImg .img, .seloMap .map { position: absolute; }
+.seloMap .map { margin-top: -7px; }
+.seloImg .img { margin-top: -70px; }
+
+.mapValue{ position:relative; float:left; top:-508px; left:700px;} /* ? */
+
+#lenguage { width:60px; height:24px; background:#333; padding:3px 0 0 6px; float:right;}
+#lenguage ul{ list-style:none; }
 #lenguage ul li{display:inline;font-size: 16px; color:#fff;}
-#lenguage ul li a{text-decoration:none;font-size: 16px; color:#ccc;}
-#lenguage ul li a.activeLenguage {color: #fff;}
+#lenguage ul li a{ text-decoration:none; font-size: 16px; color:#ccc;}
+#lenguage ul li a.activeLenguage { color: #fff;}
 #contHeader .logo { width: 465px; height: 155px; float: left; }
 #contHeader .speakers { width: 420px; height: 155px; float: left; }
-#contHeader .speakers a { border: 0; padding: 0; margin: 0 0 2px 2px; float: left; }
-#contHeader .speakers a img { border: 0; margin: 0; padding: 0; width: 49px; height: 49px }
-#logo{margin-top:25px;}
-#speakers{}
-#menu{width:980px;height:40px;background:url('img/bgMenu.png') no-repeat;padding:8px 0 0 5px;}
-#menu ul{list-style:none;}
-#menu ul li{display:inline;}
-#menu ul li a{text-decoration:none;font-size: 14px; color:#fff; text-transform:uppercase; padding:13px 15px 12px 13px;}
-#menu ul li a:hover{background:url(img/bgLink.png) no-repeat right top;}
-#menu ul li a.activeMenu{background:url(img/bgLink.png) no-repeat right top;}
-#menu ul li a.linkTicket{margin-left:120px;}
-#menu ul li a.linkTicket:hover{background:none;text-decoration:underline;}
+#contHeader .speakers a { margin: 0 0 2px 2px; float: left; }
+#contHeader .speakers a img { width: 49px; height: 49px }
+#logo{ margin-top:25px; }
+#menu{ width:980px; height:40px; background:url('img/bgMenu.png') no-repeat; padding:8px 0 0 5px;}
+#menu ul{ list-style:none; }
+#menu ul li{ display:inline; }
+#menu ul li a {text-decoration:none; font-size: 14px; color:#fff; text-transform:uppercase; padding:13px 15px 12px 13px;}
+#menu ul li a:hover, #menu ul li a.activeMenu { background:url(img/bgLink.png) no-repeat right top; }
+#menu ul li a.linkTicket { margin-left:120px;}
+#menu ul li a.linkTicket:hover { background:none; text-decoration:underline;}
 
 
 #whatsup{width:655px;float:left;}
