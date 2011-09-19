@@ -1,7 +1,7 @@
         <div id="speak">
           <a name="<%= speaker[:slug] %>"></a>
           <div id="photo">
-            <img src="<%= speaker[:avatar_medium_url]%>" alt="<%= speaker[:full_name] %>" width="135"/>
+            <a href="/<%= @item[:locale] %><%= speaker[:talk_slug] %>"><img src="<%= speaker[:avatar_medium_url]%>" alt="<%= speaker[:full_name] %>" width="135" border="0"/></a>
           </div>
           <div id="description">
             <div id="title">
