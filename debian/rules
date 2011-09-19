@@ -12,6 +12,7 @@
 DESTDIR=$(REALCURDIR)/debian/tmp
 override_dh_auto_install::
 	mkdir -p $(DESTDIR)/var/www/rubyconf/
+	gem install bundler
 	$(MAKE) $(DESTDIR) -j 1 install
 %:
 	dh $@ 
