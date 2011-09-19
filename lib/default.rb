@@ -13,8 +13,8 @@ include Nanoc3::Helpers::Rendering
 include Nanoc3::Helpers::Text
 include Nanoc3::Helpers::XMLSitemap
 
-def normalize_identifier(item)
-   if item.children.size > 0 || item.identifier == '/' || item.identifier == "/#{item[:locale]}/"
+def normalize_identifier(item, force_locale = nil)
+  identifier = if item.children.size > 0 || item.identifier == '/' || item.identifier == "/#{item[:locale]}/"
     item.identifier + 'index.html'
   else
     page = item.identifier.gsub(/\/$/, '')
@@ -23,6 +23,8 @@ def normalize_identifier(item)
     page = "/robots" if page =~ /robots/
     "#{page}.#{item[:extension]}"
   end
+  identifier.gsub!(/^\/([en|br]+)/, "/#{force_locale}") if force_locale
+  identifier
 end
 
 def load_translations
