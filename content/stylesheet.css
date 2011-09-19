@@ -1,23 +1,31 @@
-*{margin:0;padding:0;}
-body{border-top:4px solid #333;}
-h1{font:24px Tahoma, Geneva, sans-serif;color:#333;border-bottom:3px solid #333;text-transform:uppercase;font-style:italic;}
-h1 img{position:relative;top:3px;}
-h2{font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#666;text-transform:uppercase;font-weight:bold;}
-h4{font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#000;}
-h5{font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#9F111B;font-weight:bold;text-transform:uppercase;}
-h6{font:23px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#9F111B;font-weight:bold;text-transform:uppercase;}
-p.notice{font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#000;padding:0;}
-p, #disqus_thread {font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:10px 0 10px 0;}
-#disqus_thread { padding: 0; }
-a img{border:none;}
-.clear{margin:0;padding:0;clear:both;}
-.highlight{font-weight:bold;}
-.space{width:10px;height:10px;}
-.finalPage{width:980px;height:50px;}
-.imageList{float:left;}
-.seloImg{position:relative;top:-60px;left:-10px;}
-.seloMap{position:relative;top:-327px;left:180px;}
-.mapValue{position:relative;float:left;top:-508px;left:700px;}
+* { margin:0; padding:0; }
+body { border-top:4px solid #333; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; }
+img { border:none; } /* this is necessary only in IE 8-*/
+
+h1, h2, h3, h4, h5, h6 { text-transform: uppercase; }
+h1 { font: 24px "Tahoma", Geneva, sans-serif; }
+h1 { font:24px; color:#333; border-bottom:3px solid #333; font-style:italic; }
+h1 img { position:relative; top: 3px; }
+h2{ font-size: 12px; color:#666; }
+h4{ font-size: 15px; color:#000; }
+h5{ font-size: 15px; color:#9F111B; }
+h6{ font-size: 23px; color:#9F111B; }
+
+
+
+p.notice{ font-size:12px; color:#000; }
+
+
+
+p, #disqus_thread { font-size: 14px; color:#333; padding:10px 0; }
+.clear { clear:both; }
+.highlight { font-weight:bold; }
+.space { width:10px; height:10px; }
+.finalPage{ width:980px; height:50px; }
+.imageList { float:left; }
+.seloImg{ position:relative;top:-60px;left:-10px;}
+.seloMap{ position:relative;top:-327px;left:180px;}
+.mapValue{ position:relative;float:left;top:-508px;left:700px;}
 #background{background:#F7F4EB;width:100%;}
 #container{width:980px;margin:0 auto;}
 #content{width:980px;margin:10px auto;padding-top:10px;text-align:justify;}
