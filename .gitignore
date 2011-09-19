@@ -2,3 +2,5 @@
 *.swp
 output/*
 tmp/*
+.lock
+.rbenv-version

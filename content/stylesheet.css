@@ -4,15 +4,24 @@
 }
 
 body {
+  color: #333;
   border-top: 4px solid #333;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+img, a img {
+  border: none;
+} /* img have borders, IE lt 8 */
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
 }
 
 h1 {
   font: 24px Tahoma, Geneva, sans-serif;
   color: #333;
   border-bottom: 3px solid #333;
-  text-transform: uppercase;
-  font-style: italic;
+  text-shadow: 0 -1px 1px #666
 }
 
 h1 img {
@@ -21,39 +30,41 @@ h1 img {
 }
 
 h2 {
-  font: 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 12px;
   color: #666;
-  text-transform: uppercase;
-  font-weight: bold;
 }
 
 h4 {
-  font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 15px;
   color: #000;
 }
 
 h5 {
-  font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 15px;
   color: #9F111B;
-  font-weight: bold;
-  text-transform: uppercase;
 }
 
 h6 {
-  font: 23px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 23px;
   color: #9F111B;
-  font-weight: bold;
-  text-transform: uppercase;
+}
+
+.overflow_content {
+  overflow: hidden;
+} /* in some cases, this is all you need when dealing with floating elems. ;)*/
+
+.twtr-hd, .twtr-ft img {
+  display: none;
 }
 
 p.notice {
-  font: 12px/16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 12px/16px;
   color: #000;
   padding: 0;
 }
 
 p, #disqus_thread {
-  font: 14px/22px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 14px/22px;
   color: #333;
   padding: 10px 0 10px 0;
 }
@@ -96,15 +107,23 @@ a img {
 }
 
 .seloImg {
-  position: relative;
-  top: -60px;
-  left: -10px;
+  margin-left: -11px;
 }
 
 .seloMap {
-  position: relative;
-  top: -327px;
-  left: 180px;
+  margin-left: 180px;
+}
+
+.seloImg .img, .seloMap .map {
+  position: absolute;
+}
+
+.seloMap .map {
+  margin-top: -7px;
+}
+
+.seloImg .img {
+  margin-top: -70px;
 }
 
 .mapValue {
@@ -145,13 +164,13 @@ a img {
 
 #lenguage ul li {
   display: inline;
-  font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 16px;
   color: #fff;
 }
 
 #lenguage ul li a {
   text-decoration: none;
-  font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 16px;
   color: #ccc;
 }
 
@@ -159,31 +178,38 @@ a img {
   color: #fff;
 }
 
+#contHeader {
+  overflow: hidden;
+}
+
+#contHeader .logo,
+#contHeader .speakers,
+#contHeader .speakers a {
+  float: left;
+  height: 155px;
+}
+
 #contHeader .logo {
   width: 465px;
-  height: 155px;
-  float: left;
 }
 
 #contHeader .speakers {
   width: 420px;
-  height: 155px;
-  float: left;
 }
 
 #contHeader .speakers a {
-  border: 0;
-  padding: 0;
   margin: 0 0 2px 2px;
-  float: left;
+  height: 49px;
 }
 
 #contHeader .speakers a img {
-  border: 0;
-  margin: 0;
-  padding: 0;
   width: 49px;
   height: 49px
+}
+
+#contHeader .speakers a img:hover {
+  opacity: .7;
+  filter: alpha(opacity=70);
 }
 
 #logo {
@@ -207,16 +233,13 @@ a img {
 
 #menu ul li a {
   text-decoration: none;
-  font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 14px;
   color: #fff;
   text-transform: uppercase;
   padding: 13px 15px 12px 13px;
 }
 
-#menu ul li a:hover {
-  background: url(img/bgLink.png) no-repeat right top;
-}
-
+#menu ul li a:hover,
 #menu ul li a.activeMenu {
   background: url(img/bgLink.png) no-repeat right top;
 }
@@ -255,6 +278,9 @@ a img {
 #whatsup ul {
   list-style: none;
   float: left;
+}
+
+#whatsup ul li {
 }
 
 #whatsup ul li #date {
@@ -303,7 +329,7 @@ a img {
 }
 
 #sponsor ul li {
-  font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 14px;
   color: #333;
   padding: 2px 0;
 }
@@ -314,7 +340,6 @@ a img {
 
 #about .images {
   float: left;
-  margin: 0;
   padding: 0;
   border: 0;
   width: 980px;
@@ -353,16 +378,12 @@ a img {
 #speak #description #title {
   background: #F1ECDE;
   height: 30px;
-  border-bottom-color: #ccc;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-right-color: #ccc;
-  border-right-style: solid;
-  border-right-width: 1px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
 
 #speak #description #title h1 {
-  font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 14px;
   color: #333;
   padding: 7px 0px 2px 10px;
   border: none;
@@ -383,7 +404,7 @@ a img {
 }
 
 #speak #description #text li {
-  font: 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 12px;
   color: #333;
   padding: 20px 40px 0 20px;
 }
@@ -406,16 +427,12 @@ a img {
 .talk .speaker #description #title {
   background: #F1ECDE;
   height: 60px;
-  border-bottom-color: #ccc;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-right-color: #ccc;
-  border-right-style: solid;
-  border-right-width: 1px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
 
 .talk .speaker #description #title h1 {
-  font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 14px;
   color: #333;
   padding: 7px 0px 2px 10px;
   border: none;
@@ -435,7 +452,7 @@ a img {
 }
 
 .talk .speaker #description #text li {
-  font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 20px;
   color: #333;
   padding: 20px 40px 0 20px;
 }
@@ -449,16 +466,12 @@ a img {
 .talk .subject .title {
   background: #F1ECDE;
   height: 60px;
-  border-bottom-color: #ccc;
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-right-color: #ccc;
-  border-right-style: solid;
-  border-right-width: 1px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
 }
 
 .talk .subject .title h1 {
-  font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 14px;
   color: #333;
   padding: 7px 0px 2px 10px;
   border: none;
@@ -471,13 +484,13 @@ a img {
 }
 
 .talk .subject .text li {
-  font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 14px;
   color: #333;
   padding: 20px 40px 0 20px;
 }
 
 #schedule {
-  font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 13px;
   color: #333;
 }
 
