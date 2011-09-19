@@ -1,124 +1,642 @@
-*{margin:0;padding:0;}
-body{border-top:4px solid #333;}
-h1{font:24px Tahoma, Geneva, sans-serif;color:#333;border-bottom:3px solid #333;text-transform:uppercase;font-style:italic;}
-h1 img{position:relative;top:3px;}
-h2{font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#666;text-transform:uppercase;font-weight:bold;}
-h4{font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#000;}
-h5{font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#9F111B;font-weight:bold;text-transform:uppercase;}
-h6{font:23px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#9F111B;font-weight:bold;text-transform:uppercase;}
-p.notice{font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#000;padding:0;}
-p, #disqus_thread {font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:10px 0 10px 0;}
-#disqus_thread { padding: 0; }
-a img{border:none;}
-.clear{margin:0;padding:0;clear:both;}
-.highlight{font-weight:bold;}
-.space{width:10px;height:10px;}
-.finalPage{width:980px;height:50px;}
-.imageList{float:left;}
-.seloImg{position:relative;top:-60px;left:-10px;}
-.seloMap{position:relative;top:-327px;left:180px;}
-.mapValue{position:relative;float:left;top:-508px;left:700px;}
-#background{background:#F7F4EB;width:100%;}
-#container{width:980px;margin:0 auto;}
-#content{width:980px;margin:10px auto;padding-top:10px;text-align:justify;}
-#lenguage{width:60px;height:24px;background:#333;padding:3px 0 0 6px;float:right;}
-#lenguage ul{list-style:none;}
-#lenguage ul li{display:inline;font:16px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#fff;}
-#lenguage ul li a{text-decoration:none;font:16px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#ccc;}
-#lenguage ul li a.activeLenguage{color:#fff;}
-#contHeader .logo { width: 465px; height: 155px; float: left; }
-#contHeader .speakers { width: 420px; height: 155px; float: left; }
-#contHeader .speakers a { border: 0; padding: 0; margin: 0 0 2px 2px; float: left; }
-#contHeader .speakers a img { border: 0; margin: 0; padding: 0; width: 49px; height: 49px }
-#logo{margin-top:25px;}
-#speakers{}
-#menu{width:980px;height:40px;background:url(img/bgMenu.png) no-repeat;padding:8px 0 0 5px;}
-#menu ul{list-style:none;}
-#menu ul li{display:inline;}
-#menu ul li a{text-decoration:none;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#fff;text-transform:uppercase;padding:13px 15px 12px 13px;}
-#menu ul li a:hover{background:url(img/bgLink.png) no-repeat right top;}
-#menu ul li a.activeMenu{background:url(img/bgLink.png) no-repeat right top;}
-#menu ul li a.linkTicket{margin-left:120px;}
-#menu ul li a.linkTicket:hover{background:none;text-decoration:underline;}
+* {
+  margin: 0;
+  padding: 0;
+}
 
-#banner{width:655px;height:315px;background:#999;float:left;}
-#bannerRight{width:315px;height:315px;float:right;}
-#bannerRight img{margin-bottom:10px;}
-#whatsup{width:655px;float:left;}
-#whatsup ul{list-style:none;float:left;}
-#whatsup ul li{}
-#whatsup ul li #date{width:40px;}
-#whatsup ul li #notice{width:610px;}
-#whatsup #whatsLine{border-bottom:1px dotted #666;padding:10px 0;}
-#hashtag{width:315px;height:315px;float:right;}
-#sponsors{width:655px;float:left;}
-#sponsors a img{margin:10px 7px 0 0;}
-#sponsors a img.lastImage{margin-right:0;}
-#platSponsors{width:315px;float:right;}
-#indivSponsors{}
-#indivSponsors a img{margin-right:3px;}
-#sponsor ul{padding:5px 0 20px 50px;}
-#sponsor ul li{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:2px 0;}
+body {
+  border-top: 4px solid #333;
+}
 
-#about { clear: both; }
-#about .images { float: left; margin: 0; padding: 0; border: 0; width: 980px; margin: 10px 0 10px 0; }
-#about .images .rightSide { float: right; }
+h1 {
+  font: 24px Tahoma, Geneva, sans-serif;
+  color: #333;
+  border-bottom: 3px solid #333;
+  text-transform: uppercase;
+  font-style: italic;
+}
 
-#speakersPage{}
-#speakersPage #boxLeft{width:470px;float:left;}
-#speakersPage #boxRight{width:470px;float:right;}
-#speak{width:450px;height:350px;margin-bottom:20px;}
-#speak #photo{float:left;}
-#speak #description{width:315px;float:right;}
-#speak #description #title{background:#F1ECDE;height:30px;border-bottom-color:#ccc;border-bottom-style:solid;border-bottom-width:1px;border-right-color:#ccc;border-right-style:solid;border-right-width:1px;}
-#speak #description #title h1{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:7px 0px 2px 10px;border:none;font-weight:bold;float:left;}
-#speak #description #title a img{float:right;position:relative;top:7px;right:7px;}
-#speak #description #text p{font-size:12px;padding:20px 40px 0 20px;}
-#speak #description #text li{font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:20px 40px 0 20px;}
+h1 img {
+  position: relative;
+  top: 3px;
+}
 
-.talk .speaker {width:480px;margin-bottom:20px; float: right}
-.talk .speaker #photo{float:left;}
-.talk .speaker #description{width:345px;float:right;}
-.talk .speaker #description #title{background:#F1ECDE;height:60px;border-bottom-color:#ccc;border-bottom-style:solid;border-bottom-width:1px;border-right-color:#ccc;border-right-style:solid;border-right-width:1px;}
-.talk .speaker #description #title h1{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:7px 0px 2px 10px;border:none;font-weight:bold;float:left;}
-.talk .speaker #description #title a img{float:right;position:relative;top:7px;right:7px;}
-.talk .speaker #description #text p{padding:20px 40px 0 20px;}
-.talk .speaker #description #text li{font:20px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:20px 40px 0 20px;}
+h2 {
+  font: 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
-.talk .subject {width:480px;margin-bottom:20px; float: left}
-.talk .subject .title{background:#F1ECDE;height:60px;border-bottom-color:#ccc;border-bottom-style:solid;border-bottom-width:1px;border-right-color:#ccc;border-right-style:solid;border-right-width:1px;}
-.talk .subject .title h1{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:7px 0px 2px 10px;border:none;font-weight:bold;float:left;}
-.talk .subject .text p{padding:20px 40px 0 20px;}
-.talk .subject .text li{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:20px 40px 0 20px;}
+h4 {
+  font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #000;
+}
 
-#schedule{font:13px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;}
-#schedule tr{height:50px;}
-#schedule td{border-bottom:1px dotted #333;}
-#schedule td.top{border-bottom:2px solid #ccc;}
-#schedule td.top-end{border-bottom:2px solid #ccc;border-right:1px solid #ccc;}
-#schedule td.last{border:none;}
-#schedule tr.top{background:#F1ECDE;}
-#schedule p{font-size:12px;}
-#schedule p a{text-decoration:none;font-size:13px;color:#333;font-weight:bold;}
-#schedule p a:hover{color:#9F111B;}
-#schedule img.ical{float:right;position:relative;top:-32px;}
-#schedule p{padding:0;margin:0;}
-#schedule span.time{color:#9F111B;font-weight:bold;}
-#schedule .scheduleSelo{position:relative;float:left;top:-758px;left:10px;}
+h5 {
+  font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #9F111B;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h6 {
+  font: 23px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #9F111B;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p.notice {
+  font: 12px/16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #000;
+  padding: 0;
+}
+
+p, #disqus_thread {
+  font: 14px/22px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #333;
+  padding: 10px 0 10px 0;
+}
+
+#disqus_thread {
+  padding: 0;
+}
+
+a {
+  color: #15C;
+}
+
+a img {
+  border: none;
+}
+
+.clear {
+  margin: 0;
+  padding: 0;
+  width: 980px;
+  clear: both;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.space {
+  width: 10px;
+  height: 10px;
+}
+
+.finalPage {
+  width: 980px;
+  height: 50px;
+}
+
+.imageList {
+  float: left;
+}
+
+.seloImg {
+  position: relative;
+  top: -60px;
+  left: -10px;
+}
+
+.seloMap {
+  position: relative;
+  top: -327px;
+  left: 180px;
+}
+
+.mapValue {
+  position: relative;
+  float: left;
+  top: -508px;
+  left: 700px;
+}
+
+#background {
+  background: #F7F4EB;
+  width: 100%;
+}
+
+#container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+#content {
+  width: 980px;
+  margin: 10px auto;
+  padding-top: 10px;
+  text-align: justify;
+}
+
+#lenguage {
+  width: 60px;
+  height: 24px;
+  background: #333;
+  padding: 3px 0 0 6px;
+  float: right;
+}
+
+#lenguage ul {
+  list-style: none;
+}
+
+#lenguage ul li {
+  display: inline;
+  font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+#lenguage ul li a {
+  text-decoration: none;
+  font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #ccc;
+}
+
+#lenguage ul li a.activeLenguage {
+  color: #fff;
+}
+
+#contHeader .logo {
+  width: 465px;
+  height: 155px;
+  float: left;
+}
+
+#contHeader .speakers {
+  width: 420px;
+  height: 155px;
+  float: left;
+}
+
+#contHeader .speakers a {
+  border: 0;
+  padding: 0;
+  margin: 0 0 2px 2px;
+  float: left;
+}
+
+#contHeader .speakers a img {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 49px;
+  height: 49px
+}
+
+#logo {
+  margin-top: 25px;
+}
+
+#menu {
+  width: 980px;
+  height: 40px;
+  background: url(img/bgMenu.png) no-repeat;
+  padding: 8px 0 0 5px;
+}
+
+#menu ul {
+  list-style: none;
+}
+
+#menu ul li {
+  display: inline;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 13px 15px 12px 13px;
+}
+
+#menu ul li a:hover {
+  background: url(img/bgLink.png) no-repeat right top;
+}
+
+#menu ul li a.activeMenu {
+  background: url(img/bgLink.png) no-repeat right top;
+}
+
+#menu ul li a.linkTicket {
+  margin-left: 120px;
+}
+
+#menu ul li a.linkTicket:hover {
+  background: none;
+  text-decoration: underline;
+}
+
+#banner {
+  width: 655px;
+  height: 315px;
+  background: #999;
+  float: left;
+}
+
+#bannerRight {
+  width: 315px;
+  height: 315px;
+  float: right;
+}
+
+#bannerRight img {
+  margin-bottom: 10px;
+}
+
+#whatsup {
+  width: 655px;
+  float: left;
+}
+
+#whatsup ul {
+  list-style: none;
+  float: left;
+}
+
+#whatsup ul li #date {
+  width: 40px;
+}
+
+#whatsup ul li #notice {
+  width: 610px;
+}
+
+#whatsup #whatsLine {
+  border-bottom: 1px dotted #666;
+  padding: 10px 0;
+}
+
+#hashtag {
+  width: 315px;
+  height: 315px;
+  float: right;
+}
+
+#sponsors {
+  width: 655px;
+  float: left;
+}
+
+#sponsors a img {
+  margin: 10px 7px 0 0;
+}
+
+#sponsors a img.lastImage {
+  margin-right: 0;
+}
+
+#platSponsors {
+  width: 315px;
+  float: right;
+}
+
+#indivSponsors a img {
+  margin-right: 3px;
+}
+
+#sponsor ul {
+  padding: 5px 0 20px 50px;
+}
+
+#sponsor ul li {
+  font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #333;
+  padding: 2px 0;
+}
+
+#about {
+  clear: both;
+}
+
+#about .images {
+  float: left;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 980px;
+  margin: 10px 0 10px 0;
+}
+
+#about .images .rightSide {
+  float: right;
+}
+
+#speakersPage #boxLeft {
+  width: 470px;
+  float: left;
+}
+
+#speakersPage #boxRight {
+  width: 470px;
+  float: right;
+}
+
+#speak {
+  width: 450px;
+  height: 350px;
+  margin-bottom: 20px;
+}
+
+#speak #photo {
+  float: left;
+}
+
+#speak #description {
+  width: 315px;
+  float: right;
+}
+
+#speak #description #title {
+  background: #F1ECDE;
+  height: 30px;
+  border-bottom-color: #ccc;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-right-color: #ccc;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+#speak #description #title h1 {
+  font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #333;
+  padding: 7px 0px 2px 10px;
+  border: none;
+  font-weight: bold;
+  float: left;
+}
+
+#speak #description #title a img {
+  float: right;
+  position: relative;
+  top: 7px;
+  right: 7px;
+}
+
+#speak #description #text p {
+  font-size: 12px;
+  padding: 20px 40px 0 20px;
+}
+
+#speak #description #text li {
+  font: 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #333;
+  padding: 20px 40px 0 20px;
+}
+
+.talk .speaker {
+  width: 480px;
+  margin-bottom: 20px;
+  float: right
+}
+
+.talk .speaker #photo {
+  float: left;
+}
+
+.talk .speaker #description {
+  width: 345px;
+  float: right;
+}
+
+.talk .speaker #description #title {
+  background: #F1ECDE;
+  height: 60px;
+  border-bottom-color: #ccc;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-right-color: #ccc;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+.talk .speaker #description #title h1 {
+  font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #333;
+  padding: 7px 0px 2px 10px;
+  border: none;
+  font-weight: bold;
+  float: left;
+}
+
+.talk .speaker #description #title a img {
+  float: right;
+  position: relative;
+  top: 7px;
+  right: 7px;
+}
+
+.talk .speaker #description #text p {
+  padding: 20px 40px 0 20px;
+}
+
+.talk .speaker #description #text li {
+  font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #333;
+  padding: 20px 40px 0 20px;
+}
+
+.talk .subject {
+  width: 480px;
+  margin-bottom: 20px;
+  float: left
+}
+
+.talk .subject .title {
+  background: #F1ECDE;
+  height: 60px;
+  border-bottom-color: #ccc;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-right-color: #ccc;
+  border-right-style: solid;
+  border-right-width: 1px;
+}
+
+.talk .subject .title h1 {
+  font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #333;
+  padding: 7px 0px 2px 10px;
+  border: none;
+  font-weight: bold;
+  float: left;
+}
+
+.talk .subject .text p {
+  padding: 20px 40px 0 20px;
+}
+
+.talk .subject .text li {
+  font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #333;
+  padding: 20px 40px 0 20px;
+}
+
+#schedule {
+  font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+#schedule tr {
+  height: 50px;
+}
+
+#schedule td {
+  border-bottom: 1px dotted #333;
+}
+
+#schedule td.top {
+  border-bottom: 2px solid #ccc;
+}
+
+#schedule td.top-end {
+  border-bottom: 2px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+#schedule td.last {
+  border: none;
+}
+
+#schedule tr.top {
+  background: #F1ECDE;
+}
+
+#schedule p {
+  font-size: 12px;
+}
+
+#schedule p a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #333;
+  font-weight: bold;
+}
+
+#schedule p a:hover {
+  color: #9F111B;
+}
+
+#schedule img.ical {
+  float: right;
+  position: relative;
+  top: -32px;
+}
+
+#schedule p {
+  padding: 0;
+  margin: 0;
+}
+
+#schedule span.time {
+  color: #9F111B;
+  font-weight: bold;
+}
+
+#schedule .scheduleSelo {
+  position: relative;
+  float: left;
+  top: -758px;
+  left: 10px;
+}
 
 #container .carousel,
-#container .carousel .carousel-wrap{margin:0;border:0;zoom:0;}
-#container .js .carousel-wrap{display:inline-block;vertical-align:middle;width:655px;margin:0;border:0;background:#1a1a1a;}
-.IE #container .js .carousel-wrap{display:inline;}
-#container .carousel ul{margin:0;padding:0;zoom:0;}
-#container .js ul li{overflow:hidden;display:inline;float:left;width:655px;height:315px;text-align:center;zoom:1;}
-#container .carousel .carousel-control{overflow:hidden;display:inline-block;vertical-align:middle;width:40px;height:40px;cursor:pointer;line-height:999px;zoom:1;border:0;text-indent:-9999px;}
-#container .carousel .carousel-next{display: none}
-#container .carousel .carousel-previous{display: none}
-#container .carousel .carousel-control:hover{-moz-opacity:.7;opacity:0.70;filter:alpha(opacity=70);}
-#container .carousel .disabled,#container .carousel .disabled:hover{-moz-opacity:.1;opacity:0.10;filter:alpha(opacity=10);cursor:default;}
-#container .carousel div{margin:0;padding:0;border:0;}
-#container .carousel ul{padding:0;list-style:none;}
-#container .carousel ul li{position:relative;width:655px;margin:0;}
+#container .carousel .carousel-wrap {
+  margin: 0;
+  border: 0;
+  zoom: 0;
+}
 
-#footer p{ font-size: 10px; color: #555555; text-align: center }
+#container .js .carousel-wrap {
+  display: inline-block;
+  vertical-align: middle;
+  width: 655px;
+  margin: 0;
+  border: 0;
+  background: #1a1a1a;
+}
+
+.IE #container .js .carousel-wrap {
+  display: inline;
+}
+
+#container .carousel ul {
+  margin: 0;
+  padding: 0;
+  zoom: 0;
+}
+
+#container .js ul li {
+  overflow: hidden;
+  display: inline;
+  float: left;
+  width: 655px;
+  height: 315px;
+  text-align: center;
+  zoom: 1;
+}
+
+#container .carousel .carousel-control {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  line-height: 999px;
+  zoom: 1;
+  border: 0;
+  text-indent: -9999px;
+}
+
+#container .carousel .carousel-next {
+  display: none
+}
+
+#container .carousel .carousel-previous {
+  display: none
+}
+
+#container .carousel .carousel-control:hover {
+  -moz-opacity: .7;
+  opacity: 0.70;
+  filter: alpha(opacity=70);
+}
+
+#container .carousel .disabled,
+#container .carousel .disabled:hover {
+  -moz-opacity: .1;
+  opacity: 0.10;
+  filter: alpha(opacity=10);
+  cursor: default;
+}
+
+#container .carousel div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#container .carousel ul {
+  padding: 0;
+  list-style: none;
+}
+
+#container .carousel ul li {
+  position: relative;
+  width: 655px;
+  margin: 0;
+}
+
+#footer,
+#footer p {
+  font-size: 10px;
+  color: #555;
+  margin: 0 auto;
+  text-align: center;
+  width: 980px;
+}
