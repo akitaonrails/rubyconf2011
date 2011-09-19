@@ -8,11 +8,13 @@
         <%= render '_disqus' %>
       </div>
     </div>
-    <% if @speaker %>
-    <%= render '_talk_speaker', :speaker => @speaker, :description => t("talk.speaker_title") %>
+    <div class="speakerBar">
+      <% if @speaker %>
+      <%= render '_talk_speaker', :speaker => @speaker, :description => t("talk.speaker_title") %>
+      <% end %>
+      <% if @cospeaker %>
+      <%= render '_talk_speaker', :speaker => @cospeaker, :description => t("talk.cospeaker_title") %>
     <% end %>
-    <% if @cospeaker %>
-    <%= render '_talk_speaker', :speaker => @cospeaker, :description => t("talk.cospeaker_title") %>
-    <% end %>
+    </div>
   </div>
 

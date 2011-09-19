@@ -413,6 +413,11 @@ a img {
   float: right
 }
 
+.talk .speakerBar {
+  width: 480px;
+  float: right;
+}
+
 .talk .speaker #photo {
   float: left;
 }
