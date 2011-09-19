@@ -4,27 +4,24 @@
 :main_speaker_name: Marcos Toledo
 :co_speaker_slug: ''
 :co_speaker_name: ''
-:title_br: Concurrency Rails Gotchas
+:title_br: Pegadinhas de Concorrência em Rails
 :title_en: Concurrency Rails Gotchas
-:description_br: ! 'With the ever more frequent use of multiple servers and worker
-  processes, issues which only occur when specific tasks are running in parallel become
-  ever more likely to happen.
+:description_br: ! 'Com o uso cada vez mais frequente de múltiplos servidores e processos
+  trabalhadores, problemas que somente ocorrem quando tarefas específicas rodam em paralelo
+  se tornam cada vez mais prováveis de acontecer.</p>
 
-
-  In this talk Marcos talks about some rails concurrency limitations you need to be
-  aware of, including why you should never trust rails to check for uniqueness, why
-  mysql can''t do optimistic locking with retrying by default and how to fix it, how
-  to properly choose between optimistic and pessimistic locking, how parallel processes
-  can cause deadlocks even if you''re not using locks, why you should never have serialized
-  attributes in rows that might be edited in parallel, and why rails commits your
-  transactions before they finish in case your multi threaded process is killed and
-  how to prevent it from leaving your database on an inconsistent state.'
+  <p>Nesta palestra Marcos fala sobre algumas limitações de concorrência do Rails que você
+  precisa conhecer, incluindo por que você nunca deve confiar no Rails para checar por
+  não-duplicação (unicidade), por que MySQL não consegue fazer trava otimista e pessimista,
+  como processos paralelos podem causar deadlocks mesmo que você não esteja usando travas,
+  e por que o Rails faz commit das suas transações antes de terminar caso seu processo
+  multi-threaded seja morto e como prevení-lo de deixar seu banco de dados em estado
+  inconsistente.'
 :description_en: ! 'With the ever more frequent use of multiple servers and worker
   processes, issues which only occur when specific tasks are running in parallel become
-  ever more likely to happen.
+  ever more likely to happen.</p>
 
-
-  In this talk Marcos talks about some rails concurrency limitations you need to be
+  <p>In this talk Marcos talks about some rails concurrency limitations you need to be
   aware of, including why you should never trust rails to check for uniqueness, why
   mysql can''t do optimistic locking with retrying by default and how to fix it, how
   to properly choose between optimistic and pessimistic locking, how parallel processes
