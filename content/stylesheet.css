@@ -7,7 +7,7 @@ h4{font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#000;}
 h5{font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#9F111B;font-weight:bold;text-transform:uppercase;}
 h6{font:23px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#9F111B;font-weight:bold;text-transform:uppercase;}
 p.notice{font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#000;padding:0;}
-p, ul, li, #disqus_thread {font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:10px 0 10px 0;}
+p, #disqus_thread {font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:10px 0 10px 0;}
 #disqus_thread { padding: 0; }
 a img{border:none;}
 .clear{margin:0;padding:0;clear:both;}
@@ -74,6 +74,7 @@ a img{border:none;}
 #speak #description #title h1{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:7px 0px 2px 10px;border:none;font-weight:bold;float:left;}
 #speak #description #title a img{float:right;position:relative;top:7px;right:7px;}
 #speak #description #text p{font-size:12px;padding:20px 40px 0 20px;}
+#speak #description #text li{font:12px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:20px 40px 0 20px;}
 
 .talk .speaker {width:480px;margin-bottom:20px; float: right}
 .talk .speaker #photo{float:left;}
@@ -82,13 +83,13 @@ a img{border:none;}
 .talk .speaker #description #title h1{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:7px 0px 2px 10px;border:none;font-weight:bold;float:left;}
 .talk .speaker #description #title a img{float:right;position:relative;top:7px;right:7px;}
 .talk .speaker #description #text p{padding:20px 40px 0 20px;}
-.talk .speaker #description #text li{padding:20px 40px 0 20px;}
+.talk .speaker #description #text li{font:20px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:20px 40px 0 20px;}
 
 .talk .subject {width:480px;margin-bottom:20px; float: left}
 .talk .subject .title{background:#F1ECDE;height:60px;border-bottom-color:#ccc;border-bottom-style:solid;border-bottom-width:1px;border-right-color:#ccc;border-right-style:solid;border-right-width:1px;}
 .talk .subject .title h1{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:7px 0px 2px 10px;border:none;font-weight:bold;float:left;}
 .talk .subject .text p{padding:20px 40px 0 20px;}
-.talk .subject .text li{padding:20px 40px 0 20px;}
+.talk .subject .text li{font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;padding:20px 40px 0 20px;}
 
 #schedule{font:13px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#333;}
 #schedule tr{height:50px;}
