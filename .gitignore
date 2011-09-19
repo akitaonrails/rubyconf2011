@@ -3,3 +3,4 @@
 output/*
 tmp/*
 .lock
+.rbenv-version
