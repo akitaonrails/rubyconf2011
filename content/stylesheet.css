@@ -47,7 +47,7 @@ h6 {
 }
 
 p.notice {
-  font: 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font: 12px/16px "Trebuchet MS", Arial, Helvetica, sans-serif;
   color: #000;
   padding: 0;
 }
@@ -62,6 +62,10 @@ p, #disqus_thread {
   padding: 0;
 }
 
+a {
+  color: #15C;
+}
+
 a img {
   border: none;
 }
@@ -69,6 +73,7 @@ a img {
 .clear {
   margin: 0;
   padding: 0;
+  width: 980px;
   clear: both;
 }
 
@@ -627,8 +632,11 @@ a img {
   margin: 0;
 }
 
+#footer,
 #footer p {
   font-size: 10px;
-  color: #555555;
-  text-align: center
+  color: #555;
+  margin: 0 auto;
+  text-align: center;
+  width: 980px;
 }
