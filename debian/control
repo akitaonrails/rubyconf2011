@@ -1,0 +1,15 @@
+Source: rubyconf
+Section: web
+Priority: extra
+Maintainer: Andre Ferraz <andre.ferraz@locaweb.com.br>
+Build-Depends: debhelper (>= 7.0.50~), ruby1.9.1-dev, make, libyaml-dev, libsqlite3-dev
+Standards-Version: 3.8.4
+Homepage: https://github.com/akitaonrails/rubyconf2011
+#Vcs-Git: git://git.debian.org/collab-maint/rubyconf.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/rubyconf.git;a=summary
+
+Package: rubyconf
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: RubyConf 2011 website
+ RubyConf 2011 website

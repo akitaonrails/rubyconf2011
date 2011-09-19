@@ -4,3 +4,8 @@ output/*
 tmp/*
 .lock
 .rbenv-version
+debian/files
+debian/rubyconf.debhelper.log
+debian/rubyconf.substvars
+debian/rubyconf/
+debian/source/
