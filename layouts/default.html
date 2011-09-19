@@ -1,58 +1,69 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta charset="utf-8" />
   <title><%= t("site.title") %> <%= @item[:title] ? "- #{@item[:title]}" : "" %></title>
   <link href='/images/ico.ico' rel='shortcut icon' type='image/x-ico'/>
   <link href="/style/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<div id="container"><!--INICIO CONTAINER-->
-  <div id="lenguage"><!--INICIO LENGUAGE-->
-     <ul>
-       <li><a href="<%= normalize_identifier(@item, :br) %>"<%= active_language(:br) %>>PT</a></li>
-       <li>|</li>
-       <li><a href="<%= normalize_identifier(@item, :en) %>"<%= active_language(:en) %>>EN</a></li>
-     </ul>
-  </div><!--FINAL LENGUAGE-->
-  <!--CLEAR--><div class="clear"></div>
-  <div id="contHeader"><!--INICIO CONTAINER HEADER-->
-    <div class="logo"><!--INICIO LOGOTIPO-->
-      <img src="/images/LogoRubyConf.jpg" alt="" title="" />
-    </div><!--FINAL LOGOTIPO-->
-    <div class="speakers"><!--INICIO SPEAKER-->
-      <% random_speakers_list.each do |speaker| %>
-        <a href="<%= "/#{@item[:locale]}#{speaker[:talk_slug]}" %>"><img src="<%= speaker[:avatar_thumb_url] %>" width="49" height="49" border="0"/></a>
-      <% end %>
-    </div><!--FINAL SPEAKER-->
-    <!--CLEAR--><div class="clear"></div>
-  </div><!--FINAL CONTAINER HEADER-->
-  <div id="menu"><!--INICIO MENU-->
-    <ul>
-      <li><a href="/<%= @item[:locale] %>/index.html"<%= menu("home") %>><%= t("menu.home") %></a></li>
-      <li><a href="/<%= @item[:locale] %>/venue.html"<%= menu("venue") %>><%= t("menu.venue") %></a></li>
-      <li><a href="/<%= @item[:locale] %>/speakers.html"<%= menu("speakers") %>><%= t("menu.speakers") %></a></li>
-      <li><a href="/<%= @item[:locale] %>/schedule.html"<%= menu("schedule") %>><%= t("menu.schedule") %></a></li>
-      <li><a href="/<%= @item[:locale] %>/about.html"<%= menu("about") %>><%= t("menu.about") %></a></li>
-      <!-- li><a href="/<%= @item[:locale] %>/getticket.html" class="linkTicket"><%= t("menu.register") %></a></li -->
-      <li><a href="#" class="linkTicket"><%= t("menu.register")%></a></li>
-    </ul>
-  </div><!--FINAL MENU-->
-</div><!--FINAL CONTAINER-->
-<div id="background"><!--INICIO BACKGROUND-->
+  <a href="https://github.com/akitaonrails/rubyconf2011"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://a248.e.akamai.net/assets.github.com/img/5d21241b64dc708fcbb701f68f72f41e9f1fadd6/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f7265645f6161303030302e706e67" alt="Fork me on GitHub" /></a>
   <div id="container">
-    <%= yield %>
-    <!--CLEAR--><div class="clear"></div>
-    <%= render '_sponsors' %>
-  </div><!--FINAL CONTAINER-->
-  <!--CLEAR--><div class="clear"></div>
-  <div class="finalPage"></div>
-</div><!--FINAL BACKGROUND-->
-<div id="footer">
-  <p>Copyright © 1997-2011 Locaweb Serviços de Internet S/A. Todo o conteúdo deste site é de uso exclusivo da Locaweb.
-    Proibida reprodução ou utilização a qualquer título, sob as penas da lei.</p>
-</div>
-<%= render '_javascript' %>
-</body>
-</html>
+    <div id="lenguage">
+      <ul>
+        <li><a href="<%= normalize_identifier(@item, :br) %>"<%= active_language(:br) %>>PT</a></li>
+        <li>|</li>
+        <li><a href="<%= normalize_identifier(@item, :en) %>"<%= active_language(:en) %>>EN</a></li>
+      </ul>
+    </div>
+    <!-- end language? -->
+
+    <div class="clear"></div>
+
+    <div id="contHeader">
+      <div class="logo">
+        <img src="/images/LogoRubyConf.jpg" width="335" height="107" alt="RubyConf logo" title="RubyConf Brasil, 2011." />
+      </div>
+      <!-- end logo -->
+			<div class="speakers">
+				<% random_speakers_list.each do |speaker| %>
+				<a href="<%= "/#{@item[:locale]}#{speaker[:talk_slug]}" %>"><img src="<%= speaker[:avatar_thumb_url] %>" alt="Speaker/Palestrante" title="<%="#{speaker[:full_name]}, @#{speaker[:twitter]}"%>" width="49" height="49"/></a>
+				<% end %>
+			</div>
+			<!-- end speaker -->
+			<div class="clear"></div>
+    </div>
+    <!-- end final container header -->
+
+    <div id="menu">
+      <ul>
+        <li><a href="/<%= @item[:locale] %>/index.html"<%= menu("home") %>><%= t("menu.home") %></a></li>
+        <li><a href="/<%= @item[:locale] %>/venue.html"<%= menu("venue") %>><%= t("menu.venue") %></a></li>
+        <li><a href="/<%= @item[:locale] %>/speakers.html"<%= menu("speakers") %>><%= t("menu.speakers") %></a></li>
+        <li><a href="/<%= @item[:locale] %>/schedule.html"<%= menu("schedule") %>><%= t("menu.schedule") %></a></li>
+        <li><a href="/<%= @item[:locale] %>/about.html"<%= menu("about") %>><%= t("menu.about") %></a></li>
+        <!-- li><a href="/<%= @item[:locale] %>/getticket.html" class="linkTicket"><%= t("menu.register") %></a></li -->
+        <li><a href="#" class="linkTicket"><%= t("menu.register")%></a></li>
+      </ul>
+    </div>
+    <!-- end menu-->
+    </div>
+    <!-- end container-->
+    <div id="background">
+      <div id="container">
+        <%= yield %>
+        <div class="clear"></div>
+        <%= render '_sponsors' %>
+      </div>
+      <!-- end final container -->
+      <div class="clear"></div>
+      <div class="finalPage"></div>
+    </div>
+    <!-- end final background -->
+    <div id="footer">
+      <p>Copyright © 1997-2011 Locaweb Serviços de Internet S/A. Todo o conteúdo deste site é de uso exclusivo da Locaweb.
+        Proibida reprodução ou utilização a qualquer título, sob as penas da lei.</p>
+      </div>
+      <%= render '_javascript' %>
+    </body>
+    </html>
 

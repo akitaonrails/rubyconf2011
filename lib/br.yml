@@ -14,6 +14,7 @@ menu:
   register: Registros abrem esta semana, aguardem!
 home:
   whatsup: novidades
+  rubyconf_desc: Um dos maiores eventos de Ruby do mundo!
 whatsup:
   months: ['JAN', 'FEV', 'MAR', 'ABR', 'MAI', 'JUN', 'JUL', 'AGO', 'SET', 'OUT', 'NOV', 'DEZ']
 talk:
@@ -22,5 +23,6 @@ talk:
   time: HORÁRIO
   room_a: SALA A
   room_b: SALA B
+  warning: A grade de programação ainda pode ser modificada.
 about:
   title: Sobre o RubyConf Brasil

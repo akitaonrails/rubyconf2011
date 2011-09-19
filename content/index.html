@@ -2,24 +2,40 @@
 title:
 menu: home
 ---
-  <div id="content"><!--INICIO CONTENT-->
-    <div id="banner">
-      <div class="carousel rubyconf-carousel"><!--INICIO BANNER-->
-        <ul>
-          <li><img src="/images/carousel/PA270059.JPG" /></li>
-          <li><img src="/images/carousel/PA260017.JPG" /></li>
-          <li><img src="/images/carousel/PA260030.JPG" /></li>
-        </ul>
-      </div>
-      <div class="seloImg"><img src="/images/selo_<%= item[:locale] %>.png" /></div>
-    </div>
-    <!--FINAL BANNER-->
-    <div id="bannerRight"><!--INICIO MAPA + BOOKMARKS-->
-      <img src="/images/map.jpg" alt="" title="" />
-      <%= render '_share_buttons', :size => 350 %>
-      <div class="seloMap"><img src="/images/seloMap.png" /></div>
-    </div> <!--FINAL MAPA + BOOKMARKS-->
-  </div><!--FINAL CONTENT-->
+  <div id="content">
+		<div class="overflow_content">
+    	<div id="banner">
+	      <div class="carousel rubyconf-carousel">
+	        <ul>
+	          <li><img src="/images/carousel/PA270059.JPG" width="655" height="315" alt="RubyConf" title="<%=t('home.rubyconf_desc')%>"/></li>
+	          <li><img src="/images/carousel/PA260017.JPG" width="655" height="315" alt="RubyConf" title="<%=t('home.rubyconf_desc')%>"/></li>
+	          <li><img src="/images/carousel/PA260030.JPG" width="655" height="315" alt="RubyConf" title="<%=t('home.rubyconf_desc')%>"/></li>
+	        </ul>
+	      </div> <!-- end carousel -->
+      	<div class="seloImg">
+					<div class="img"><img src="/images/selo_<%= item[:locale] %>.png" width="193" height="52" alt="Selo"/></div>
+				</div>
+    	</div>
+    <!-- end banner-->
+
+    	<div id="bannerRight"> <!-- maps & bookmarks -->
+	      <div class="seloMap">
+					<div class="map">
+						<img src="/images/seloMap.png" width="85" height="62" alt="date"/>
+					</div>
+				</div>
+				<!-- end seloMap -->
+	      <img src="/images/map.jpg" width="315" height="285" alt="RubyConfMap" />
+	      <%= render '_share_buttons', :size => 315, :no_google => true %>
+
+	    </div>
+			<!-- end maps/bookmark-->
+		</div>
+		<!-- end overflow_content -->
+  </div>
+	<!-- end content -->
+	
+	
   <div class="clear"></div>
   <div id="content"><!--INICIO CONTENT 2-->
     <div id="whatsup"><!--INICIO WHATSUP-->
@@ -41,7 +57,7 @@ menu: home
           title: 'RubyConf Brasil',
           subject: '2011',
           width: 'auto',
-          height: 220,
+          height: 250,
           theme: {
             shell: {
               background: '#f7f4eb',
