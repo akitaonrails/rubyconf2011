@@ -55,7 +55,7 @@
         <li><a href="/<%= @item[:locale] %>/schedule.html"<%= menu("schedule") %>><%= t("menu.schedule") %></a></li>
         <li><a href="/<%= @item[:locale] %>/about.html"<%= menu("about") %>><%= t("menu.about") %></a></li>
         <% if @item[:locale] == :br %>
-        <li><a href="javascript:jQuery('#formPagamento').submit()" class="linkTicket" rel="external"><%= t("menu.register") %></a></li>
+        <li><a href="javascript:jQuery('#formPagamento').submit()" class="linkTicket"><%= t("menu.register") %></a></li>
         <% else %>
         <li><a href="https://www.facebook.com/EventosLocaweb?sk=app_203351739677351#" class="linkTicket" rel="external"><%= t("menu.register") %></a></li>
         <% end %>
