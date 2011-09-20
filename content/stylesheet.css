@@ -302,16 +302,25 @@ a img {
 }
 
 #sponsors {
-  width: 980px;
+  width: 570px;
   float: left;
 }
 
 #sponsors a img {
-  margin: 10px 7px 10px 0;
+  margin: 10px 7px 0 0;
 }
 
 #sponsors a img.lastImage {
   margin-right: 0;
+}
+
+#platSponsors {
+  width: 400px;
+  float: right;
+}
+
+#indivSponsors a img {
+  margin-right: 3px;
 }
 
 #sponsor ul {
