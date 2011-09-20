@@ -5,24 +5,24 @@
 :slug: fernando-hamasaki-125
 :full_name: Fernando Hamasaki
 :email: prodis@gmail.com
-:twitter: prodis
+:twitter: Prodis
 :blog_url: prodis.blog.br
-:company: ''
-:bio_br: ! "Desenvolvedor Ruby e Rails, é lider técnico da equipe de desenvolvimento
-  da WebStore, loja virtual da Locaweb. </p>
+:company: Locaweb
+:bio_br: ! 'Fernando Hamasaki (também conhecido como Prodis) é desenvolvedor Ruby e Rails e
+  lider técnico da equipe de desenvolvimento da <a href="http://www.locaweb.com.br/produtos/loja-virtual.html?rubyconfbr" title="WebStore">WebStore</a>,
+  loja virtual da Locaweb.</p>
 
-  <p>Pós-graduado em Tecnologias Web pela FIAP,
-  trabalha desde 2000 com Desenvolvimento Web, onde já utilizou várias plataformas
-  e linguagens, como .NET, Java, JavaScript, PHP e ASP. Em 2010 palestrou no FISL
-  sobre o uso de software livre em projetos comerciais.</p>
+  <p>Pós-graduado em Tecnologias Web pela FIAP, trabalha desde 2000 com Desenvolvimento Web,
+  onde já utilizou várias plataformas e linguagens, como .NET, Java, JavaScript, PHP e ASP.
+  Em 2010 palestrou no FISL sobre o uso de software livre em projetos comerciais.</p>
 
-  <p>Editor do blog Ruby Fundamental
-  do portal IT Web, também mantém o Prodis' Blog, onde escreve sobre desenvolvimento
-  de software e esportes.</p>
+  <p>Editor do blog <a href="http://itweb.com.br/blog/ruby-fundamental/?rubyconfbr" title="Ruby Fundamental">Ruby Fundamental</a>
+  do portal IT Web, também mantém o <a href="http://prodis.blog.br/?rubyconfbr" title="Prodis&#39; Blog">Prodis&#39; Blog</a>,
+  onde escreve sobre desenvolvimento de software e esportes.</p>
 
-  <p>Sempre que pode joga basquete, esporte que lhe trouxe
-  bastante amigos e alegria."
-:bio_en: ! "Ruby and Rails software developer, he is the tech-leader of the WebStore
+  <p>Sempre que pode joga basquete, esporte que lhe trouxe bastante amigos e alegria.'
+:bio_en: ! 'Fernando Hamasaki (also known as Prodis) is a Ruby and Rails software developer and the tech-leader of the
+  <a href="http://www.locaweb.com.br/produtos/loja-virtual.html?rubyconfbr" title="WebStore">WebStore</a>
   development team, the e-commerce product offered by Locaweb.</p>
 
   <p>Graduated in Web Technologies from FIAP, he works with web development since 2000
@@ -30,10 +30,12 @@
   PHP and ASP. In 2010 he presented at the FISL conference about free software usage in
   commercial products.</p>
 
-  <p>He is the editor on Fundamental Ruby at the IT Web portal, and also maintains his
-  Prodis Blog, where he writes about software development and sports.</p>
+  <p>He is the editor on <a href="http://itweb.com.br/blog/ruby-fundamental/?rubyconfbr" title="Ruby Fundamental">Ruby Fundamental</a>
+  blog at the IT Web portal, and also maintains his
+  <a href="http://prodis.blog.br/?rubyconfbr" title="Prodis&#39; Blog">Prodis&#39; Blog</a>,
+  where he writes about software development and sports.</p>
 
-  <p>Enjoys playing basketball, the sport that brought him lots of friends and joy."
+  <p>Enjoys playing basketball, the sport that brought him lots of friends and joy.'
 :country: BR
 :avatar_thumb_url: /images/avatar_cospeakers/125/thumb/prodis.jpg
 :avatar_medium_url: /images/avatar_cospeakers/125/medium/prodis.jpg
