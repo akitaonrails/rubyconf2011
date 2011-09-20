@@ -9,7 +9,7 @@ INSTALL
 
 You need to have Ruby installed and the [Bundler](http://gembundler.com/) gem.
 
-Then just run `bundler` to install the dependencies and `bundle exec nanoc3 compile`.
+Then just run `bundle` to install the dependencies and `bundle exec nanoc3 compile`.
 This will generate the entire website in the 'output' directory.
 
 You can now run `bundle exec nanoc3 autocompile` to run the Webrick web server and
