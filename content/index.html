@@ -3,37 +3,35 @@ title:
 menu: home
 ---
   <div id="content">
-		<div class="overflow_content">
-    	<div id="banner">
-	      <div class="carousel rubyconf-carousel">
-	        <ul>
-	          <li><img src="/images/carousel/PA270059.JPG" width="655" height="315" alt="RubyConf" title="<%=t('home.rubyconf_desc')%>"/></li>
-	          <li><img src="/images/carousel/PA260017.JPG" width="655" height="315" alt="RubyConf" title="<%=t('home.rubyconf_desc')%>"/></li>
-	          <li><img src="/images/carousel/PA260030.JPG" width="655" height="315" alt="RubyConf" title="<%=t('home.rubyconf_desc')%>"/></li>
-	        </ul>
-	      </div> <!-- end carousel -->
-      	<div class="seloImg">
-					<div class="img"><img src="/images/selo_<%= item[:locale] %>.png" width="193" height="52" alt="Selo"/></div>
-				</div>
-    	</div>
+    <div class="overflow_content">
+      <div id="banner">
+        <div class="carousel rubyconf-carousel">
+          <ul>
+            <li><img src="/images/carousel/PA270059.JPG" width="655" height="315" alt="RubyConf" title="<%=t('home.rubyconf_desc')%>"/></li>
+            <li><img src="/images/carousel/PA260017.JPG" width="655" height="315" alt="RubyConf" title="<%=t('home.rubyconf_desc')%>"/></li>
+            <li><img src="/images/carousel/PA260030.JPG" width="655" height="315" alt="RubyConf" title="<%=t('home.rubyconf_desc')%>"/></li>
+          </ul>
+        </div> <!-- end carousel -->
+        <div class="seloImg">
+          <div class="img"><img src="/images/selo_<%= item[:locale] %>.png" width="193" height="52" alt="Selo"/></div>
+        </div>
+      </div>
     <!-- end banner-->
 
-    	<div id="bannerRight"> <!-- maps & bookmarks -->
-	      <div class="seloMap">
-					<div class="map">
-						<img src="/images/seloMap.png" width="85" height="62" alt="date"/>
-					</div>
-				</div>
-				<!-- end seloMap -->
-	      <img src="/images/map.jpg" width="315" height="280" alt="RubyConfMap" />
-	      <%= render '_share_buttons', :size => 315, :no_google => true %>
-
-	    </div>
-			<!-- end maps/bookmark-->
-		</div>
-		<!-- end overflow_content -->
+      <div id="bannerRight"> <!-- maps & bookmarks -->
+        <div class="seloMap">
+          <div class="map">
+            <img src="/images/seloMap.png" width="85" height="62" alt="date"/>
+          </div>
+        </div>
+        <!-- end seloMap -->
+        <a href="/<%= @item[:locale] %>/venue.html"><img src="/images/map.jpg" width="315" height="315" alt="RubyConfMap" /></a>
+      </div>
+      <!-- end maps/bookmark-->
+    </div>
+    <!-- end overflow_content -->
   </div>
-	<!-- end content -->
+  <!-- end content -->
 
 
   <br class="clear" />

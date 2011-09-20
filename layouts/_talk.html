@@ -4,7 +4,6 @@
       <div class="title"><h1><%= @item[:"title_#{@item[:locale]}"] %></h1></div>
       <div class="text">
         <p><%= @item[:"description_#{@item[:locale]}"] %></p>
-        <p><%= render '_share_buttons', :size => 450 %></p>
         <%= render '_disqus' %>
       </div>
     </div>
