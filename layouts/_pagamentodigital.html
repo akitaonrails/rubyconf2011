@@ -1,15 +1,16 @@
 <div class="pagamentodigital">
 <!-- INÍCIO DO CÓDIGO PAGAMENTO DIGITAL cod. produto 311 -->
-<form id="formPagamento" action='https://www.pagamentodigital.com.br/checkout/car/' method='post'>
-<input type='hidden' value='add' name='acao' />
-<input type='hidden' value='webstore.pagamentodigital@locaweb.com.br' name='email_loja' />
-<input type='hidden' value='311' name='cod_prod' />
-<input type='hidden' value='Inscrição Promocional RubyConf Brasil 2011' name='nome_prod' />
-<input type='hidden' value='200.00' name='valor_prod' />
-<input type='hidden' value='0' name='peso_prod' />
-<input type='hidden' value='1' name='quant_prod' />
+<form id="formPagamento" name="pagamentodigital" action="https://www.pagamentodigital.com.br/checkout/pay/" method="post">
+<input name="email_loja" type="hidden" value="webstore.pagamentodigital@locaweb.com.br">
+<input name="produto_codigo_1" type="hidden" value="1103">
+<input name="produto_descricao_1" type="hidden" value="Inscrição Promocional RubyConf Brasil 2011">
+<input name="produto_qtde_1" type="hidden" value="1">
+<input name="produto_valor_1" type="hidden" value="1.00" >
+<input name="tipo_integracao" type="hidden" value="PAD">
+<input name="frete" type="hidden" value="0">
 <input type='hidden' value='true' name='redirect' />
 <input type='hidden' value='30' name='redirect_time' />
 <input type='hidden' value='http://www.rubyconf.com.br/<%= @item[:locale] %>/registrated.html' name='url_retorno' />
+</form>
 <!-- FIM DO CÓDIGO PAGAMENTO DIGITAL cod. produto 311 -->
 </div>
