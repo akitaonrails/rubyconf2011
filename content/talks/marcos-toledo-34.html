@@ -4,19 +4,22 @@
 :main_speaker_name: Marcos Toledo
 :co_speaker_slug: ''
 :co_speaker_name: ''
-:title_br: Pegadinhas de Concorrência em Rails
+:title_br: Surpresas no uso de Concorrência em Rails
 :title_en: Concurrency Rails Gotchas
-:description_br: ! 'Com o uso cada vez mais frequente de múltiplos servidores e processos
-  trabalhadores, problemas que somente ocorrem quando tarefas específicas rodam em paralelo
+:description_br: ! 'Com o uso cada vez mais frequente de múltiplos servidores e processamento
+  em lote, problemas que somente ocorrem quando tarefas específicas rodam em paralelo
   se tornam cada vez mais prováveis de acontecer.</p>
 
   <p>Nesta palestra Marcos fala sobre algumas limitações de concorrência do Rails que você
   precisa conhecer, incluindo por que você nunca deve confiar no Rails para checar por
-  não-duplicação (unicidade), por que MySQL não consegue fazer trava otimista e pessimista,
-  como processos paralelos podem causar deadlocks mesmo que você não esteja usando travas,
-  e por que o Rails faz commit das suas transações antes de terminar caso seu processo
-  multi-threaded seja morto e como prevení-lo de deixar seu banco de dados em estado
+  não-duplicação (unicidade), por que MySQL não consegue fazer trava otimista por padrão e como corrigí-lo,
+  como escolher entre travas otimistas e pessimistas, como processos paralelos podem
+  causar "deadlocks" mesmo que você não esteja usando travas,
+  por que você nunca deve ter atributos serializados em registros que podem ser editados em paralelo,
+  e quando o rails pode concluir suas transações antes de ela terminar caso seu processo
+  multi-threaded seja finalizado e como prevení-lo de deixar seu banco de dados em um estado
   inconsistente.'
+
 :description_en: ! 'With the ever more frequent use of multiple servers and worker
   processes, issues which only occur when specific tasks are running in parallel become
   ever more likely to happen.</p>

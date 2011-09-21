@@ -101,3 +101,4 @@ def load_talks
   end
   @talks
 end
+

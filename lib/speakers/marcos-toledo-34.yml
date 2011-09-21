@@ -6,12 +6,11 @@
 :twitter: mtoledo
 :blog_url: marcostoledo.com
 :company: Trade2Win
-:bio_br: Marcos é um rubista atualmente trabalhando na <a href="https://www.forexdesk.com/">ForexDesk</a>,
-  uma plataforma social para negociação exterior baseada em Ruby. Anteriormente trabalhou
-  em software que vai de torres de celular, infraestrutura de serviços web para hospitais
+:bio_br: Marcos é um rubista atualmente trabalhando no <a href="https://www.forexdesk.com/">ForexDesk</a>,
+  uma plataforma social para negociação de moeda estrangeira (forex) em Ruby. Anteriormente trabalhou
+  em aplicações que vão de configuração de torres de celulares, infraestrutura de serviços web para hospitais
   em escala nacional, até servidores de poquer em tempo real, e tudo isso lhe deu uma boa
-  dose de experiência em resolver problemas com transações, condições de corrida ou ambos
-  ao mesmo tempo.
+  dose de experiência em como resolver problemas com transações, concorrência, ou ambos ao mesmo tempo.
 :bio_en: Marcos is a rubyist currently working on <a href="https://www.forexdesk.com/">ForexDesk</a>,
   a ruby based foreign exchange social trading platform. He previously worked
   on software that ranges from cell phone towers, to national scale hospitals web
