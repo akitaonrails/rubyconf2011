@@ -6,20 +6,12 @@
 :twitter: rbernardelli
 :blog_url: blog.rbernardelli.com
 :company: ''
-:bio_br: ! 'Desenvolvedor de software, trabalha com Ruby on Rails desde 2007. Conheceu
-  Ruby em agência de publicidade, foi para o mundo de startup e atualmente trabalha
-  na Gonow Tecnologia. Pela Gonow, desenvolveu produtos e hoje está prestando serviços
-  para a Locaweb, ajudando o time de desenvolvimento da WebStore.</p>
-
-  <p>Formado em Ciência da Computação pelo Mackenzie, divide seu tempo entre programação
-  e música. Também escreve em http://blog.rbernardelli.com.'
-:bio_en: ! 'Software developer, he works with Ruby on Rails since 2007. He met Ruby
-  in a publicity agency, moved to the startup world and currently works for Gonow
-  Tecnologia. Through Gonow, he developer products and is currently doing service
-  in behalf of Locaweb, supporting their WebStore product development team.</p>
-
-  <p>Graduated in Computer Science by Mackenzie, he splits his time between programming
-  and music. Also blogs at http://blog.rbernardelli.com.'
+:bio_br: Desenvolvedor de software, trabalha com Ruby on Rails desde 2007. É bacharel
+  em Ciência da Computação, entusiasta de métodos ágeis e apaixonado por tecnologia.
+  Em seu tempo livre, é músico e joga tênis de mesa.
+:bio_en: Software developer, he works with Ruby on Rails since 2007. Graduated in
+  Computer Sciente, agile enthusiast and technology lover. In his free time, he is
+  musician and plays table tennis.
 :country: BR
 :avatar_thumb_url: /images/avatars/125/thumb/DSC_01302.jpg
 :avatar_medium_url: /images/avatars/125/medium/DSC_01302.jpg
