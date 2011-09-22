@@ -26,12 +26,12 @@
         <p><%= render '_share_buttons', :size => 465 %></p>
       </div>
       <!-- end logo -->
-			<div class="speakers">
-				<% random_speakers_list.each do |speaker| %>
-				<a href="<%= "/#{@item[:locale]}#{speaker[:talk_slug]}" %>"><img src="<%= speaker[:avatar_thumb_url] %>" alt="Speaker/Palestrante" title="<%="#{speaker[:full_name]}, @#{speaker[:twitter]}"%>" width="49" height="49"/></a>
-				<% end %>
-			</div>
-			<!-- end speaker -->
+      <div class="speakers">
+        <% random_speakers_list.each do |speaker| %>
+        <a href="<%= "/#{@item[:locale]}#{speaker[:talk_slug]}" %>"><img src="<%= speaker[:avatar_thumb_url] %>" alt="Speaker/Palestrante" title="<%="#{speaker[:full_name]}, @#{speaker[:twitter]}"%>" width="49" height="49"/></a>
+        <% end %>
+      </div>
+      <!-- end speaker -->
       <br class="clear" />
     </div>
     <!-- end final container header -->
@@ -43,8 +43,7 @@
         <li><a href="/<%= @item[:locale] %>/speakers.html"<%= menu("speakers") %>><%= t("menu.speakers") %></a></li>
         <li><a href="/<%= @item[:locale] %>/schedule.html"<%= menu("schedule") %>><%= t("menu.schedule") %></a></li>
         <li><a href="/<%= @item[:locale] %>/about.html"<%= menu("about") %>><%= t("menu.about") %></a></li>
-        <!-- li><a href="/<%= @item[:locale] %>/getticket.html" class="linkTicket"><%= t("menu.register") %></a></li -->
-        <li><a href="#" class="linkTicket"><%= t("menu.register")%></a></li>
+        <li class="linkTicket"><a href="https://www.facebook.com/EventosLocaweb" rel="external"><%= t("menu.register")%></a></li>
       </ul>
     </div>
     <!-- end menu-->

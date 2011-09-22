@@ -240,16 +240,21 @@ a img {
 
 #menu ul li a:hover,
 #menu ul li a.activeMenu {
-  background: url(img/bgLink.png) no-repeat right top;
+  background: url(img/bgLink.png) no-repeat;
 }
 
-#menu ul li a.linkTicket {
+#menu ul li.linkTicket {
+  background: url(/images/facebook-button.png) no-repeat 0 50%;
   margin-left: 120px;
 }
 
-#menu ul li a.linkTicket:hover {
-  background: none;
+#menu ul li.linkTicket a {
+  padding-left: 30px;
+}
+
+#menu ul li.linkTicket a:hover {
   text-decoration: underline;
+  background: none;
 }
 
 #banner {
