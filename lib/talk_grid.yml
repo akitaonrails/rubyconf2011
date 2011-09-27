@@ -1,88 +1,94 @@
 ---
 :first_day:
-- :time: '8:00'
-  :both_en: Registration and Breakfast
-  :both_br: Inscrições e Café da Manhã
-- :time: '8:45'
+- :time: '08:00 - 09:00'
+  :both_en: Registration (get there early!)
+  :both_br: Inscrições (cheguem cedo!)
+- :time: '09:00 - 09:20'
   :both_en: Opening
   :both_br: Abertura
-- :time: '9:00'
+- :time: '09:20 - 10:10'
   :both: david-a-black-146
-- :time: '10:00'
-  :room_a: martyn-loughran-153
+- :time: '10:10 - 10:40'
+  :both_en: Coffee-Break
+  :both_br: Intervalo para Café
+- :time: '10:40 - 11:30'
+  :room_a: ricardo-bernardelli-125
   :room_b: marcos-toledo-34
-- :time: '11:00'
+- :time: '11:30 - 12:20'
   :room_a: saurabh-bhatia-44
   :room_b: saulo-arruda-35
-- :time: '12:00'
+- :time: '12:20 - 13:40'
   :both_en: Lunch
   :both_br: Almoço
-- :time: '13:30'
+- :time: '13:40 - 14:30'
   :room_a: marcelo-de-moraes-serpa-57
   :room_b: leonardo-borges-170
-- :time: '14:30'
-  :room_a: nick-sutterer-7
+- :time: '14:30 - 15:20'
+  :room_a: carlos-brando-11
   :room_b: lucas-hungaro-4
-- :time: '15:30'
-  :room_a: douglas-campos-qmx-180
-  :room_b: daniel-lopes-139
-- :time: '16:30'
+- :time: '15:20 - 16:10'
   :both_en: Coffee Break
   :both_br: Intervalo para Café
-- :time: '17:00'
-  :room_a: diogo-biazus-27
+- :time: '16:10 - 16:40'
+  :room_a: martyn-loughran-153
+  :room_b: diogo-biazus-27
+- :time: '16:40 - 17:30'
+  :room_a: roberto-rodriguez-artavia-97
   :room_b: ivan-acosta-rubio-52
-- :time: '18:00'
+- :time: '17:30 - 18:20'
   :room_a: unconfirmed
-  :room_b: nando-vieira-141
-- :time: '19:00'
-  :both: aaron-patterson-147
-- :time: '20:00'
+  :room_b: rodrigo-franco-caffo-145
+- :time: '18:20 - 19:40'
   :both: lightning-talks
-- :time: '21:00'
+- :time: '19:40 - 20:00'
+  :both_en: First Day Closing Notes
+  :both_br: Fechamento do Primeiro Dia
+- :time: '20:00'
   :both_en: '#horaextra'
   :both_br: '#horaextra'
 :second_day:
-- :time: '8:00'
-  :both_en: Registration and Breakfast
-  :both_br: Inscrições e Café da Manhã
-- :time: '8:45'
-  :both_en: Opening
-  :both_br: Abertura
-- :time: '9:00'
+- :time: '08:50 - 09:40'
+  :both: aaron-patterson-147
+- :time: '09:40 - 10:30'
   :both: ivan-moscoso-148
-- :time: '10:00'
-  :room_a: jose-valim-151
-  :room_b: evan-henshaw-150
-- :time: '11:00'
-  :room_a: carlos-brando-11
+- :time: '10:30 - 11:00'
+  :both_en: Coffee-Break
+  :both_br: Intervalo para Café
+- :time: '11:00 - 11:50'
+  :room_a: nando-vieira-141
+  :room_b: marcelo-manzan-122
+- :time: '11:50 - 12:40'
+  :room_a: evan-henshaw-150
   :room_b: lucas-rosa-galego-138
-- :time: '12:00'
+- :time: '12:40 - 14:10'
   :both_en: Lunch
   :both_br: Almoço
-- :time: '13:30'
-  :room_a: konstantin-haase-48
-  :room_b: marcelo-manzan-122
-- :time: '14:30'
-  :room_a: bruno-oliveira-abstractj-73
+- :time: '14:10 - 15:00'
+  :room_a: douglas-campos-qmx-180
   :room_b: rafael-felix-54
-- :time: '15:30'
-  :room_a: brian-guthrie-75
-  :room_b: diogo-terror-58
-- :time: '16:30'
+- :time: '15:00 - 15:50'
+  :room_a: nick-sutterer-7
+  :room_b: bruno-oliveira-abstractj-73
+- :time: '15:50 - 16:20'
   :both_en: Coffee Break
   :both_br: Intervalo para Café
-- :time: '17:00'
-  :room_a: roberto-rodriguez-artavia-97
-  :room_b: rodrigo-franco-caffo-145
-- :time: '18:00'
-  :room_a: ricardo-bernardelli-125
+- :time: '16:20 - 17:10'
+  :room_a: brian-guthrie-75
+  :room_b: diogo-terror-58
+- :time: '17:10 - 18:00'
+  :room_a: jose-valim-151
+  :room_b: daniel-lopes-139
+- :time: '18:00 - 18:50'
+  :room_a: konstantin-haase-48
   :room_b: robson-junior-137
-- :time: '19:00'
+- :time: '18:50 - 19:40'
   :both: ian-mcfarland-149
-- :time: '20:00'
+- :time: '19:40 - 20:00'
   :both_en: Ending
   :both_br: Fechamento
-- :time: '21:00'
+- :time: '20:00'
   :both_en: '#horaextra'
   :both_br: '#horaextra'
+- :time: ''
+  :both_en: '(The program grid is still subject to change.)'
+  :both_br: '(A grade de programação ainda pode ser modificada.)'

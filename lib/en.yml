@@ -23,6 +23,5 @@ talk:
   time: TIME
   room_a: ROOM A
   room_b: ROOM B
-  warning: The program grid is still subject to change.
 about:
   title: About RubyConf Brazil

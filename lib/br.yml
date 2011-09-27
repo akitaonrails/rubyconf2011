@@ -23,6 +23,5 @@ talk:
   time: HORÁRIO
   room_a: SALA A
   room_b: SALA B
-  warning: A grade de programação ainda pode ser modificada.
 about:
   title: Sobre o RubyConf Brasil
