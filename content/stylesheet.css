@@ -653,3 +653,11 @@ a img {
   text-align: center;
   width: 980px;
 }
+
+.addthis_toolbox {
+  background-color: transparent;
+  height: 25px !important;
+  border: 0 !important;
+  overflow: hidden !important;
+  width: 400px;
+}

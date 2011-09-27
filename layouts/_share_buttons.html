@@ -1,2 +1,14 @@
 <% @page_url = @config[:base_url] + normalize_identifier(@item) %>
-<iframe id="websites_iframe" style="background-color: transparent; height:25px !important; border:0px solid gray !important; overflow:hidden !important; width:<%= @size %>px !important;" frameborder="0" scrolling="no" allowtransparency="true" height="25px" width="<%= @size %>px" src="http://www.linksalpha.com/social?fblshow=1&fblname=like&fbllang=en_US&fbsbutton=1&fbsctr=1&twbutton=1&twlang=en&twctr=1&lnkdshow=noshow&lnkdctr=1&g1button=<%= @no_google ? "0" : "1" %>&g1lang=en-US&g1ctr=0&buzzbutton=1&buzzlang=en&buzzctr=1&diggbutton=1&diggctr=1&stblbutton=1&stblctr=1&link=<%= Rack::Utils.escape(@page_url) %>&twmention=rubyconfbr&g1button=1"></iframe>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style" style="width:<%= @size %>px !important;">
+<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+<a class="addthis_button_tweet"></a>
+<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+<a class="addthis_counter addthis_pill_style"></a>
+</div>
+<script type="text/javascript">
+  var addthis_config = {"data_track_addressbar":true};
+  var addthis_share = {templates: {twitter:'Vem aí o @RubyConfbr! 3 e 4 de Nov, São Paulo, a maior conferência de Ruby da América do Sul http://bit.ly/rubybr11 via @rubyconfbr'}};
+</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e7647ef43506270"></script>
+<!-- AddThis Button END -->
