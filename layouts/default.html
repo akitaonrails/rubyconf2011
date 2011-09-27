@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8" />
+  <meta property="og:title" content="Rubyconf Brasil 2011" />
+  <meta property="og:type" content="activity" />
+  <meta property="og:url" content="http://www.facebook.com/encontrolocaweb" />
+  <meta property="og:image" content="http://rubyconf2011.akitaonrails.com/images/LogoRubyConf.jpg" />
+  <meta property="og:site_name" content="Rubyconf Brasil 2011" />
+  <meta property="fb:admins" content="638871523" />
+  <% if @item[:locale] == :br %>
+  <meta property="og:description" content="Chegamos à quarta edição da maior conferência de Ruby da América do Sul! O Rubyconf Brasil acontecerá nos dias 3 e 4 de Novembro, em São Paulo, inscreva-se já!"/>
+  <% else %>
+  <meta property="og:description" content="The 4th edition of the largest conference about Ruby in South America is coming! Rubyconf Brazil will take place on November 3 and 4, at São Paulo, Brazil. Register now!"/>
+  <% end %>
   <title><%= t("site.title") %> <%= @item[:title] ? "- #{@item[:title]}" : "" %></title>
   <link href='/images/ico.ico' rel='shortcut icon' type='image/x-ico'/>
   <link href="/style/style.css" rel="stylesheet" type="text/css" />

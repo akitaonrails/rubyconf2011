@@ -1,14 +1,14 @@
 <% @page_url = @config[:base_url] + normalize_identifier(@item) %>
 <!-- AddThis Button BEGIN -->
 <div class="addthis_toolbox addthis_default_style" style="width:<%= @size %>px !important;">
-<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-<a class="addthis_button_tweet"></a>
+  <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+<% if @item[:locale] == :br %>
+<a class="addthis_button_tweet" tw:text="Vem aí o @RubyConfbr! 3 e 4 de Nov, São Paulo, a maior conferência de Ruby da América do Sul " tw:via="rubyconfbr"></a>
+<% else %>
+<a class="addthis_button_tweet" tw:text="@RubyConfbr is coming! Nov 3 & 4, at São Paulo, the largest Ruby Conference in South America " tw:via="rubyconfbr"></a>
+<% end %>
 <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
 <a class="addthis_counter addthis_pill_style"></a>
 </div>
-<script type="text/javascript">
-  var addthis_config = {"data_track_addressbar":true};
-  var addthis_share = {templates: {twitter:'Vem aí o @RubyConfbr! 3 e 4 de Nov, São Paulo, a maior conferência de Ruby da América do Sul http://bit.ly/rubybr11 via @rubyconfbr'}};
-</script>
 <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e7647ef43506270"></script>
 <!-- AddThis Button END -->
