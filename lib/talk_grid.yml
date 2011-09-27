@@ -2,7 +2,7 @@
 :first_day:
 - :time: '08:00 - 09:00'
   :both_en: Registration (get there early!)
-  :both_br: Inscrições (cheguem cedo!)
+  :both_br: Credenciamento (cheguem cedo!)
 - :time: '09:00 - 09:20'
   :both_en: Opening
   :both_br: Abertura
@@ -18,8 +18,8 @@
   :room_a: saurabh-bhatia-44
   :room_b: saulo-arruda-35
 - :time: '12:20 - 13:40'
-  :both_en: Lunch
-  :both_br: Almoço
+  :both_en: Free time for Lunch
+  :both_br: Livre para Almoço
 - :time: '13:40 - 14:30'
   :room_a: marcelo-de-moraes-serpa-57
   :room_b: leonardo-borges-170
