@@ -50,7 +50,7 @@ def parse_date(date, part)
 end
 
 def recent_posts
-  @site.sorted_articles[0, 10].uniq { |article| article[:filename] }.select { |article| article[:language].to_sym == @item[:locale] }
+  @site.sorted_articles.uniq { |article| article[:filename] }.select { |article| article[:language].to_sym == @item[:locale] }
 end
 
 def speakers(direction = :none)
