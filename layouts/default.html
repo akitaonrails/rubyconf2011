@@ -54,11 +54,7 @@
         <li><a href="/<%= @item[:locale] %>/speakers.html"<%= menu("speakers") %>><%= t("menu.speakers") %></a></li>
         <li><a href="/<%= @item[:locale] %>/schedule.html"<%= menu("schedule") %>><%= t("menu.schedule") %></a></li>
         <li><a href="/<%= @item[:locale] %>/about.html"<%= menu("about") %>><%= t("menu.about") %></a></li>
-        <% if @item[:locale] == :br %>
-        <li style="margin-left: 15px">Inscrições: (<a href="javascript:jQuery('#formPagamento').submit()">Pagamento Digital</a>|<a href="https://www.facebook.com/EventosLocaweb">Paypal</a>)</li>
-        <% else %>
-        <li class="linkTicket"><a href="https://www.facebook.com/EventosLocaweb?sk=app_203351739677351" rel="external"><%= t("menu.register") %></a></li>
-        <% end %>
+        <li><a href="/<%= @item[:locale] %>/registration.html"<%= menu("register") %>><%= t("menu.register") %></a></li>
       </ul>
     </div>
     <!-- end menu-->
@@ -83,8 +79,6 @@
       <p>Copyright © 1997-2011 Locaweb Serviços de Internet S/A. The entire content of this website is exclusive property of Locaweb. Reproduction or reuse under any circumstance is prohibited by law.</p>
       <% end %>
     </div>
-    <%= render '_pagamentodigital' %>
     <%= render '_javascript' %>
-    </body>
-    </html>
-
+  </body>
+</html>
