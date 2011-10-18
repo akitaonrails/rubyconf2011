@@ -6,9 +6,17 @@
 :twitter: nigelfds
 :blog_url: http://www.nigel.in/
 :company: 'ThoughtWorks'
-:bio_br: ! 'indefinido'
-:bio_en: ! 'undefined'
+:bio_br: ! 'Nigel é um consultor sênior e prisioneiro asilado na ThoughtWorks Austrália.</p>
+
+<p>Nos últimos 5 anos ele trabalhou por toda a Inglaterra, Alemanha, Austrália e Índia com start-ups, líderes globais de telecomunicação, gigantes de e-commerce e até mesmo agências importantes do governo.</p>
+
+<p>Ele foi iluminado pelo Ruby em 2006 e depois de anos no terreno arenoso de Java e .Net, ele decidiu reparar seu passado. Seu foco nos últimos anos tem sido apresentar Ruby para corporações que tradicionalmente usam tecnologias Java.'
+:bio_en: ! 'Nigel is a senior consultant and asylum inmate at ThoughtWorks Australia.</p>
+
+<p>In the last five years he has worked across the UK, Germany, Australia and India with start-ups, global telecommunication leaders, e-commerce giants and even high profile government agencies.</p>
+
+<p>He received Ruby enlightenment in 2006 and after years in Java and .Net wastelands, he''s decided to atone for his past. His focus for the last few years has been introducing Ruby into traditional enterprise Java stacks.'
 :country: X
-:avatar_thumb_url: /images/speakers.jpg
-:avatar_medium_url: /images/speakers.jpg
-:avatar_url: /images/speakers.jpg
+:avatar_thumb_url: /images/avatars/200/thumb/nigel_fernandes.jpg
+:avatar_medium_url: /images/avatars/200/medium/nigel_fernandes.jpg
+:avatar_url: /images/avatars/200/original/nigel_fernandes.jpg
