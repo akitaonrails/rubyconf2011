@@ -44,8 +44,8 @@
   :both_en: First Day Closing Notes
   :both_br: Fechamento do Primeiro Dia
 - :time: '20:00'
-  :both_en: '#horaextra'
-  :both_br: '#horaextra'
+  :both_en: 'Special Entertainment Show: Stand-up Commedy Presentation with <a href="http://www.danilogentili.com/" rel="external">Danilo Gentili</a>'
+  :both_br: 'Show Especial: Apresentação de Stand-up Commedy com <a href="http://www.danilogentili.com/" rel="external">Danilo Gentili</a>'
 :second_day:
 - :time: '08:50 - 09:40'
   :both: aaron-patterson-147
@@ -87,8 +87,8 @@
   :both_en: Ending
   :both_br: Fechamento
 - :time: '20:00'
-  :both_en: '#horaextra'
-  :both_br: '#horaextra'
+  :both_en: '#horaextra (people will organize outside of the event venue, follow twitter)'
+  :both_br: '#horaextra (happy hour será fora do local do evento, acompanhem pelo Twitter)'
 - :time: ''
   :both_en: '(The program grid is still subject to change.)'
   :both_br: '(A grade de programação ainda pode ser modificada.)'
