@@ -25,3 +25,6 @@ talk:
   room_b: SALA B
 about:
   title: Sobre o RubyConf Brasil
+twitter:
+  text: "Vem aí a @RubyConfbr! Dias 3 e 4 de Novembro, em São Paulo, a maior conferência de Ruby da América do Sul http://rubyconf.com.br/br"
+  label: Tweetar

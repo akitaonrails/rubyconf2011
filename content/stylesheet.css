@@ -657,10 +657,21 @@ a img {
 
 .addthis_toolbox {
   background-color: transparent;
-  height: 25px !important;
+  height: 30px !important;
   border: 0 !important;
   overflow: hidden !important;
   width: 400px;
+  margin-bottom: 10px;
+}
+
+.addthis_toolbox table, .addthis_toolbox tr, .addthis_toolbox td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.addthis_toolbox td {
+  width: 100px;
 }
 
 .pagamento {

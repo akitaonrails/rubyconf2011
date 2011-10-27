@@ -1,15 +1,34 @@
 <% @page_url = @config[:base_url] + normalize_identifier(@item) %>
-<!-- AddThis Button BEGIN -->
 <div class="addthis_toolbox addthis_default_style" style="width:<%= @size %>px !important;">
-  <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-  <script type="text/javascript">
-  //<![CDATA[
-  document.write('<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="Locaweb" data-lang="<%= @item[:locale] == :br ? "pt" : "en" %>">Tweet</a>');
-  //]]>
-  </script>
-  <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-  <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-  <a class="addthis_counter addthis_pill_style"></a>
+  <table>
+    <tr>
+      <td>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=226238580763305";
+          fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+        <div class="fb-like" data-href="http://www.facebook.com/eventoslocaweb" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" style="float: left"></div>
+      </td>
+      <td>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="www.rubyconf.com.br" data-text="<%= t('twitter.text')%>" data-count="horizontal" data-lang="<%= @item[:locale] == :br ? 'pt' : 'en' %>"><%= t('twitter.label') %></a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+      </td>
+      <td>
+        <!-- Place this tag where you want the +1 button to render -->
+        <g:plusone></g:plusone>
+
+        <!-- Place this render call where appropriate -->
+        <script type="text/javascript">
+          (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+          })();
+        </script>
+      </td>
+    </tr>
+  </table>
 </div>
-<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e7647ef43506270"></script>
-<!-- AddThis Button END -->

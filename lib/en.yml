@@ -25,3 +25,6 @@ talk:
   room_b: ROOM B
 about:
   title: About RubyConf Brazil
+twitter:
+  text: "@RubyConfBr is coming up at Nov 3 and 4, at Sao Paulo, Brazil, the largest Ruby conference in Latin America http://rubyconf.com.br/en"
+  label: Tweet
