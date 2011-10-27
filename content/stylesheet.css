@@ -179,21 +179,22 @@ a img {
 
 #contHeader {
   overflow: hidden;
+  height: 168px;
+  position: relative;
 }
 
 #contHeader .logo,
-#contHeader .speakers,
 #contHeader .speakers a {
   float: left;
   height: 155px;
 }
 
-#contHeader .logo {
-  width: 465px;
-}
-
 #contHeader .speakers {
+  position: absolute;
+  top: 0px;
+  right: 80px;
   width: 420px;
+  height: 155px;
 }
 
 #contHeader .speakers a {

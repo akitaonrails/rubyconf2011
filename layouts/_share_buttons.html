@@ -1,34 +1,18 @@
 <% @page_url = @config[:base_url] + normalize_identifier(@item) %>
-<div class="addthis_toolbox addthis_default_style" style="width:<%= @size %>px !important;">
-  <table>
-    <tr>
-      <td>
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) {return;}
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=226238580763305";
-          fjs.parentNode.insertBefore(js, fjs);
-          }(document, 'script', 'facebook-jssdk'));</script>
-        <div class="fb-like" data-href="http://www.facebook.com/eventoslocaweb" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" style="float: left"></div>
-      </td>
-      <td>
-        <a href="https://twitter.com/share" class="twitter-share-button" data-url="www.rubyconf.com.br" data-text="<%= t('twitter.text')%>" data-count="horizontal" data-lang="<%= @item[:locale] == :br ? 'pt' : 'en' %>"><%= t('twitter.label') %></a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-      </td>
-      <td>
-        <!-- Place this tag where you want the +1 button to render -->
-        <g:plusone></g:plusone>
+<div class="addthis_toolbox addthis_toolbox addthis_default_style" style="width:<%= @size %>px !important;margin-top:20px">
+  <!-- add to class addthis_button_twitter_follow_native if you want twitter defaults native button -->
+  <!-- use this if you want to get use specific twitter things like tw: -->
 
-        <!-- Place this render call where appropriate -->
-        <script type="text/javascript">
-          (function() {
-            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-            po.src = 'https://apis.google.com/js/plusone.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-          })();
-        </script>
-      </td>
-    </tr>
-  </table>
+  <!-- Ordered by current use and relevance -->
+  <!-- Also, title tags work and addthis use as tooltip -->
+
+  <a class="addthis_button_tweet" addthis:title="Titulo" addthis:description="Descricao"></a>
+  <a class="addthis_button_facebook_like" fb:like:layout="button_count" addthis:title="Titulo" addthis:description="Descricao"></a>
+  <a class="addthis_button_google_plusone" g:plusone:size="medium" addthis:title="Titulo" addthis:description="Descricao"></a>
+  <a class="addthis_button_orkut" addthis:title="Titulo" addthis:description="Descricao"><img src="/images/share/orkut.png" width="20" height="20" border="0" alt="Orkut" /></a>
+  <a class="addthis_button_email" addthis:title="Titulo" addthis:description="Descricao"><img src="/images/share/email.png" width="20" height="20" border="0" alt="Email" /></a>
+  <a class="addthis_button_linkedin" addthis:title="Titulo" addthis:description="Descricao"><img src="/images/share/linkedin.png" width="20" height="20" border="0" alt="LinkedIn" /></a>
+  <a class="addthis_counter addthis_pill_style" addthis:title="Titulo" addthis:description="Descricao"></a>
+
 </div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js"></script>
