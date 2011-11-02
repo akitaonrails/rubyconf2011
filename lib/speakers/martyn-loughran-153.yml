@@ -6,19 +6,9 @@
 :twitter: mloughran
 :blog_url: mloughran.com
 :company: Pusher
-:bio_br: ! 'Martyn Loughran lidera a parte técnica da Pusher. Ele teve um papel fundamental
-  no desenho do sistema escalável que tem hoje em dia.</p>
-
-  <p>Sua experiência vem por ter sido líder técnico em grandes sistemas web assíncronos e
-  escaláveis. Martyn é apaixonado por programação baseada em eventos e palestra e bloga sobre
-  esse tópico quando tem tempo livre.'
-:bio_en: ! 'Martyn Loughran heads up the technical side of Pusher. He has had an instrumental
-  role in designing the scalable system that Pusher has today.</p>
-
-  <p>Previous experience comes from being a technical lead in large asynchronous and scalable
-  web systems. Martyn is passionate about evented programming and speaks and blogs about this
-  topic when he has a spare moment.'
+:bio_br: ! 'Martyn Loughran é o CTO do Pusher, uma startup de Londres que auxilia os desenvolvedores a transformar a web mais tempo real. Ele é um entusiasta de eventmachine e é autor de muitas gems iniciando com o prefixo "em-"! Ele twita, relutantemente, como <a href="http://twitter.com/mloughran">@mloughran</a>.'
+:bio_en: ! 'Martyn is the CTO of Pusher, a startup from London helping developers make the web realtime. He''s an eventmachine enthusiast, and is the author of too many gems starting with the "em-" prefix! He tweets, reluctantly, as <a href="http://twitter.com/mloughran">@mloughran</a>.'
 :country: EU
-:avatar_thumb_url: /images/speakers.jpg
-:avatar_medium_url: /images/speakers.jpg
-:avatar_url: /images/speakers.jpg
+:avatar_thumb_url: /images/avatars/153/thumb/martyn.jpg
+:avatar_medium_url: /images/avatars/153/medium/martyn.jpg
+:avatar_url: /images/avatars/153/original/martyn.jpg
