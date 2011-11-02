@@ -21,8 +21,8 @@ talk:
   speaker_title: Speaker
   cospeaker_title: Co-Speaker
   time: TIME
-  room_a: ROOM A
-  room_b: ROOM B
+  room_a: ROOM #1
+  room_b: ROOM #2
 about:
   title: About RubyConf Brazil
 twitter:
