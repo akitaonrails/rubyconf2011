@@ -88,8 +88,8 @@
   :both_en: Ending
   :both_br: Fechamento
 - :time: '20:00'
-  :both_en: '#horaextra (people will organize outside of the event venue, follow twitter)'
-  :both_br: '#horaextra (happy hour será fora do local do evento, acompanhem pelo Twitter)'
+  :both_en: '#horaextra Check the Happy Hour venue here: <a href="http://chega.ae/bb78">http://chega.ae/bb78</a>'
+  :both_br: '#horaextra Veja o local e endereço do Happy Hour aqui: <a href="http://chega.ae/bb78">http://chega.ae/bb78</a>'
 - :time: ''
   :both_en: '(The program grid is still subject to change.)'
   :both_br: '(A grade de programação ainda pode ser modificada.)'
