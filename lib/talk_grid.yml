@@ -82,7 +82,8 @@
   :room_a: leonardo-borges-170
   :room_b: daniel-lopes-139
 - :time: '18:50 - 19:40'
-  :both: aaron-patterson-147
+  :both_en: '<p><a href="/en/talks/aaron-patterson-147.html">I Hate Lambdas</a></p><p>(Aaron Patterson)</p>'
+  :both_br: '<p><a href="/br/talks/aaron-patterson-147.html">Eu Odeio Lambdas</a></p><p>(Aaron Patterson)</p>'
 - :time: '19:40 - 20:00'
   :both_en: Ending
   :both_br: Fechamento
