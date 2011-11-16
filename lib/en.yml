@@ -28,3 +28,8 @@ about:
 twitter:
   text: "@RubyConfBr is coming up at Nov 3 and 4, at Sao Paulo, Brazil, the largest Ruby conference in Latin America http://rubyconf.com.br/en"
   label: Tweet
+media:
+  title: RubyConf Brazil 2011
+  images: Photos
+  talks: Recorded Talks
+  talks_description: Watch online to every talk recorded.

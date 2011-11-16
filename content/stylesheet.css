@@ -677,3 +677,18 @@ a img {
 .pagamento {
   display: none;
 }
+
+#media {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#media #videos, #media #photos {
+  margin-top: 20px;
+  width: 490px;
+  float: left;
+}
+
+#media #photos h1 {
+  margin-top: 20px
+}

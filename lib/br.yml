@@ -28,3 +28,8 @@ about:
 twitter:
   text: "Vem aí a @RubyConfbr! Dias 3 e 4 de Novembro, em São Paulo, a maior conferência de Ruby da América do Sul http://rubyconf.com.br/br"
   label: Tweetar
+media:
+  title: RubyConf Brasil 2011
+  images: Fotos
+  talks: Palestras Gravadas
+  talks_description: Assista online a todas as palestras gravadas.

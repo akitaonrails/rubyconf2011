@@ -41,6 +41,32 @@ locale:
       <% end %>
 
       <p><img src="/images/about/rubyconf.jpg" /></p>
-      <%= render '_disqus' %>
-    </div>
+
+      <a name="2011"></a>
+      <div id="media">
+        <h1><%= t("media.title") %></h1>
+
+        <% if @item[:locale] == :en %>
+        <p>Again in 2011, we were able to deliver another breakthrough conference. More than 750 attendees were able to see 2 full days of 2 parallel tracks with 32 talks, more than 500 people were able to watch online in real time, thanks to Eventials. We had people from all around the world and we appreciate everybody that attended and collaborated to create yet another remarkable event.</p>
+        <% else %>
+        <p>Novamente em 2011, conseguimos entregar outra conferência inesquecível. Mais de 750 participantes puderam assistir a 2 dias inteiros com 2 sessões paralelas totalizando 32 palestras, mais de 500 pessoas conseguiram assistir online em tempo real, graças à Eventials. Tivemos pessoas de todas as partes do mundo e realmente agradecemos muito a todos que vieram e colaraboraram para criar mais um evento marcante.</p>
+        <% end %>
+
+        <div id="videos">
+          <iframe width="480" height="270" src="http://www.youtube.com/embed/J_XNBL7GqBA" frameborder="0" allowfullscreen></iframe>
+
+          <iframe width="480" height="270" src="http://www.youtube.com/embed/IJof8-e-5yg" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div id="photos">
+          <object width="480" height="360"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Flocaweb%2Fsets%2F72157628091808954%2Fshow%2F&page_show_back_url=%2Fphotos%2Flocaweb%2Fsets%2F72157628091808954%2F&set_id=72157628091808954&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=109615"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=109615" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Flocaweb%2Fsets%2F72157628091808954%2Fshow%2F&page_show_back_url=%2Fphotos%2Flocaweb%2Fsets%2F72157628091808954%2F&set_id=72157628091808954&jump_to=" width="480" height="360"></embed></object>
+
+          <h1><%= t("media.talks") %></h1>
+          <p><%= t("media.talks_description") %></p>
+          <p><a href="http://www.eventials.com/rubyconfbr" rel="external"><img src="/images/eventials.gif" border="0" alt="Eventials"/></a></p>
+        </div>
+        <br class="clear"/>
+
+        <%= render '_disqus' %>
+      </div>
   </div>
